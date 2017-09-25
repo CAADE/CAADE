@@ -1,0 +1,49 @@
+
+version: '3'
+
+services:
+  # mongo:
+  #   image: mongo
+  #   expose:
+  #        - 27017
+  #   ports:
+  #        - "27017:27017"
+  caade:
+    image: caade/web
+    expose:
+      - 1337
+    ports:
+      - "1337:1337"
+  build:
+    image: jenkins
+    expose:
+      - "8080"
+    ports:
+      - "8082:8080"
+      - "50000:50000"
+    environment:
+      JENKINS_OPTS: --prefix=/jenkins
+    volumes:
+      - $PWD/docker/jenkins:/var/jenkins_home
+  agent:
+     image: madajaju/jenkins-swarm-node-agent
+     labels:
+     	docker-test:true
+     secrets:
+     	- source: jenkins-v1
+	  target: jenkins
+     deploy:
+     	mode: global
+  registry:
+    restart: always
+    image: registry:2
+    ports:
+       - 5000:5000
+    labels:
+      registry:true
+    secrets:
+      - source: registry.crt
+      - source: registry.key
+    volumes:
+      - /mnt/registry:/var/lib/registry
+

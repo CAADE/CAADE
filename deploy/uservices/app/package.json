@@ -1,0 +1,12 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "build": "docker build . -t caade/app",
+    "build": "docker push localhost:5000/caade/app"
+  },
+  "dependencies": {
+    "micro": "latest",
+    "node-fetch": "latest"
+  }
+}
