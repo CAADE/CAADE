@@ -1,7 +1,8 @@
 {
   "main": "index.js",
   "scripts": {
-    "build": "docker build . -t localhost:5000/caade/swarm-node-agent && docker push localhost:5000/caade/swarm-node-agent"
+    "build": "docker build . -t localhost:5000/caade/swarm-node-agent",
+    "deploy": "docker push localhost:5000/caade/swarm-node-agent"
   },
   "dependencies": {
   }

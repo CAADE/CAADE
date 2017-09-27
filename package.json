@@ -22,7 +22,12 @@
     "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 && echo '✔  Your code looks good.'",
     "design": "java -jar design/plantuml.jar design/*.puml design/**/*.puml",
     "custom-tests": "echo \"(No other custom tests yet.)\" && echo",
+    "build": "node ./deploy/build build",
     "debug": "node debug app.js"
+    "deploy-apps": "node ./deploy/build deploy",
+    "deploy": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-dev.yaml caade-dev",
+    "deploy-test": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-test.yaml caade-test",
+    "deploy-prod": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-prod.yaml caade-prod"
   },
   "main": "app.js",
   "repository": {
