@@ -1,0 +1,9 @@
+
+master: node0
+
+# Fingerprint of the master public key to validate the identity of your Salt master
+# before the initial key exchange. The master fingerprint can be found by running
+# "salt-key -f master.pub" on the Salt master.
+master_finger: "Put output of 'alt-key -f master.pub' here"
+
+# master_finger: "58:43:ea:d0:be:a2:68:9a:38:07:b0:32:7f:79:b3:e0:c4:64:42:43:71:ad:97:f3:4b:95:3e:39:78:4f:df:fb"
