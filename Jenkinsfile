@@ -1,7 +1,5 @@
 pipeline {
-  agent {
-    label 'node'
-  }
+  agent any
   stages {
     stage('Build Docs') {
       agent {
