@@ -1,6 +1,6 @@
 # caade
-
-a [Sails](https://sailsjs.com) application
+The CAADE design can be found on the [wiki](https://github.com/CAADE/CAADE/wiki).
+Or access the [single page documentation](https://github.com/CAADE/CAADE/wiki/documentations.html)
 
 
 ### Links
