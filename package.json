@@ -28,7 +28,7 @@
     "design": "java -jar design/plantuml.jar design/*.puml design/**/*.puml",
     "custom-tests": "node ./node_modules/mocha/bin/mocha test/bootstrap.test.js test/integration/**/*.test.js",
     "build": "npm update && node ./deploy/build build",
-    "build-doc": "cd design && gwtc . -t caade --css doc.css",
+    "build-doc": "npm install -g wiki2pdf &&  wiki2pdf ./design --title Common_Cloud_Core --format all --footer ./design/_footer.html",
     "debug": "node debug app.js",
     "deploy-apps": "node ./deploy/build deploy",
     "deploy": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-dev.yaml caade-dev",
