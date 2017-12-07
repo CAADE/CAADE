@@ -1,0 +1,46 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var YAML = require('yamljs');
+var action = require('../api/controllers/env/create');
+
+var program = require('commander');
+var Client = require('node-rest-client').Client;
+
+/* Replace this with your own config file. */
+var config = require('./config');
+
+var _ = require('lodash');
+
+var client = new Client();
+
+console.log("Action", action);
+
+_.each(Object.keys(action.inputs), function(key) {
+    program.option('-' + key[0] + ", --" + key + " <" + action.inputs[key].type + ">", action.inputs[key].description);
+});
+program.parse(process.argv);
+
+var url = config.Url + "/env/create?";
+
+// Add a parameter to the url.
+let params = [];
+_.each(Object.keys(action.inputs), function(key) {
+    params.push(key + "=" + program[key]);
+});
+url += params.join("&");
+
+
+// Call the server side.
+client.get(url, function (data, response) {
+    // parsed response body as js object
+    if (response.statusCode != 200) {
+        console.error("Error: ", response.statusCode + " -- " +  response.statusMessage);
+    }
+    else if (data.error) {
+        console.error("Error:" + data.error);
+    }
+    else {
+        console.log(data);
+    }
+});

@@ -5,35 +5,37 @@
   "description": "caade, a Sails application",
   "keywords": [],
   "dependencies": {
-    "sails": "^1.0.0-36",
-    "child_process": "^1.0.2",
-    "grunt": "1.0.1",
-    "sails-hook-orm": "^2.0.0-16",
-    "sails-hook-sockets": "^1.4.0",
-    "sails-hook-grunt": "^2.0.0",
-    "node-rest-client": "^3.1.0",
-    "lodash": "3.10.1",
     "async": "2.0.1",
+    "child_process": "^1.0.2",
+    "eslint": "3.5.0",
+    "grunt": "1.0.1",
+    "lodash": "3.10.1",
+    "mocha": "^4.0.1",
+    "node-rest-client": "^3.1.0",
+    "sails": "^1.0.0-41",
+    "sails-hook-grunt": "^2.2.1",
+    "sails-hook-orm": "^2.0.0-22",
+    "sails-hook-sockets": "^1.4.0",
     "supertest": "^3.0.0",
     "supertest-as-promised": "^4.0.2",
-    "eslint": "3.5.0"
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "eslint": "3.5.0"
   },
   "scripts": {
     "start": "NODE_ENV=production node app.js",
-    "test": "npm run lint && npm run custom-tests && echo 'Done.'",
+    "test": "npm run custom-tests && echo 'Done.'",
     "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 && echo '✔  Your code looks good.'",
     "design": "java -jar design/plantuml.jar design/*.puml design/**/*.puml",
     "custom-tests": "node ./node_modules/mocha/bin/mocha test/bootstrap.test.js test/integration/**/*.test.js",
-    "build": "npm update && node ./deploy/build build",
+    "build": "REGISTRY=registry && npm update && node ./deploy/build build",
     "build-doc": "npm install -g wiki2pdf &&  wiki2pdf ./design --title Common_Cloud_Core --format all --footer ./design/_footer.html",
     "debug": "node debug app.js",
     "deploy-apps": "node ./deploy/build deploy",
-    "deploy": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-dev.yaml caade-dev",
-    "deploy-test": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-test.yaml caade-test",
-    "deploy-prod": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-prod.yaml caade"
+    "deploy": "REGISTRY=registry && npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-dev.yaml caade-dev",
+    "deploy-test": "REGISTRY=registry && npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-test.yaml caade-test",
+    "deploy-prod": "REGISTRY=registry && npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-prod.yaml caade"
   },
   "main": "app.js",
   "repository": {

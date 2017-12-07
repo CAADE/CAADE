@@ -1,0 +1,16 @@
+<h1>Environments</h1>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Abbv</th>
+        <th>URL</th>
+        <th></th>
+    </tr>
+    <% _.each(envs, function(env) { %>
+    <tr>
+        <td><%= env.name %></td>
+        <td><%= env.abbv %></td>
+        <td><%= env.url %></td>
+    </tr>
+    <% })%>
+</table>

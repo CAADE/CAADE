@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   web:
-    image: localhost:5000/caade-web
+    image: $(REGISTRY}/caade-web
     ports:
       - "80:1337"
   build:

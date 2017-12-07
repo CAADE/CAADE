@@ -288,9 +288,9 @@ For more information, see:
     </div>
     <div class="main container clearfix">
         <ul class="getting-started">
-            <li class="clearfix"><a href="<%= sails.getBaseUrl() %>:8000">CICD: Jenkins</a></li>
-            <li class="clearfix"><a href="<%= sails.getBaseUrl() %>:9000">Operations Console: Portianer</a></li>
-            <li class="clearfix"><a href="<%= sails.getBaseUrl() %>:5000">Registry: Registry</a></li>
+            <li class="clearfix"><a href="<%= sails.config.explicitHost %>:8000">CICD: Jenkins</a></li>
+            <li class="clearfix"><a href="<%= sails.config.explicitHost %>:9000">Operations Console: Portianer</a></li>
+            <li class="clearfix"><a href="<%= sails.config.explicitHost %>:5000">Registry: Registry</a></li>
         </ul>
     </div>
 </div>
