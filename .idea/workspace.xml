@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="Updated Use Cases and Scenarios.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/caade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/caade-env" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/caade-test-me" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/config" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/bootstrap.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/env/list.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/importer.less" afterPath="$PROJECT_DIR$/assets/styles/importer.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/blueprints.js" afterPath="$PROJECT_DIR$/config/blueprints.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/models.js" afterPath="$PROJECT_DIR$/config/models.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/views.js" afterPath="$PROJECT_DIR$/config/views.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/docker-compose-dev.yaml" afterPath="$PROJECT_DIR$/deploy/docker-compose-dev.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/docker-compose-prod.yaml" afterPath="$PROJECT_DIR$/deploy/docker-compose-prod.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/docker-compose-test.yaml" afterPath="$PROJECT_DIR$/deploy/docker-compose-test.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" afterPath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/uservices/web/package.json" afterPath="$PROJECT_DIR$/deploy/uservices/web/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/homepage.ejs" afterPath="$PROJECT_DIR$/views/homepage.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,18 +18,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="304">
+              <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -110,6 +80,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
               <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/_footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -259,18 +239,12 @@
             <path>
               <item name="Caade" type="b2602c69:ProjectViewProjectNode" />
               <item name="Caade" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Caade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Caade" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Caade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Caade" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Caade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Caade" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="env" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -450,7 +424,7 @@
       <workItem from="1511838657057" duration="2592000" />
       <workItem from="1511923927061" duration="1934000" />
       <workItem from="1512006888948" duration="9896000" />
-      <workItem from="1512066011234" duration="40169000" />
+      <workItem from="1512066011234" duration="41297000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Use Cases and Scenarios.">
       <created>1512016716711</created>
@@ -466,7 +440,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512067733290</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixing build and adding tests.">
+      <created>1512673891183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512673891183</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixing build and adding tests.">
+      <created>1512674350020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512674350020</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -502,10 +490,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54591000" />
+    <option name="totallyTimeSpent" value="55719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1030" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42588615" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -517,7 +506,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2519001" sideWeight="0.49534884" order="0" side_tool="false" content_ui="combo" />
@@ -577,7 +566,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated Use Cases and Scenarios." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Use Cases and Scenarios." />
+    <MESSAGE value="Fixing build and adding tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing build and adding tests." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -586,14 +576,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.sailsrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/homepage.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -1004,10 +986,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/design/_footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        <state relative-caret-position="304">
+          <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
           <folding />
         </state>
       </provider>

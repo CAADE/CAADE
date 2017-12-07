@@ -30,7 +30,7 @@
     "design": "java -jar design/plantuml.jar design/*.puml design/**/*.puml",
     "custom-tests": "node ./node_modules/mocha/bin/mocha test/bootstrap.test.js test/integration/**/*.test.js",
     "build": "REGISTRY=registry && npm update && node ./deploy/build build",
-    "build-doc": "ls -latr && ls -latr design && npm install -g wiki2pdf &&  wiki2pdf ./design --title Common_Cloud_Core --format all --footer ./design/_footer.html",
+    "build-doc": "ls -latr && ls -latr design && npm install wiki2pdf &&  wiki2pdf ./design --title Common_Cloud_Core --format all --footer ./design/_footer.html",
     "debug": "node debug app.js",
     "deploy-apps": "node ./deploy/build deploy",
     "deploy": "REGISTRY=registry && npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-dev.yaml caade-dev",
