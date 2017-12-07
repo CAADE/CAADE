@@ -2,6 +2,9 @@ pipeline {
   agent {
     label 'node'
   }
+  environment {
+          CAADE_REGISTRY = '172.16.0.100:5000'
+  }
   stages {
     stage('Build Docs') {
       steps {
