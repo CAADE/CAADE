@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" afterPath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/uservices/web/package.json" afterPath="$PROJECT_DIR$/deploy/uservices/web/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,8 +20,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+            <state relative-caret-position="384">
+              <caret line="37" column="48" lean-forward="false" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -48,8 +50,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="80">
+              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -58,8 +60,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/uservices/web/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="34" column="96" lean-forward="false" selection-start-line="34" selection-start-column="96" selection-end-line="34" selection-end-column="96" />
+            <state relative-caret-position="384">
+              <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -178,11 +180,11 @@
         <option value="$PROJECT_DIR$/test/integration/Controller-env-delete.test.js" />
         <option value="$PROJECT_DIR$/test/integration/Controller-env-update.test.js" />
         <option value="$PROJECT_DIR$/test/integration/Controller-envcreate.test.js" />
-        <option value="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" />
-        <option value="$PROJECT_DIR$/deploy/uservices/web/package.json" />
         <option value="$PROJECT_DIR$/deploy/docker-compose-dev.yaml" />
         <option value="$PROJECT_DIR$/deploy/docker-compose-prod.yaml" />
         <option value="$PROJECT_DIR$/deploy/docker-compose-test.yaml" />
+        <option value="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" />
+        <option value="$PROJECT_DIR$/deploy/uservices/web/package.json" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -239,6 +241,19 @@
             <path>
               <item name="Caade" type="b2602c69:ProjectViewProjectNode" />
               <item name="Caade" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="uservices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Caade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Caade" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="uservices" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Caade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Caade" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,7 +274,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/tools/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wiki2pdf" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
   </component>
   <component name="RecentsManager">
@@ -424,7 +439,7 @@
       <workItem from="1511838657057" duration="2592000" />
       <workItem from="1511923927061" duration="1934000" />
       <workItem from="1512006888948" duration="9896000" />
-      <workItem from="1512066011234" duration="41297000" />
+      <workItem from="1512066011234" duration="42569000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Use Cases and Scenarios.">
       <created>1512016716711</created>
@@ -454,7 +469,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512674350020</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixing build and adding tests.">
+      <created>1512674918085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512674918085</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixing build and adding tests.">
+      <created>1512675402436</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512675402437</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -490,7 +519,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55719000" />
+    <option name="totallyTimeSpent" value="56991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1030" extended-state="6" />
@@ -938,22 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/uservices/web/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="34" column="96" lean-forward="false" selection-start-line="34" selection-start-column="96" selection-end-line="34" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy/docker-compose-dev.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -994,10 +1007,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/uservices/web/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="32" column="61" lean-forward="false" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+        <state relative-caret-position="384">
+          <caret line="37" column="48" lean-forward="false" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
           <folding />
         </state>
       </provider>
