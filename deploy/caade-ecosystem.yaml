@@ -1,0 +1,63 @@
+environments:
+  build:
+    compose: build/docker-compose-prod.yaml
+    entry: true
+    description: Build Environment
+    docker:
+      host: tcp://caade:2376
+      cert: build/cert
+    hostname: caade
+    portals:
+      jenkins:
+        description: Build System
+        port: 8000
+      registry:
+        description: Central Registry
+        port: 5000
+      portainer:
+        description: Operations Console
+        port: 9000
+  local:
+    description: Local Environment
+    hostname: localhost
+    compose: local/docker-compose-prod.yaml
+    portals:
+      registry:
+        description: Local Registry
+        port: 5000
+      portainer:
+        description: Operations Console
+        port: 9000
+  dev:
+    description: Development Environment
+    compose: dev/docker-compose-prod.yaml
+    docker:
+      host: tcp://caade-dev:2376
+      cert: build/cert
+    hostname: caade-dev
+    portals:
+      portainer:
+        description: Operations Console
+        port: 9000
+  test:
+    description: Test Environment
+    compose: test/docker-compose-test.yaml
+    docker:
+      host: tcp://caade-test:2376
+      cert: build/cert
+    hostname: caade-test
+    portals:
+      portainer:
+        description: Operations Console
+        port: 9000
+  production:
+    description: Production Environment
+    compose: production/docker-compose-test.yaml
+    docker:
+      host: tcp://caade-prod:2376
+      cert: build/cert
+    hostname: caade-prod
+    portals:
+      portainer:
+        description: Operations Console
+        port: 9000

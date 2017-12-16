@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var program =  require('commander');
+
+program
+  .version("0.2.0")
+  .command('create --name <string> --description <string> --url <string> --rest <string> --image <string>', 'Create an portal')
+  .command('list', 'List environments')
+  .command('rm --name <string>', 'Delete the portal')
+  .command('update --name <string> --description <string> --url <string> --rest <string> --image <string>', 'Update the portal with the name')
+  .parse(process.argv);

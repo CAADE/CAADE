@@ -4,7 +4,6 @@ For more information, see:
 • https://sailsjs.com/documentation/concepts/views
 • https://sailsjs.com/documentation/concepts/routes
 -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600" rel="stylesheet" type="text/css">
 <style>
     /* Styles included inline since you'll probably be deleting this page anyway */
     html, body {
@@ -279,6 +278,38 @@ For more information, see:
     setTimeout(function sunrise() {
         document.getElementsByClassName('header')[0].style.backgroundColor = '#118798';
     }, 0);
+
+</script>
+<script>
+  function listPortals() {
+    $.ajax({
+      url: "env/list?mode=json"
+    }).done(function (data) {
+        let html = "";
+        data.envs.forEach(function(env) {
+           html += "<div class=env-container><h2>" + env.name + "</h2><p>" + env.description + "</p>" +
+               "<ul id=env-" + env.id + "></ul></div>";
+           let hostname = env.hostname;
+           $.ajax({
+               url: "portal/list?mode=json&env=" + env.id
+           }).done(function (pdata) {
+               let phtml = "";
+               let envid = 0;
+               pdata.forEach(function(portal) {
+                   phtml += "<li><a href=http://" + hostname + ":" + portal.port + ">"  + portal.name +
+                       " - " + portal.description + "</a></li>";
+                   envid = portal.env;
+               });
+               $("#env-" + envid).html(phtml)
+           });
+        });
+      $("#portalList").html(html);
+      setTimeout(listPortals, 30000);
+    });
+  };
+  $(document).ready(function () {
+    listPortals();
+  });
 </script>
 
 <div class="default-page">
@@ -287,10 +318,7 @@ For more information, see:
         <h3 class="container">You're looking at: <code><%= view.pathFromApp + '.' + view.ext %></code></h3>
     </div>
     <div class="main container clearfix">
-        <ul class="getting-started">
-            <li class="clearfix"><a href="<%= sails.config.explicitHost %>:8000">CICD: Jenkins</a></li>
-            <li class="clearfix"><a href="<%= sails.config.explicitHost %>:9000">Operations Console: Portianer</a></li>
-            <li class="clearfix"><a href="<%= sails.config.explicitHost %>:5000">Registry: Registry</a></li>
+        <ul id="portalList" class="getting-started">
         </ul>
     </div>
 </div>

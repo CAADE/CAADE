@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var program =  require('commander');
+
+program
+  .version("0.2.0")
+  .command('update --file <filename>', 'update an ecosystem')
+  .command('get', 'get an ecosystem')
+  .parse(process.argv);

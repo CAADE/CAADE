@@ -6,5 +6,7 @@ program
   .version("0.2.0")
   .command('init', 'initalize caade on your machine')
   .command('env <command>', 'Work with Environments')
+  .command('portal <command>', 'Work with Portals')
+  .command('ecosystem <command>', 'work with the complete ecosystem')
   .parse(process.argv);
 

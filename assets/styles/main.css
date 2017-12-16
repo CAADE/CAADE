@@ -1097,3 +1097,15 @@ table.workItem td {
 .selected a {
     color: black;
 }
+.env-container {
+    padding: 10px;
+    border-style: outset;
+    border-spacing: 10px;
+    border-radius: 16px;
+    background: darkcyan;
+    color: white;
+    float: left;
+}
+.env-container a {
+    color: white;
+}

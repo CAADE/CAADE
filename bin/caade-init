@@ -1,0 +1,36 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const YAML = require('yamljs');
+
+const program = require('commander');
+const Client = require('node-rest-client').Client;
+const config = require('./config'); /* Replace this with your own config file. */
+const _ = require('lodash');
+
+let client = new Client();
+program.parse(process.argv);
+var baseURL = program.args[0];
+
+if(!baseURL) {
+    baseURL = config.Url;
+}
+let url = baseURL + "/ecosystem/init";
+let params = [ "mode=json" ]; // Json results expected.
+try {
+    client.get(url, function (data, response) {
+        // parsed response body as js object
+        if (data.error) {
+            console.error("Error:" + data.error);
+        }
+        else {
+            var jobj = JSON.parse(data.toString('utf-8'));
+            console.log(jobj.environments);
+            console.log(jobj.environments.build.docker);
+            console.log(YAML.stringify(jobj, 8));
+        }
+    });
+}
+catch (e) {
+  console.error(e);
+}

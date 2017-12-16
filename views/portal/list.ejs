@@ -1,0 +1,17 @@
+<h1>Portals</h1>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>URL</th>
+        <th>Rest</th>
+    </tr>
+    <% _.each(portals, function(portal) { %>
+    <tr>
+        <td><%= portal.name %></td>
+        <td><%= portal.description %></td>
+        <td><%= portal.url %></td>
+        <td><%= portal.rest %></td>
+    </tr>
+    <% })%>
+</table>

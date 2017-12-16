@@ -6,10 +6,14 @@
  */
 
 module.exports = {
-  attributes: {
-    abbv: { type: 'string' },
-    name: { type: 'string' },
-    url:  { type: 'string' }
-  },
+    attributes: {
+        name: {type: 'string'},
+        entry: {type: 'boolean'},
+        description: {type: 'string'},
+        compose: {type: 'string'},
+        docker: {type: 'json'},
+        hostname: {type: 'string'},
+        portals: {collection: 'portal', via: 'env'},
+    },
 };
 
