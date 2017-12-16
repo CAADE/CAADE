@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+var program = require('commander');
+var Client = require('node-rest-client').Client;
+var config = require('./config');
+var YAML = require('yamljs');
+
+var client = new Client();
+
+program
+  .option('-f, --filename <filename>', 'Update the ecosystem from a yaml file')
+  .parse(process.argv);
+
+var url = config.Url + "/ecosystem/update";
+var args = { headers: {"Content-Type": "application/json"}, data: {} }
+
+var definition = {};
+if (program.filename) {
+  args.data = YAML.load(program.filename);
+}
+
+client.post(url, args, function (data, response) {
+  // parsed response body as js object
+    console.log(data);
+  if(data.error) {
+    console.error(data.error);
+  }
+  else {
+    console.log("Ecosystem Updated! ");
+  }
+});
