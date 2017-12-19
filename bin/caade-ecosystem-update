@@ -1,30 +1,48 @@
 #!/usr/bin/env node
-var program = require('commander');
-var Client = require('node-rest-client').Client;
-var config = require('./config');
-var YAML = require('yamljs');
+const program = require('commander');
+const Client = require('node-rest-client').Client;
+const config = require('./config');
+const YAML = require('yamljs');
+const _ = require('lodash');
 
-var client = new Client();
+let client = new Client();
 
 program
   .option('-f, --filename <filename>', 'Update the ecosystem from a yaml file')
   .parse(process.argv);
 
-var url = config.Url + "/ecosystem/update";
-var args = { headers: {"Content-Type": "application/json"}, data: {} }
+// Parse the input file.
+let ecosystem = YAML.load(program.filename);
+// Get the compose files
+_.each(Object.keys(ecosystem.environments), function(key) {
+  if(!ecosystem.environments[key].compose) {
+    console.error("Could not find the compose attribute for:", key);
+  }
+  else {
+    try {
+        ecosystem.environments[key].compose = YAML.load(ecosystem.environments[key].compose);
+    }
+    catch (e) {
+      console.error("Error processing file: ", ecosystem.environments[key].compose, e);
+    }
+  }
+});
+// Add that to the YAML object before pushing to caade
+let url = config.Url + "/ecosystem/update";
+let args = { headers: {"Content-Type": "application/json"}, data: {} }
 
-var definition = {};
-if (program.filename) {
-  args.data = YAML.load(program.filename);
-}
+console.log(url);
+args.data = ecosystem;
 
 client.post(url, args, function (data, response) {
   // parsed response body as js object
-    console.log(data);
+  console.log(data);
   if(data.error) {
-    console.error(data.error);
+    console.error("Error:", data.error);
   }
   else {
     console.log("Ecosystem Updated! ");
   }
 });
+
+

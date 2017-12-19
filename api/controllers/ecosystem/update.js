@@ -27,22 +27,22 @@ module.exports = {
     },
 
     fn: async function (inputs, exits, env) {
-
-        // Look up the user whose ID was specified in the request.
-        // Note that we don't have to validate that `userId` is a number;
-        // the machine runner does this for us and returns `badRequest`
-        // if validation fails.
+        // Parse each compose file.
+        // Find the services and the ports that are exposed. Look for ports ####:####.
+        // Take the first #### as the port that exposed to the host as the portal port.
         try {
             let envs = env.req.body.environments;
             _.each(Object.keys(envs), async function (key) {
                 let attr = _.omit(envs[key], ["portals"]);
                 attr.name = key;
                 let menv = await Environment.findOrCreate({name: key}, attr);
+                let portals = getPortalsInfo(envs[key].compose.services);
 
-                _.each(Object.keys(envs[key].portals), async function(pkey) {
-                    pattr = envs[key].portals[pkey];
+                _.each(Object.keys(portals), async function(pkey) {
+                    pattr = portals[pkey];
                     pattr.name = pkey;
                     pattr.env = menv.id;
+                    pattr.port = parseInt(portals[pkey].port);
                     await Portal.findOrCreate({name: pkey, env: menv.id}, pattr);
                 });
                 console.log(menv);
@@ -53,5 +53,22 @@ module.exports = {
             return exits.error(e);
         }
     }
+};
+
+function getPortalsInfo(services) {
+  let retval = {};
+  _.each(Object.keys(services), function(key) {
+    if(services[key].ports) {
+      if(services[key].ports.length > 0) {
+        let port = services[key].ports[0];
+        let labels = key || services[key].labels.join(" ");
+        port = port.split(":");
+        if(port.length > 1) {
+          retval[key] = {description: labels, port: port[0]};
+        }
+      }
+    }
+  });
+  return retval;
 };
 

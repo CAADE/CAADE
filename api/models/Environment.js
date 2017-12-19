@@ -10,7 +10,7 @@ module.exports = {
         name: {type: 'string'},
         entry: {type: 'boolean'},
         description: {type: 'string'},
-        compose: {type: 'string'},
+        compose: {type: 'json'},
         docker: {type: 'json'},
         hostname: {type: 'string'},
         portals: {collection: 'portal', via: 'env'},
