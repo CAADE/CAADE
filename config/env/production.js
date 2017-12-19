@@ -120,9 +120,9 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cors: {
-      // allowOrigins: [
-      //   'https://example.com',
-      // ]
+       allowOrigins: [
+         'https://example.com',
+       ]
     },
 
   },
@@ -220,9 +220,9 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    // onlyAllowOrigins: [
-    //   'https://example.com',
-    // ],
+     onlyAllowOrigins: [
+       'https://example.com',
+     ],
 
 
     /***************************************************************************
