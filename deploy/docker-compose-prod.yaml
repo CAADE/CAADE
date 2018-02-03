@@ -2,18 +2,22 @@ version: '3.1'
 
 services:
   web:
-    image: $(REGISTRY}/caade-web
+    image: madajaju/caade-web
     ports:
       - "80:1337"
   build:
-    image: jenkins
+    image: jenkins/jenkins:lts
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
     ports:
       - "8000:8080"
       - "50000:50000"
     volumes:
       - /mnt/jenkins:/var/jenkins_home
   agent:
-    image: madajaju/jenkins-swarm-node-agent
+    image: madajaju/caade-swarm-node-agent
     deploy:
       mode: global
     volumes:
@@ -30,6 +34,10 @@ services:
     volumes:
       - /mnt/registry:/var/lib/registry
   portainer:
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
     image: portainer/portainer
     ports:
       - "9000:9000"
