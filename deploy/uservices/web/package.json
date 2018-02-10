@@ -32,8 +32,8 @@
     "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 && echo '✔  Your code looks good.'",
     "debug": "node debug app.js",
     "build-uservices": "node ./deploy/build",
-    "build": "cd ../../.. && docker build . --file ./deploy/uservices/web/Dockerfile -t madajaju/caade-web",
-    "deploy": "docker push madajaju/caade-web"
+    "build": "cd ../../.. && docker build . --file ./deploy/uservices/web/Dockerfile -t ${CAADE_REGISTRY}/caade-web",
+    "publish": "docker push ${CAADE_REGISTRY}/caade-web"
   },
   "main": "app.js",
   "repository": {

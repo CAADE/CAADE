@@ -18,6 +18,7 @@
     "sails-hook-sockets": "^1.5.1",
     "supertest": "^3.0.0",
     "supertest-as-promised": "^4.0.2",
+    "mocha-jenkins-reporter": "^0.3.10",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
@@ -25,16 +26,17 @@
   },
   "scripts": {
     "start": "NODE_ENV=production node app.js",
-    "test": "npm run custom-tests && echo 'Done.'",
+    "test": "npm update && npm run lint && npm run custom-tests && echo 'Done.'",
     "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 && echo '✔  Your code looks good.'",
     "design": "java -jar design/plantuml.jar design/*.puml design/**/*.puml",
-    "custom-tests": "node ./node_modules/mocha/bin/mocha test/bootstrap.test.js test/integration/**/*.test.js",
+    "custom-tests": "JUNIT_REPORT_PATH=./report.xml node ./node_modules/mocha/bin/mocha --reporter mocha-jenkins-reporter test/bootstrap.test.js test/**/*.test.js",
     "build": "npm update && node ./deploy/build build",
+    "publish": "node ./deploy/build publish",
     "build-doc": "npm install phantomjs && npm install -g wiki2pdf && wiki2pdf ./design --title Common_Cloud_Core --format all --footer ./design/_footer.html",
     "debug": "node debug app.js",
     "deploy-apps": "node ./deploy/build deploy",
     "deploy": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-dev.yaml caadeDev",
-    "deploy-test": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-test.yaml caadeTest",
+    "deploy-test": "cd deploy && docker stack deploy --compose-file=./deploy/test/docker-compose.yaml caadeTest",
     "teardown-test": "docker stack rm caadeTest",
     "deploy-prod": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-prod.yaml caade"
   },

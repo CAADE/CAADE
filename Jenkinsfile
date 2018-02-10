@@ -3,7 +3,7 @@ pipeline {
     label 'node'
   }
   environment {
-          CAADE_REGISTRY = 'madajaju'
+          CAADE_REGISTRY = 'node0:5000'
   }
   stages {
     stage('Build Docs') {
@@ -14,9 +14,8 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh 'docker login --username=$DOCKER_USER --password=$DOCKER_PASS'
         sh 'npm run-script build'
-        sh 'npm run-script deploy-apps'
+        sh 'npm run-script publish'
       }
     }
     stage('Test') {
@@ -27,6 +26,11 @@ pipeline {
         sh 'npm run-script deploy-test'
         sh 'npm run-script test'
         sh 'npm run-script teardown-test'
+      }
+      post {
+        always {
+          junit "report.xml"
+        }
       }
     }
     stage('Production') {

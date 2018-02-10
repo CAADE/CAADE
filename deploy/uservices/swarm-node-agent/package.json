@@ -2,7 +2,7 @@
   "main": "index.js",
   "scripts": {
     "build": "docker build . -t madajaju/caade-swarm-node-agent",
-    "deploy": "docker push madajaju/caade-swarm-node-agent"
+    "publish": "docker push madajaju/caade-swarm-node-agent"
   },
   "dependencies": {
   }
