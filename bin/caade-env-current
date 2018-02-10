@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+
+const program = require('commander');
+const Client = require('node-rest-client').Client;
+const config = require('../.caade/config');
+const _ = require('lodash');
+
+program.parse(process.argv);
+
+console.log(config.caade.active);

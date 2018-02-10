@@ -6,7 +6,7 @@ const YAML = require('yamljs');
 const program = require('commander');
 const Client = require('node-rest-client').Client;
 const action = require('../api/controllers/env/list');
-const config = require('./config');
+const config = require('../.caade/config');
 /* Replace this with your own config file. */
 const _ = require('lodash');
 
@@ -18,7 +18,7 @@ _.each(Object.keys(action.inputs), function (key) {
 });
 program.parse(process.argv);
 
-let url = config.Url + "/env/list?";
+let url = config.caade.url + "/env/list?";
 let params = ["mode=json"]; // Json results expected.
 _.each(Object.keys(action.inputs), function (key) {
     if (key != "mode") {

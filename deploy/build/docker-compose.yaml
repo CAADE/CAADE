@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   web:
-    image: $(REGISTRY}/caade-web
+    image: madajaju/caade-web
     ports:
       - "80:1337"
   build:
@@ -25,8 +25,16 @@ services:
   registry:
     restart: always
     image: registry:2
+    environment:
+      - REGISTRY_HTTP_TLS_CERTIFICATE=registry-cert
+      - REGISTRY_HTTP_TLS_KEY=registry-key
     ports:
       - 5000:5000
+    secrets:
+      - source: registry-v1-cert
+        target: registry-cert
+      - source: reegistry-v1-key
+        target: registry-key
     volumes:
       - /mnt/registry:/var/lib/registry
   portainer:
@@ -41,4 +49,7 @@ services:
 secrets:
   jenkins-v1:
     file: ./jenkins-secret.txt
-
+  registry-v1-cert:
+    file: ./registry_certs/domain.cert
+  registry-v1-key:
+    file: ./registry_certs/domain.key

@@ -24,19 +24,10 @@ module.exports = {
       let envs = await Environment.find().populateAll();
       let retval = {};
       _.each(envs, function(env) {
-        let tenv = _.omit(env, ["id", "createdAt", "updatedAt"]);
-        let portals = {};
-        _.each(env.portals, function(portal) {
-          portals[portal.name]= {description:portal.description, port:portal.port};
-        });
-        tenv.portals = portals;
-        retval[tenv.name] = JSON.stringify(tenv);
+        let tenv = _.omit(env, ["id", "createdAt", "updatedAt", "compose", "portals"]);
+        retval[tenv.name]= tenv;
       });
-      let retstring = '{ "environments":\n  {';
-      _.each(Object.keys(retval), function(key) { retstring += '    "' + key + '":' + retval[key]; });
-      retstring += "  }\n}";
-
-      return exits.json(retstring);
+      return exits.json(retval);
       // return exits.json(retval);
     }
     catch (e) {

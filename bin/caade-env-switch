@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+
+const program = require('commander');
+const config = require('../.caade/config'); /* Replace this with your own config file. */
+const _ = require('lodash');
+
+program.parse(process.argv);
+
+let newEnv = program.args[0];
+
+console.log("Env:", newEnv);
+if(config.caade[newEnv]) {
+    config.caade.active = newEnv;
+    let jsstring = "module.exports = " + JSON.stringify(config) + ";";
+    var dirname = ".caade";
+    fs.writeFile(dirname + "/config.js", jsstring, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+        else {
+            console.log("Switched to " + newEnv);
+        }
+    });
+}
+else {
+    console.error("Environment: " + newEnv + " not found!");
+}
