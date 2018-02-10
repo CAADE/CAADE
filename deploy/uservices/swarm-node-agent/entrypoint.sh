@@ -1,13 +1,12 @@
 #!/bin/sh -x
 set -e
 
-LABELS="${LABELS:-node}"
 EXECUTORS="${EXECUTORS:-3}"
 FSROOT="${FSROOT:-/tmp/jenkins-node}"
 IS_MASTER_NODE=`docker node ls | grep Leader | wc -l`
 if [ $IS_MASTER_NODE -gt 0 ]
 then
-  LABELS="${LABELS:-node} docker-master"
+  LABELS="${LABELS:-docker-master}"
 else
   LABELS="${LABELS:-node}"
 fi
