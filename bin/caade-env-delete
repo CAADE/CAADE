@@ -6,7 +6,7 @@ const YAML = require('yamljs');
 const program = require('commander');
 const Client = require('node-rest-client').Client;
 const action = require('../api/controllers/env/delete');
-const config = require('./config'); /* Replace this with your own config file. */
+const config = require('../.caade/config');
 const _ = require('lodash');
 
 let client = new Client();

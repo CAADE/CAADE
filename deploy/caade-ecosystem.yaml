@@ -4,9 +4,9 @@ environments:
     entry: true
     description: Build Environment
     docker:
-      host: tcp://172.16.0.100:2376
+      host: tcp://node0:2376
       cert: build/cert
-    hostname: 172.16.0.100
+    hostname: node0
   local:
     description: Local Environment
     hostname: localhost

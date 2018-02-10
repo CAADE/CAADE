@@ -3,7 +3,7 @@ pipeline {
     label 'node'
   }
   environment {
-          CAADE_REGISTRY = 'localhost:5000'
+          CAADE_REGISTRY = 'madajaju'
   }
   stages {
     stage('Build Docs') {
@@ -14,14 +14,19 @@ pipeline {
     }
     stage('Build') {
       steps {
+        sh 'docker login --username=$DOCKER_USER --password=$DOCKER_PASS'
         sh 'npm run-script build'
         sh 'npm run-script deploy-apps'
       }
     }
     stage('Test') {
+      agent {
+        label 'docker-master'
+      }
       steps {
         sh 'npm run-script deploy-test'
         sh 'npm run-script test'
+        sh 'npm run-script teardown-test'
       }
     }
     stage('Production') {

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const program = require('commander');
 const Client = require('node-rest-client').Client;
-const config = require('./config');
+const config = require(process.cwd() + '/.caade/config.js');
 const YAML = require('yamljs');
 const _ = require('lodash');
 
@@ -28,7 +28,7 @@ _.each(Object.keys(ecosystem.environments), function(key) {
   }
 });
 // Add that to the YAML object before pushing to caade
-let url = config.Url + "/ecosystem/update";
+let url = config.caade.url + "/ecosystem/update";
 let args = { headers: {"Content-Type": "application/json"}, data: {} }
 
 console.log(url);
