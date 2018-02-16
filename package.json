@@ -19,6 +19,7 @@
     "supertest": "^3.0.0",
     "supertest-as-promised": "^4.0.2",
     "mocha-jenkins-reporter": "^0.3.10",
+    "eslint": "3.5.0",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
