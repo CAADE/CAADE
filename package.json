@@ -37,7 +37,7 @@
     "debug": "node debug app.js",
     "deploy-apps": "node ./deploy/build deploy",
     "deploy": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-dev.yaml caadeDev",
-    "deploy-test": "cd deploy && docker stack deploy --compose-file=./deploy/test/docker-compose.yaml caadeTest",
+    "deploy-test": "cd deploy && docker stack deploy --compose-file=./test/docker-compose.yaml caadeTest",
     "teardown-test": "docker stack rm caadeTest",
     "deploy-prod": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-prod.yaml caade"
   },

@@ -1,39 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="Addition of the DevOps Actor.">
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/controllers/DevopsController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/caade-devops" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/deploy/production/docker-compose.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/Actors/DevOps/Activity.puml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/Actors/DevOps/Actor-DevOps.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/Actors/DevOps/UseCases.puml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/Actors/DevOps/Workflow.puml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/Architecture.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/Default Development Cycle.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/UseCases/Automate-Code-Pipeline/Activities.puml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/UseCases/Automate-Code-Pipeline/UseCase-Automate-Code-Pipeline.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/UseCases/Build-Code/Activities.puml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/UseCases/Build-Code/UseCase-Build-Code.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/UseCases/Create-Build-Environment/Activities.puml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/UseCases/Create-Build-Environment/UseCase-Create-Build-Environment.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/UseCases/Monitor-Builds/Activities.puml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/UseCases/Monitor-Builds/UseCase-Monitor-Builds.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/UseCases/Set-up-Project-Code-Pipeline/Activities.puml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/design/UseCases/Set-up-Project-Code-Pipeline/UseCase-Set-up-Project-Code-Pipeline.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/Actors/DevOps.test.js" />
+    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/deploy/test/docker-compose.yaml" afterPath="$PROJECT_DIR$/deploy/test/docker-compose.yaml" />
-      <change beforePath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" afterPath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" />
-      <change beforePath="$PROJECT_DIR$/design" afterPath="$PROJECT_DIR$/design" />
-      <change beforePath="$PROJECT_DIR$/design/Actors/Actors.md" afterPath="$PROJECT_DIR$/design/Actors/Actors.md" />
-      <change beforePath="$PROJECT_DIR$/design/Solution/Solution.md" afterPath="$PROJECT_DIR$/design/Solution/Solution.md" />
-      <change beforePath="$PROJECT_DIR$/design/UseCases/UseCases.puml" afterPath="$PROJECT_DIR$/design/UseCases/UseCases.puml" />
-      <change beforePath="$PROJECT_DIR$/test/UseCases/Build-Project.test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/UseCases/Build-Project_Define-Agents.test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/UseCases/Build-Project_Define-Pipeline.test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/UseCases/Build-Project_Define-Stages.test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/UseCases/Build-Project_Run-Build.test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="caade-devops" pinned="false" current-in-tab="true">
+      <file leaf-file-name="caade-devops" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/caade-devops">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
@@ -91,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="549">
+              <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -230,7 +200,6 @@
         <option value="$PROJECT_DIR$/deploy/test/docker-compose-prod.yaml" />
         <option value="$PROJECT_DIR$/deploy/build/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/deploy/uservices/web/package.json" />
         <option value="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" />
         <option value="$PROJECT_DIR$/deploy/test/docker-compose.yaml" />
@@ -238,6 +207,7 @@
         <option value="$PROJECT_DIR$/design/UseCases/UseCases.puml" />
         <option value="$PROJECT_DIR$/design/Solution/Solution.md" />
         <option value="$PROJECT_DIR$/bin/caade-devops" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -297,13 +267,13 @@
             <path>
               <item name="Caade" type="b2602c69:ProjectViewProjectNode" />
               <item name="Caade" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Caade" type="b2602c69:ProjectViewProjectNode" />
               <item name="Caade" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="Solution" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -512,7 +482,7 @@
       <workItem from="1517239895808" duration="566000" />
       <workItem from="1517323769276" duration="4059000" />
       <workItem from="1517835938497" duration="13820000" />
-      <workItem from="1518712705578" duration="1540000" />
+      <workItem from="1518712705578" duration="2718000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Use Cases and Scenarios.">
       <created>1512016716711</created>
@@ -661,7 +631,21 @@
       <option name="project" value="LOCAL" />
       <updated>1518279400351</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Addition of the DevOps Actor.">
+      <created>1518741913572</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1518741913573</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add eslint for automated build.">
+      <created>1518742484117</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1518742484117</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -697,14 +681,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181262000" />
+    <option name="totallyTimeSpent" value="182440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.622449" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599357" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -713,7 +698,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Floobits" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19248292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19248292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1122449" sideWeight="0.49534884" order="0" side_tool="false" content_ui="combo" />
@@ -776,7 +761,8 @@
     <MESSAGE value="Added concept of the ecosystem. Ability to have multiple environments in the ecosystem. Added API, UI and CLI." />
     <MESSAGE value="Fix Build scripts." />
     <MESSAGE value="Addition of the DevOps Actor." />
-    <option name="LAST_COMMIT_MESSAGE" value="Addition of the DevOps Actor." />
+    <MESSAGE value="Add eslint for automated build." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add eslint for automated build." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -980,6 +966,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,14 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1162,6 +1141,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="39" column="66" lean-forward="false" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
           <folding />
         </state>
       </provider>
