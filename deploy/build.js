@@ -1,9 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const childProcess = require('child_process');
-
 const root = process.cwd() + "/deploy/uservices";
-
 let cmd = process.argv[2]; // node, build, cmd
 
 npmBuildRecursive(root);

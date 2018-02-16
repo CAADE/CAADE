@@ -4,7 +4,7 @@ services:
   web:
     image: ${CAADE_REGISTRY}/caade-web
     ports:
-      - "80:1337"
+      - "8082:1337"
   build:
     image: jenkins
     ports:
@@ -26,13 +26,13 @@ services:
     restart: always
     image: registry:2
     ports:
-      - 5001:5000
+      - 5002:5000
     volumes:
       - /mnt/registry:/var/lib/registry
   portainer:
     image: portainer/portainer
     ports:
-      - "9001:9000"
+      - "9002:9000"
     volumes:
         - /mnt/portainer:/data
         - /var/run/docker.sock:/var/run/docker.sock
