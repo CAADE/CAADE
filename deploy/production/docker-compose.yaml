@@ -13,6 +13,9 @@ services:
         target: jenkins
   portainer:
     image: portainer/portainer
+    deploy:
+      constraints:
+        - node.role == manager
     ports:
       - "9000:9000"
     volumes:

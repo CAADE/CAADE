@@ -39,6 +39,9 @@ services:
       - /mnt/registry:/var/lib/registry
   portainer:
     image: portainer/portainer
+    deploy:
+      constraints:
+        - node.role == manager
     ports:
       - "9000:9000"
     volumes:
