@@ -32,8 +32,9 @@ services:
   portainer:
     image: portainer/portainer
     deploy:
-      constraints:
-        - node.role == manager
+      placement:
+        constraints:
+          - node.role == manager
     ports:
       - "9002:9000"
     volumes:
