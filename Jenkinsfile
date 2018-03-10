@@ -11,6 +11,7 @@ pipeline {
         docker { image 'madajaju/caade-doc-node-agent' }
       }
       steps {
+        sh 'git stash'
         sh 'git submodule update --init --recursive'
         sh 'npm run-script design'
         sh 'npm run-script build-doc'
