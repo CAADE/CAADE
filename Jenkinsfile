@@ -8,7 +8,6 @@ pipeline {
   stages {
     stage('Build Docs') {
       agent {
-        label 'docker-master'
         docker { image 'madajaju/caade-doc-node-agent' }
       }
       steps {
