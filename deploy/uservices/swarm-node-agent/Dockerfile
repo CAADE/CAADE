@@ -2,6 +2,7 @@ FROM docker:17.03-rc
 MAINTAINER Darren Pulsipher <darren@pulsipher.org>
 
 RUN apk --update add openjdk8-jre git fontconfig
+RUN apt-get -y --no-install-recommends install libfontconfig1
 
 RUN apk --update add nodejs
 

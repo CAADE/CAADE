@@ -7,6 +7,9 @@ pipeline {
   }
   stages {
     stage('Build Docs') {
+      agent {
+        docker { image 'madajaju/caade-doc-node-agent' }
+      }
       steps {
         sh 'git submodule update --init --recursive'
         sh 'npm run-script design'
