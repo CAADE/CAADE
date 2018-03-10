@@ -8,9 +8,10 @@ pipeline {
   stages {
     stage('Build Docs') {
       steps {
-        sh 'npm run-script
         sh 'git submodule update --init --recursive'
+        sh 'npm run-script design'
         sh 'npm run-script build-doc'
+        sh 'cd docs && git add . && git commit -m "Update to Documents" && git push'
       }
     }
     stage('Build') {
