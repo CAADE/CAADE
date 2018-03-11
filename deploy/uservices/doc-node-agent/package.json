@@ -1,0 +1,9 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build . -t madajaju/caade-doc-node-agent",
+    "deploy": "docker push madajaju/caade-doc-node-agent"
+  },
+  "dependencies": {
+  }
+}

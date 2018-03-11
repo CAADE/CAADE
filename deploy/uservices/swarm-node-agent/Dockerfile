@@ -1,7 +1,7 @@
-FROM docker:17.03-rc
+FROM docker:18.03-rc
 MAINTAINER Darren Pulsipher <darren@pulsipher.org>
 
-RUN apk --update add openjdk8-jre git fontconfig
+RUN apk --update add openjdk8-jre git fontconfig ttf-dejavu
 
 RUN apk --update add nodejs
 

@@ -16,12 +16,15 @@ services:
       - "50000:50000"
     volumes:
       - /mnt/jenkins:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/local/bin:/user/bin
   agent:
     image: madajaju/caade-swarm-node-agent
     deploy:
       mode: global
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/local/bin:/user/bin
       - /tmp:/tmp
     secrets:
       - source: jenkins-v1

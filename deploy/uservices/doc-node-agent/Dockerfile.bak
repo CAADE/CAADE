@@ -1,0 +1,40 @@
+FROM docker:18.03-rc
+MAINTAINER Darren Pulsipher <darren@pulsipher.org>
+
+RUN apk --update add openjdk8-jre git fontconfig ttf-dejavu ttf-freefont graphviz
+
+RUN apk --update add nodejs dbus
+
+RUN apk add qt5-qtbase-dev \
+            wkhtmltopdf \
+            --no-cache \
+            --repository http://dl-3.alpinelinux.org/alpine/edge/testing/ \
+            --allow-untrusted \
+    && \
+
+    # Wrapper for xvfb
+    mv /usr/bin/wkhtmltopdf /usr/bin/wkhtmltopdf-origin && \
+    echo $'#!/usr/bin/env sh\n\
+Xvfb :0 -screen 0 1024x768x24 -ac +extension GLX +render -noreset & \n\
+DISPLAY=:0.0 wkhtmltopdf-origin $@ \n\
+killall Xvfb\
+' > /usr/bin/wkhtmltopdf && \
+    chmod +x /usr/bin/wkhtmltopdf
+
+
+RUN npm install -g wiki2pdf
+
+RUN apk update && apk add --no-cache fontconfig && \
+  mkdir -p /usr/share && \
+  cd /usr/share \
+  && curl -L https://github.com/Overbryd/docker-phantomjs-alpine/releases/download/2.11/phantomjs-alpine-x86_64.tar.bz2 | tar xj \
+  && ln -s /usr/share/phantomjs/phantomjs /usr/bin/phantomjs
+
+RUN npm install phantomjs
+
+
+COPY entrypoint.sh /
+
+RUN chmod +x /entrypoint.sh  \
+    && sed -i -e 's/\r$//' /entrypoint.sh
+

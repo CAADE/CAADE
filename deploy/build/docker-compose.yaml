@@ -26,15 +26,13 @@ services:
     restart: always
     image: registry:2
     environment:
-      - REGISTRY_HTTP_TLS_CERTIFICATE=registry-cert
-      - REGISTRY_HTTP_TLS_KEY=registry-key
+      - REGISTRY_HTTP_TLS_CERTIFICATE=/var/lib/registry/registry-certs/domain.cert
+      - REGISTRY_HTTP_TLS_KEY=/var/lib/registry/registry-certs/domain.key
     ports:
       - 5000:5000
     secrets:
-      - source: registry-v1-cert
-        target: registry-cert
-      - source: reegistry-v1-key
-        target: registry-key
+      - registry-v1-cert
+      - registry-v1-key
     volumes:
       - /mnt/registry:/var/lib/registry
   portainer:
