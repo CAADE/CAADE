@@ -12,8 +12,8 @@ pipeline {
       }
       steps {
         sh 'cd docs && git stash'
-        git pull
-        git submodule update --init --recursive
+        sh 'git pull'
+        sh 'git submodule update --init --recursive'
         sh 'npm run-script design'
         sh 'npm run-script build-doc'
         sh 'cd docs && git add . && git commit -m "Update to Documents" && git push origin HEAD:master'
