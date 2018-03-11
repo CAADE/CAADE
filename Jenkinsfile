@@ -17,7 +17,6 @@ pipeline {
         sh 'npm run-script design'
         sh 'npm run-script build-doc'
         sh 'cd docs && git add . && git commit -m "Update Documents"'
-        sh 'git push origin HEAD:master'
       }
     }
     stage('Build') {
