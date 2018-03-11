@@ -16,8 +16,8 @@ pipeline {
         sh 'git submodule update --init --recursive'
         sh 'npm run-script design'
         sh 'npm run-script build-doc'
-        sh 'cd docs && git add . && git commit -m "Update to Documents"'
-        sh 'git push'
+        sh 'cd docs && git add . && git commit'
+        sh 'git push origin HEAD:master'
       }
     }
     stage('Build') {
