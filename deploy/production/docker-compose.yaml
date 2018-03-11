@@ -1,21 +1,47 @@
 version: '3.1'
 
 services:
+  web:
+    image: madajaju/caade-web
+    ports:
+      - "80:1337"
+  build:
+    image: jenkins/jenkins:lts
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+    ports:
+      - "8000:8080"
+      - "50000:50000"
+    volumes:
+      - /mnt/jenkins:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/local/bin:/user/bin
   agent:
-    image: madajaju/jenkins-swarm-node-agent
+    image: madajaju/caade-swarm-node-agent
     deploy:
       mode: global
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/local/bin:/user/bin
       - /tmp:/tmp
     secrets:
       - source: jenkins-v1
         target: jenkins
+  registry:
+    restart: always
+    image: registry:2
+    ports:
+      - 5000:5000
+    volumes:
+      - /mnt/registry:/var/lib/registry
   portainer:
-    image: portainer/portainer
     deploy:
-      constraints:
-        - node.role == manager
+      placement:
+        constraints:
+          - node.role == manager
+    image: portainer/portainer
     ports:
       - "9000:9000"
     volumes:
@@ -26,4 +52,3 @@ services:
 secrets:
   jenkins-v1:
     file: ./jenkins-secret.txt
-
