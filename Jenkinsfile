@@ -3,20 +3,26 @@ pipeline {
     label 'node'
   }
   environment {
-          CAADE_REGISTRY = 'madajaju'
+          CAADE_REGISTRY = 'node0:5000'
   }
   stages {
     stage('Build Docs') {
+      agent {
+        docker { image 'madajaju/caade-doc-node-agent' }
+      }
       steps {
+        sh 'cd docs && git stash'
+        sh 'git pull'
         sh 'git submodule update --init --recursive'
+        sh 'npm run-script design'
         sh 'npm run-script build-doc'
+        sh 'cd docs && git add . && git commit -m "Update Documents"'
       }
     }
     stage('Build') {
       steps {
-        sh 'docker login --username=$DOCKER_USER --password=$DOCKER_PASS'
         sh 'npm run-script build'
-        sh 'npm run-script deploy-apps'
+        sh 'npm run-script publish'
       }
     }
     stage('Test') {
@@ -27,6 +33,11 @@ pipeline {
         sh 'npm run-script deploy-test'
         sh 'npm run-script test'
         sh 'npm run-script teardown-test'
+      }
+      post {
+        always {
+          junit "report.xml"
+        }
       }
     }
     stage('Production') {

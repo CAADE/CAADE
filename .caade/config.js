@@ -1,0 +1,1 @@
+module.exports = { caade: {"environments":{},"active":"local","url":"http://node0"}};
