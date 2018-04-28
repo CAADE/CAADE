@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy/uservices/build/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/build/Dockerfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,8 +64,8 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy/uservices/build/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -206,10 +207,10 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -453,28 +454,7 @@
       <workItem from="1524089743863" duration="615000" />
       <workItem from="1524535188447" duration="3765000" />
       <workItem from="1524910837948" duration="3127000" />
-      <workItem from="1524917950840" duration="4088000" />
-    </task>
-    <task id="LOCAL-00019" summary="Added concept of the ecosystem. Ability to have multiple environments in the ecosystem. Added API, UI and CLI.">
-      <created>1513714152561</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1513714152561</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Added concept of the ecosystem. Ability to have multiple environments in the ecosystem. Added API, UI and CLI.">
-      <created>1518272701461</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1518272701464</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Fix Build scripts.">
-      <created>1518279400351</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1518279400351</updated>
+      <workItem from="1524917950840" duration="5786000" />
     </task>
     <task id="LOCAL-00022" summary="Addition of the DevOps Actor.">
       <created>1518741913572</created>
@@ -798,7 +778,28 @@
       <option name="project" value="LOCAL" />
       <updated>1524940205235</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Build Uservice added. Jenkins with docker">
+      <created>1524940514648</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1524940514648</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Build Uservice added. Jenkins with docker">
+      <created>1524940571597</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1524940571597</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Build Uservice added. Jenkins with docker">
+      <created>1524941004820</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1524941004820</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -834,10 +835,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244798000" />
+    <option name="totallyTimeSpent" value="246496000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" weight="0.5147651" />
@@ -849,9 +850,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287827" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
       <window_info id="npm" order="2" sideWeight="0.5046512" side_tool="true" weight="0.2519001" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.23314066" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.34472933" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.17963752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.2261745" />
       <window_info anchor="bottom" id="Atlassian " order="8" />
       <window_info id="Grunt " order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="8" />
@@ -1204,8 +1205,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy/uservices/build/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
