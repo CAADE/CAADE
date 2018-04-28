@@ -10,6 +10,7 @@ const config = require('./config'); /* Replace this with your own config file. *
 const _ = require('lodash');
 
 let client = new Client();
+program.description(action.description);
 _.each(Object.keys(action.inputs), function(key) {
     if(key != "mode") { // Used to force json output instead of html
         program.option('-' + key[0] + ", --" + key + " <" + action.inputs[key].type + ">", action.inputs[key].description);

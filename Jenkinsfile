@@ -7,16 +7,9 @@ pipeline {
   }
   stages {
     stage('Build Docs') {
-      agent {
-        docker { image 'madajaju/caade-doc-node-agent' }
-      }
       steps {
-        sh 'cd docs && git stash'
-        sh 'git pull'
-        sh 'git submodule update --init --recursive'
-        sh 'npm run-script design'
-        sh 'npm run-script build-doc'
-        sh 'cd docs && git add . && git commit -m "Update Documents"'
+          sh 'git submodule update --init --recursive'
+          sh 'npm run-script build-doc'
       }
     }
     stage('Build') {
