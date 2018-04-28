@@ -6,7 +6,7 @@ services:
     ports:
       - "80:1337"
   build:
-    image: jenkins/jenkins:lts
+    image: madajaju/caade-build
     deploy:
       placement:
         constraints:
