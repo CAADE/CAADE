@@ -33,7 +33,7 @@
     "custom-tests": "JUNIT_REPORT_PATH=./report.xml node ./node_modules/mocha/bin/mocha --reporter mocha-jenkins-reporter test/bootstrap.test.js test/**/*.test.js",
     "build": "npm update && node ./deploy/build build",
     "publish": "node ./deploy/build publish",
-    "build-doc": "gwtc ./docs --title Cloud_Aware_Application_Development_Environment --format all --footer ./design/_footer.html",
+    "build-doc": "/usr/bin/gwtc ./docs --title Cloud_Aware_Application_Development_Environment --format all --footer ./design/_footer.html",
     "debug": "node debug app.js",
     "deploy-apps": "node ./deploy/build deploy",
     "deploy": "npm run-script deploy-apps && docker stack deploy --compose-file=./deploy/docker-compose-dev.yaml caadeDev",

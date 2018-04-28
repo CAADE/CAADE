@@ -12,7 +12,7 @@ pipeline {
       }
       steps {
         sh 'git submodule update --init --recursive'
-        sh 'ls -latr'
+        sh 'ls -latr /usr/bin/gwtc'
         sh 'npm run-script design'
         sh 'npm run-script build-doc'
         sh 'cd docs && git add . && git commit -m "Update Documents"'
