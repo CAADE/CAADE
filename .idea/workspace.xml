@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/deploy/uservices/build/plugins.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sailsrc" beforeDir="false" afterPath="$PROJECT_DIR$/.sailsrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/uservices/build/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/build/Dockerfile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,8 +63,8 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy/uservices/build/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="170">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -177,8 +174,8 @@
         <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/.sailsrc" />
         <option value="$PROJECT_DIR$/deploy/uservices/build/plugins.txt" />
-        <option value="$PROJECT_DIR$/deploy/uservices/build/Dockerfile" />
         <option value="$PROJECT_DIR$/deploy/uservices/build/package.json" />
+        <option value="$PROJECT_DIR$/deploy/uservices/build/Dockerfile" />
       </list>
     </option>
   </component>
@@ -456,14 +453,7 @@
       <workItem from="1524089743863" duration="615000" />
       <workItem from="1524535188447" duration="3765000" />
       <workItem from="1524910837948" duration="3127000" />
-      <workItem from="1524917950840" duration="3801000" />
-    </task>
-    <task id="LOCAL-00018" summary="Added concept of the ecosystem. Ability to have multiple environments in the ecosystem. Added API, UI and CLI.">
-      <created>1513445002428</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1513445002428</updated>
+      <workItem from="1524917950840" duration="4088000" />
     </task>
     <task id="LOCAL-00019" summary="Added concept of the ecosystem. Ability to have multiple environments in the ecosystem. Added API, UI and CLI.">
       <created>1513714152561</created>
@@ -801,7 +791,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524931578172</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Build Uservice added. Jenkins with docker">
+      <created>1524940205235</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1524940205235</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -837,7 +834,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244511000" />
+    <option name="totallyTimeSpent" value="244798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
@@ -852,9 +849,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287827" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
       <window_info id="npm" order="2" sideWeight="0.5046512" side_tool="true" weight="0.2519001" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.23314066" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.23314066" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.17963752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.17963752" />
       <window_info anchor="bottom" id="Atlassian " order="8" />
       <window_info id="Grunt " order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="8" />
@@ -931,7 +928,8 @@
     <MESSAGE value="&#10;Fix Documentation Build problem." />
     <MESSAGE value="Build problem fixed." />
     <MESSAGE value="Changing to docker docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing to docker docs" />
+    <MESSAGE value="Build Uservice added. Jenkins with docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build Uservice added. Jenkins with docker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1206,8 +1204,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy/uservices/build/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="170">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
