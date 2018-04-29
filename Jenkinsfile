@@ -14,7 +14,7 @@ pipeline {
         sh 'git submodule update --init --recursive'
         sh 'ls -latr docs'
         sh 'npm run-script design'
-        sh 'npm run-script build-doc'
+        sh '/usr/bin/gwtc ./docs --title Cloud_Aware_Application_Development_Environment --format all --footer ./design/_footer.html'
         sh 'cd docs && git add . && git commit -m "Update Documents"'
       }
     }
