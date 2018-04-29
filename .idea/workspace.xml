@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="" />
+    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="289">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -39,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entrypoint.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="entrypoint.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/uservices/doc-node-agent/entrypoint.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -171,8 +173,8 @@
         <option value="$PROJECT_DIR$/deploy/uservices/build/Dockerfile" />
         <option value="$PROJECT_DIR$/deploy/docker-compose-prod.yaml" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/deploy/uservices/doc-node-agent/entrypoint.sh" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
   </component>
@@ -228,19 +230,6 @@
               <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
               <item name="CAADE" type="462c0819:PsiDirectoryNode" />
               <item name="deploy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CAADE" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
-              <item name="uservices" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CAADE" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
-              <item name="uservices" type="462c0819:PsiDirectoryNode" />
-              <item name="doc-node-agent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -554,14 +543,7 @@
       <workItem from="1524089743863" duration="615000" />
       <workItem from="1524535188447" duration="3765000" />
       <workItem from="1524910837948" duration="3127000" />
-      <workItem from="1524917950840" duration="13246000" />
-    </task>
-    <task id="LOCAL-00035" summary="Moving design to docs for read the docs">
-      <created>1520658582321</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1520658582321</updated>
+      <workItem from="1524917950840" duration="13533000" />
     </task>
     <task id="LOCAL-00036" summary="Moving design to docs for read the docs">
       <created>1520661548022</created>
@@ -899,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524960962019</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Build Uservice added. Jenkins with docker">
+      <created>1524961336090</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1524961336090</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -935,7 +924,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253956000" />
+    <option name="totallyTimeSpent" value="254243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -950,9 +939,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32763532" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
       <window_info id="npm" order="2" sideWeight="0.5046512" side_tool="true" weight="0.2519001" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.34472933" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.34472933" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.2261745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.2261745" />
       <window_info anchor="bottom" id="Atlassian " order="8" />
       <window_info id="Grunt " order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="8" />
@@ -1303,13 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy/uservices/doc-node-agent/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1331,6 +1313,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
