@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="" />
+    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="Move docs to its own directory for readthedocs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,21 +81,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="17">
+                <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deploy/uservices/doc-node-agent/Dockerfile">
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/index.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -145,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api/controllers/ecosystem/init.js" />
         <option value="$PROJECT_DIR$/design/Solution/Solution-Centos.md" />
         <option value="$PROJECT_DIR$/bin/caade-env" />
         <option value="$PROJECT_DIR$/.caade/active.js" />
@@ -196,6 +199,7 @@
         <option value="$PROJECT_DIR$/docs/Actors/Actors.md" />
         <option value="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.md" />
         <option value="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.md" />
+        <option value="$PROJECT_DIR$/docs/index.rst" />
       </list>
     </option>
   </component>
@@ -251,6 +255,18 @@
               <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
               <item name="CAADE" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAADE" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Actors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAADE" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Solution" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -564,21 +580,7 @@
       <workItem from="1524089743863" duration="615000" />
       <workItem from="1524535188447" duration="3765000" />
       <workItem from="1524910837948" duration="3127000" />
-      <workItem from="1524917950840" duration="15995000" />
-    </task>
-    <task id="LOCAL-00043" summary="Moving design to docs for read the docs">
-      <created>1520696752590</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1520696752590</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Moving design to docs for read the docs">
-      <created>1520696830587</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1520696830587</updated>
+      <workItem from="1524917950840" duration="17587000" />
     </task>
     <task id="LOCAL-00045" summary="Moving design to docs for read the docs">
       <created>1520697560469</created>
@@ -909,7 +911,21 @@
       <option name="project" value="LOCAL" />
       <updated>1525064834612</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Move docs to its own directory for readthedocs">
+      <created>1525065181101</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1525065181101</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Move docs to its own directory for readthedocs">
+      <created>1525065288252</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1525065288252</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -945,7 +961,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256705000" />
+    <option name="totallyTimeSpent" value="258297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1059,13 +1075,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/caade-ecosystem-get">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1128,7 +1137,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.rst" />
+    <entry file="file://$PROJECT_DIR$/docs/index.md" />
     <entry file="file://$PROJECT_DIR$/docs/_Sidebar.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1355,8 +1364,17 @@
     <entry file="file://$PROJECT_DIR$/docs/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>

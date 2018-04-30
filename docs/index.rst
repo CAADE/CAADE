@@ -2,6 +2,9 @@
    :maxdepth: 3
 
    Home
-   Actors/*
-   Solution/*
-   UseCases/*
+   Actors/Actors
+   Actors/*/*
+   Solution/Solution
+   Solution/*/*
+   UseCases/UseCases
+   UseCases/*/*
