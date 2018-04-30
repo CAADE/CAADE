@@ -4,4 +4,5 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 
+master_doc = 'index'
 source_suffix = ['.rst', '.md']
