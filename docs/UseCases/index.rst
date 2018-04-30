@@ -7,6 +7,6 @@ These are the high level usecases for the CAADE Solution
   :maxdepth: 2
   :glob:
 
-    */*.md
+    **.md
 
 .. image:: UseCases.png
