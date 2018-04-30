@@ -12,4 +12,5 @@ Cloud Aware Application Development Environment
    :caption: Actors
 
    Actors/Actors.md
-   Actors/*/*.md
+   Actors/Developer/Actor-Developer.md
+   Actors/DevOps/Actor-DevOps.md
