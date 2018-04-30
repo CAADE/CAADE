@@ -1,10 +1,7 @@
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
-   Home
-   Actors/Actors
-   Actors/*/*
-   Solution/Solution
-   Solution/*/*
-   UseCases/UseCases
-   UseCases/*/*
+   Home.md
+   Actors/Actors.md
+   Solution/Solution.md
+   UseCases/UseCases.md
