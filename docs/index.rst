@@ -19,4 +19,4 @@ Cloud Aware Application Development Environment
    :maxdepth: 1
    :caption: Use Cases
 
-   UseCases/UseCases.md
+   UseCases/index
