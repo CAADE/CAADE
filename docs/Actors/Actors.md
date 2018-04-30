@@ -1,5 +1,5 @@
 ### Actors
-* [Developer](Developer/Actor-Developer)
-* [DevOps](DevOps/Actor-DevOps)
+* [Developer](Developer/Actor-Developer.md)
+* [DevOps](DevOps/Actor-DevOps.md)
 
 ![Image](/UseCases/UseCases.png)
