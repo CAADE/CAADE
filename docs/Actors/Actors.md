@@ -2,4 +2,4 @@
 * [Developer](Actor-Developer)
 * [DevOps](Actor-DevOps)
 
-![Image](UseCases/UseCases.png)
+![Image](/UseCases/UseCases.png)

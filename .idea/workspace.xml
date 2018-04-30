@@ -1,209 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/Actors.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/DevOps/Activity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/DevOps/Activity.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/DevOps/Actor-DevOps.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/DevOps/UseCases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/DevOps/UseCases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/DevOps/Workflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/DevOps/Workflow.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/Developer/Activity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/Developer/Activity.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/Developer/Actor-Developer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/Developer/UseCases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/Developer/UseCases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/Developer/Workflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Actors/Developer/Workflow.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Architecture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Architecture.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Architecture.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Default Development Cycle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Default Development Cycle.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Default Development Cycle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Downloads.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Home.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/Deployment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/Deployment.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/Logical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/Logical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/Physical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/Physical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/Process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/Process.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/SubSystem-CICD.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/UseCases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/UseCases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/UserInteraction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/CICD/UserInteraction.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Deployment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Deployment.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/Deployment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/Deployment.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/Logical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/Logical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/Physical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/Physical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/Process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/Process.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/SubSystem-DevCloud.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/UseCases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/UseCases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/UserInteraction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/DevCloud/UserInteraction.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Deployment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Deployment.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Logical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Logical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Physical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Physical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Process.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/SubSystem-LocalCloud.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/UseCases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/UseCases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/UserInteraction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/LocalCloud/UserInteraction.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Logical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Logical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Physical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Physical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Process.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Deployment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Deployment.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Logical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Logical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Physical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Physical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Process.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/SubSystem-ProductionCloud.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/UseCases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/UseCases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/UserInteraction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/UserInteraction.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/Deployment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/Deployment.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/Logical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/Logical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/Physical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/Physical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/Process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/Process.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/SubSystem-Registry.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/UseCases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/UseCases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/UserInteraction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Registry/UserInteraction.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/Deployment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/Deployment.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/Logical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/Logical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/Physical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/Physical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/Process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/Process.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/SubSystem-SCM.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/UseCases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/UseCases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/UserInteraction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/SCM/UserInteraction.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Solution-Centos.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/Solution.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/Deployment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/Deployment.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/Logical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/Logical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/Physical.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/Physical.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/Process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/Process.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/SubSystem-TestCloud.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/UseCases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/UseCases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/UserInteraction.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/Solution/TestCloud/UserInteraction.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Automate-Code-Pipeline/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Automate-Code-Pipeline/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Automate-Code-Pipeline/UseCase-Automate-Code-Pipeline.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Code/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Code/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Code/UseCase-Build-Code.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Agents.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Agents.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Pipeline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Pipeline.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Stages.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Stages.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Run-Build.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Run-Build.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Scenario-Define-Agents.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Scenario-Define-Pipeline.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Scenario-Define-Stages.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Scenario-Run-Build.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Build-Project/UseCase-Build-Project.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-Application/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-Application/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-Application/UseCase-Create-Application.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-Build-Environment/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-Build-Environment/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-Build-Environment/UseCase-Create-Build-Environment.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-MicroService/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-MicroService/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-MicroService/UseCase-Create-MicroService.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-Project/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-Project/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Create-Project/UseCase-Create-Project.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Debug-Application/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Debug-Application/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Debug-Application/UseCase-Debug-Application.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Debug-MicroService/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Debug-MicroService/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Debug-MicroService/UseCase-Debug-MicroService.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Deploy-Application/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Deploy-Application/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Deploy-Application/UseCase-Deploy-Application.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Deploy-MicroService/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Deploy-MicroService/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Deploy-MicroService/UseCase-Deploy-MicroService.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Modify-Code/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Modify-Code/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Modify-Code/UseCase-Modify-Code.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Monitor-Builds/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Monitor-Builds/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Monitor-Builds/UseCase-Monitor-Builds.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Publish-Application/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Publish-Application/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Publish-Application/UseCase-Publish-Application.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Publish-MicroService/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Publish-MicroService/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Publish-MicroService/UseCase-Publish-MicroService.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Set-up-Project-Code-Pipeline/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Set-up-Project-Code-Pipeline/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Set-up-Project-Code-Pipeline/UseCase-Set-up-Project-Code-Pipeline.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Test-Application/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Test-Application/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Test-Application/UseCase-Test-Application.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Test-MicroService/Activities.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Test-MicroService/Activities.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/Test-MicroService/UseCase-Test-MicroService.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/UseCases.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/UseCases.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/UseCases/UseCases.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/_Sidebar.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/_Toc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/doc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/documentation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/documentation.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs2/plantuml.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs" beforeDir="false" />
+    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="Move docs to its own directory for readthedocs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/Actors.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Actors.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/DevOps/Activity.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/Activity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/DevOps/Activity.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/Activity.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/DevOps/Actor-DevOps.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/DevOps/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/DevOps/UseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/UseCases.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/DevOps/Workflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/Workflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/DevOps/Workflow.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/Workflow.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/Developer/Activity.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/Activity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/Developer/Activity.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/Activity.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/Developer/Actor-Developer.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/Developer/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/Developer/UseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/UseCases.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/Developer/Workflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/Workflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Actors/Developer/Workflow.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/Workflow.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Architecture.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Architecture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Architecture.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Architecture.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Architecture.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Architecture.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Default Development Cycle.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Default Development Cycle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Default Development Cycle.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Default Development Cycle.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Default Development Cycle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Default Development Cycle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Downloads.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Downloads.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Home.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Home.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/Deployment.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Deployment.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/Logical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Logical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/Physical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Physical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/Process.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Process.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/SubSystem-CICD.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/SubSystem-CICD.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/UseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/UseCases.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/CICD/UserInteraction.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/UserInteraction.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Deployment.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Deployment.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/Deployment.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Deployment.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/Logical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Logical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/Physical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Physical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/Process.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Process.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/SubSystem-DevCloud.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/SubSystem-DevCloud.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/UseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/UseCases.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/DevCloud/UserInteraction.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/UserInteraction.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Deployment.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Deployment.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Logical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Logical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Physical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Physical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/Process.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Process.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/SubSystem-LocalCloud.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/SubSystem-LocalCloud.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/UseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/UseCases.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/LocalCloud/UserInteraction.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/UserInteraction.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Logical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Logical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Physical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Physical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Process.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Process.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Deployment.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Deployment.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Logical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Logical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Physical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Physical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/Process.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Process.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/SubSystem-ProductionCloud.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/SubSystem-ProductionCloud.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/UseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/UseCases.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/ProductionCloud/UserInteraction.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/UserInteraction.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/Deployment.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Deployment.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/Logical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Logical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/Physical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Physical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/Process.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Process.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/SubSystem-Registry.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/SubSystem-Registry.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/UseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/UseCases.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Registry/UserInteraction.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/UserInteraction.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/Deployment.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Deployment.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/Logical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Logical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/Physical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Physical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/Process.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Process.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/SubSystem-SCM.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/SubSystem-SCM.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/UseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/UseCases.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/SCM/UserInteraction.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/UserInteraction.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Solution-Centos.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Solution-Centos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/Solution.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Solution.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/Deployment.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Deployment.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/Logical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Logical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/Physical.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Physical.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/Process.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Process.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/SubSystem-TestCloud.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/SubSystem-TestCloud.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/UseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/UseCases.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/Solution/TestCloud/UserInteraction.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/UserInteraction.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Automate-Code-Pipeline/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Automate-Code-Pipeline/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Automate-Code-Pipeline/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Automate-Code-Pipeline/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Automate-Code-Pipeline/UseCase-Automate-Code-Pipeline.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Automate-Code-Pipeline/UseCase-Automate-Code-Pipeline.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Code/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Code/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Code/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Code/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Code/UseCase-Build-Code.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Code/UseCase-Build-Code.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Agents.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Agents.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Agents.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Agents.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Pipeline.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Pipeline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Pipeline.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Pipeline.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Stages.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Stages.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Define-Stages.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Stages.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Run-Build.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Run-Build.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Run-Build.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Run-Build.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Scenario-Define-Agents.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Scenario-Define-Agents.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Scenario-Define-Pipeline.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Scenario-Define-Pipeline.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Scenario-Define-Stages.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Scenario-Define-Stages.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/Scenario-Run-Build.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Scenario-Run-Build.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Build-Project/UseCase-Build-Project.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/UseCase-Build-Project.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-Application/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Application/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-Application/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Application/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-Application/UseCase-Create-Application.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Application/UseCase-Create-Application.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-Build-Environment/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Build-Environment/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-Build-Environment/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Build-Environment/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-Build-Environment/UseCase-Create-Build-Environment.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Build-Environment/UseCase-Create-Build-Environment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-MicroService/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-MicroService/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-MicroService/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-MicroService/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-MicroService/UseCase-Create-MicroService.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-MicroService/UseCase-Create-MicroService.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-Project/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Project/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-Project/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Project/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Create-Project/UseCase-Create-Project.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Project/UseCase-Create-Project.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Debug-Application/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Debug-Application/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Debug-Application/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Debug-Application/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Debug-Application/UseCase-Debug-Application.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Debug-Application/UseCase-Debug-Application.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Debug-MicroService/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Debug-MicroService/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Debug-MicroService/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Debug-MicroService/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Debug-MicroService/UseCase-Debug-MicroService.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Debug-MicroService/UseCase-Debug-MicroService.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Deploy-Application/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Deploy-Application/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Deploy-Application/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Deploy-Application/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Deploy-Application/UseCase-Deploy-Application.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Deploy-Application/UseCase-Deploy-Application.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Deploy-MicroService/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Deploy-MicroService/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Deploy-MicroService/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Deploy-MicroService/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Deploy-MicroService/UseCase-Deploy-MicroService.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Deploy-MicroService/UseCase-Deploy-MicroService.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Modify-Code/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Modify-Code/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Modify-Code/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Modify-Code/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Modify-Code/UseCase-Modify-Code.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Modify-Code/UseCase-Modify-Code.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Monitor-Builds/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Monitor-Builds/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Monitor-Builds/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Monitor-Builds/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Monitor-Builds/UseCase-Monitor-Builds.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Monitor-Builds/UseCase-Monitor-Builds.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Publish-Application/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Publish-Application/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Publish-Application/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Publish-Application/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Publish-Application/UseCase-Publish-Application.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Publish-Application/UseCase-Publish-Application.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Publish-MicroService/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Publish-MicroService/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Publish-MicroService/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Publish-MicroService/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Publish-MicroService/UseCase-Publish-MicroService.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Publish-MicroService/UseCase-Publish-MicroService.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Set-up-Project-Code-Pipeline/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Set-up-Project-Code-Pipeline/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Set-up-Project-Code-Pipeline/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Set-up-Project-Code-Pipeline/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Set-up-Project-Code-Pipeline/UseCase-Set-up-Project-Code-Pipeline.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Set-up-Project-Code-Pipeline/UseCase-Set-up-Project-Code-Pipeline.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Test-Application/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Test-Application/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Test-Application/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Test-Application/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Test-Application/UseCase-Test-Application.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Test-Application/UseCase-Test-Application.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Test-MicroService/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Test-MicroService/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Test-MicroService/Activities.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Test-MicroService/Activities.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/Test-MicroService/UseCase-Test-MicroService.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Test-MicroService/UseCase-Test-MicroService.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/UseCases.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/UseCases.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/UseCases/UseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/UseCases.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/_Sidebar.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_Sidebar.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/_Toc.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_Toc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/doc.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/doc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/documentation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/documentation.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs2/plantuml.jar" beforeDir="false" afterPath="$PROJECT_DIR$/docs/plantuml.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -215,11 +215,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="340">
+                <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -417,6 +429,11 @@
             <path>
               <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
               <item name="CAADE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAADE" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -730,21 +747,7 @@
       <workItem from="1524089743863" duration="615000" />
       <workItem from="1524535188447" duration="3765000" />
       <workItem from="1524910837948" duration="3127000" />
-      <workItem from="1524917950840" duration="15143000" />
-    </task>
-    <task id="LOCAL-00040" summary="Moving design to docs for read the docs">
-      <created>1520694311149</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1520694311149</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Moving design to docs for read the docs">
-      <created>1520694870968</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1520694870968</updated>
+      <workItem from="1524917950840" duration="15632000" />
     </task>
     <task id="LOCAL-00042" summary="Moving design to docs for read the docs">
       <created>1520696612671</created>
@@ -1075,7 +1078,21 @@
       <option name="project" value="LOCAL" />
       <updated>1525063770148</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Move docs to its own directory for readthedocs">
+      <created>1525064316860</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1525064316860</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Move docs to its own directory for readthedocs">
+      <created>1525064368452</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1525064368452</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1111,10 +1128,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255853000" />
+    <option name="totallyTimeSpent" value="256342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" weight="0.5147651" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1125,9 +1143,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32763532" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
       <window_info id="npm" order="2" sideWeight="0.5046512" side_tool="true" weight="0.2519001" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.34472933" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.34472933" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.2261745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.2261745" />
       <window_info anchor="bottom" id="Atlassian " order="8" />
       <window_info id="Grunt " order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="8" />
@@ -1205,7 +1223,8 @@
     <MESSAGE value="Build problem fixed." />
     <MESSAGE value="Changing to docker docs" />
     <MESSAGE value="Build Uservice added. Jenkins with docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Build Uservice added. Jenkins with docker" />
+    <MESSAGE value="Move docs to its own directory for readthedocs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move docs to its own directory for readthedocs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1502,18 +1521,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

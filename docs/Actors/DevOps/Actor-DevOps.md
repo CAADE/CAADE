@@ -1,23 +1,23 @@
-# Developer
+# DevOps
 _Description_
 
 ## Use Cases
 
 * _UseCases_
 
-![Image](./Actors/Developer/UseCases.png)
+![Image](UseCases.png)
 
 ## Activities
 
 _description_
 
-![Image](./Actors/Developer/Activity.png)
+![Image](Activity.png)
 
 ## Workflow
 
 _description_
 
-![Image](./Actors/Developer/Workflow.png)
+![Image](Workflow.png)
 
 ## User Interface
 
