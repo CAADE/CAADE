@@ -1,0 +1,36 @@
+@startuml
+|developer|
+start
+|#ffffaa|local|
+        :create project;
+        repeat
+        :commit code;
+|#aaffaa|dev|
+        :integrate code;
+        :build application;
+        if(build status) then (failed)
+            :debug application;
+            detach
+        endif
+|#ffaaaa|test|
+        :run unit tests;
+        :run integration tests;
+        if(test results?) then (failed)
+            :debug application;
+        endif
+        repeat while(bugs found)
+        :publish application;
+|#aaffff|production|
+        if(application deployed) then (not)
+            :deploy application;
+        else
+            :update application;
+        endif
+        :start application;
+        repeat
+        :monitor application;
+        if(SLA) then (not met)
+            :scale application;
+        endif
+        repeat while(application alive)
+@enduml

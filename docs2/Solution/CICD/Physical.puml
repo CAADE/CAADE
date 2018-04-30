@@ -1,0 +1,29 @@
+@startuml
+
+cloud CAADE {
+    component CICD
+    component BuildAgent
+    2347 - BuildAgent
+}
+
+cloud dev {
+    component BuildAgent.Dev
+    2346 - BuildAgent.Dev
+}
+
+cloud test {
+    component BuildAgent.Test
+    2345 - BuildAgent.Test
+}
+cloud production {
+    component BuildAgent.Prod
+    2344 - BuildAgent.Prod
+}
+CICD - 2347
+2347 <- BuildAgent.Dev
+2347 <- BuildAgent.Test
+2347 <- BuildAgent.Prod
+CICD --> 2346
+CICD --> 2345
+CICD --> 2344
+@enduml

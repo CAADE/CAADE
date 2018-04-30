@@ -1,0 +1,9 @@
+@startuml
+|Developer|
+start
+|#ffffaa|caade|
+:Create Application;
+|Common Cloud Core|
+:Create Application;
+stop
+@enduml

@@ -1,0 +1,36 @@
+@startuml
+
+package "CICD" {
+  interface "CICD" {
+  }
+  class Project {
+  }
+  class Pipeline {
+  }
+  class Stage {
+  }
+  class Build {
+  }
+  class Agent {
+  }
+}
+
+package "DevCloud" { }
+package "TestCloud" { }
+package "ProductionCloud" { }
+
+Project *- Pipeline
+Project *- Build
+Pipeline *- Stage
+Build o- Agent: runs on
+Stage o- Agent: selects
+Stage *-- Build: defines
+Agent --> DevCloud: runs on
+Agent --> TestCloud: runs on
+Agent --> ProductionCloud: runs on
+
+CLI ()-- "CICD"
+REST ()-- "CICD"
+Portal ()-- "CICD"
+
+@enduml

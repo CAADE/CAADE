@@ -1,0 +1,13 @@
+@startuml
+
+package "DevCloud" {
+  interface "DevCloud" {
+  }
+}
+
+CLI ()-- "DevCloud"
+"REST API" ()-- "DevCloud"
+"Web Portal" ()-- "DevCloud"
+
+
+@enduml

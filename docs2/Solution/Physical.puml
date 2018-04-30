@@ -1,0 +1,66 @@
+@startuml
+
+node switch
+folder "glusterfs:gvol1" as gv1 #aaffff {
+        folder "build_home"
+        folder "registry_home"
+        folder "portal_home"
+}
+folder "glusterfs:gvol2" #aaffff {
+        folder "build_home"
+        folder "registry_home"
+        folder "portal_home"
+}
+node node0 {
+    component salt_master
+    component docker_master
+    folder "svr/salt"
+    folder "mnt"
+}
+node node1 {
+    component "salt_minion "
+    component "docker_worker "
+    component "gluster_server "
+    folder "mnt "
+    database "vol1 " #aaffff
+    database "vol2 " #aaffaa
+}
+node node2 {
+    component " salt_minion "
+    component " docker_worker "
+    component " gluster_server "
+    folder " mnt "
+    database " vol1 " #aaffff
+    database " vol2 " #aaffaa
+}
+node node3 {
+    component " salt_minion  "
+    component " docker_worker  "
+    component " gluster_server  "
+    folder " mnt  "
+    database " vol1  " #aaffff
+    database " vol2  " #aaffaa
+}
+node node4 {
+    component "  salt_minion  "
+    component "  docker_worker  "
+    component "  gluster_server  "
+    folder "  mnt  "
+    database "  vol1  " #aaffff
+    database "  vol2  " #aaffaa
+}
+
+switch === node0 : 172.16.0.100
+switch === node1 : 172.16.0.101
+switch === node2 : 172.16.0.102
+switch === node3 : 172.16.0.103
+switch === node4 : 172.16.0.104
+
+gv1 . mnt
+gv1 . (mnt )
+gv1 . ( mnt )
+gv1 . ( mnt  )
+gv1 . (  mnt  )
+
+
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+|Developer|
+start
+|#ffffaa|caade|
+:Modify Code;
+:Checkin Code;
+:Build Project;
+stop
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+
+partition CAADE  #cccccc {
+  (*) --> "Create Project"
+  --> "Write Code"
+}
+
+partition "CICD" #aaffaa {
+  "Write Code" --> "Define Pipeline"
+  "Define Pipeline" --> "Define Agents"
+  "Define Agents" --> "Build Code"
+  "Build Code" --> "Test Code"
+  "Test Code" --> "Deploy Code"
+  "Deploy Code" --> (*)
+}
+
+@enduml

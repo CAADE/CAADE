@@ -1,0 +1,9 @@
+@startuml
+actor User
+
+User -> "CICD": Define Pipeline
+User -> "CICD": Define Agent
+User -> "CICD": Run Build
+User -> "CICD": Debug Build
+
+@enduml

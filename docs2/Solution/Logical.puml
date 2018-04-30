@@ -1,0 +1,38 @@
+@startuml
+
+skinparam packageStyle rect
+skinparam handwritten true
+
+package caade #dddddd {
+    package Portal #FFc584 { }
+    package "CICD" #aaffff { }
+    package "Storage" #ffffaa { }
+    package "Registry" #aaffaa { }
+    package "SCM" #aaffff { }
+    package "Cloud" #ffffff {
+        package "Local Cloud" #ffaaaa { }
+        package "Dev Cloud" #ffaaaa { }
+        package "Test Cloud" #ffaaaa { }
+        package "Production Cloud" #ffaaaa { }
+    }
+}
+
+CICD - SCM
+Portal - CICD
+Portal - Registry
+Portal - Cloud
+
+CICD -> Registry
+"Local Cloud" --> Registry
+"Dev Cloud" --> Registry
+"Test Cloud" --> Registry
+"Production Cloud" --> Registry
+Registry -- Storage
+CICD -- Storage
+CICD .. "Local Cloud"
+CICD .. "Dev Cloud"
+CICD .. "Test Cloud"
+CICD .. "Production Cloud"
+
+@enduml
+

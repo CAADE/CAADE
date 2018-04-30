@@ -1,0 +1,14 @@
+@startuml
+
+package "SCM" {
+    interface "SCM" {
+
+    }
+    CLI ()-- "SCM"
+    REST ()-- "SCM"
+    Web ()-- "SCM"
+
+}
+
+
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+
+package "ProductionCloud" {
+  interface "ProductionCloud" {
+  }
+}
+
+CLI ()-- "ProductionCloud"
+"REST API" ()-- "ProductionCloud"
+"Web Portal" ()-- "ProductionCloud"
+
+
+@enduml

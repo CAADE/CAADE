@@ -1,0 +1,9 @@
+@startuml
+|Developer|
+start
+|#ffffaa|caade|
+:Debug MicroService;
+|#aaffff|Common Cloud Core|
+:Debug Service;
+stop
+@enduml

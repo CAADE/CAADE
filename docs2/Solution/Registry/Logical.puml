@@ -1,0 +1,13 @@
+@startuml
+
+package "Registry" {
+  interface "Registry" {
+  }
+}
+
+CLI ()-- "Registry"
+"REST API" ()-- "Registry"
+"Web Portal" ()-- "Registry"
+
+
+@enduml

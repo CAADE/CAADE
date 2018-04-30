@@ -1,0 +1,9 @@
+@startuml
+|Developer|
+start
+|#ffffaa|caade|
+:Publish Application;
+|#aaffff|Registry|
+:Publish Application;
+stop
+@enduml

@@ -1,0 +1,9 @@
+@startuml
+|Developer|
+start
+|#ffffaa|caade|
+:Create Project;
+|#aaffff|Common Cloud Core|
+:Create Project;
+stop
+@enduml

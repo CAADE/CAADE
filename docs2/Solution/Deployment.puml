@@ -1,0 +1,57 @@
+@startuml
+
+package caade #dddddd {
+    interface WebUI
+    interface REST
+    interface CLI
+    component Portal
+    component CICD #ffffaa {
+        component master
+    }
+    component Registry
+    storage Storage <<Global>> #ffffaa {
+        database build_home #aaffaa
+        database registry_home #aaffaa
+        database portal_home #aaffaa
+    }
+}
+
+rectangle Ports {
+    9000 . WebUI
+    5055 . REST
+    50000 . CICD
+    8000 . CICD
+    5000 . Registry
+}
+
+Ports .. caade
+cloud {
+    component GitHub
+}
+
+node Local
+
+cloud Dev {
+    component build_agent_dev
+}
+cloud Test {
+    component build_agent_test
+}
+cloud Production {
+    component build_agent_prod
+}
+
+WebUI -- Portal
+REST -- Portal
+CLI -- Portal
+Portal - portal_home
+Registry -- registry_home
+master -- build_home
+master -- build_agent_dev
+master -- build_agent_test
+master -- build_agent_prod
+master <-- GitHub
+Portal -- CICD
+Portal -- Registry
+Local --> GitHub
+@enduml

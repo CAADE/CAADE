@@ -1,0 +1,13 @@
+@startuml
+
+package "LocalCloud" {
+  interface "LocalCloud" {
+  }
+}
+
+CLI ()-- "LocalCloud"
+"REST API" ()-- "LocalCloud"
+"Web Portal" ()-- "LocalCloud"
+
+
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+
+left to right direction
+
+skinparam usecase {
+  BackgroudnColor #ffffaa
+  BackgroundColor<<Main>> #aaffff
+}
+actor :Developer: as Dev
+actor :SCM:
+
+
+rectangle "CICD" #aaffaa {
+UseCase UC1 as "Test Application"
+UseCase UC2 as "Test MicroService"
+UseCase UC3 as "Build Project"
+UseCase UC4 as "Define Pipeline"
+
+
+Dev --> UC1
+Dev --> UC2
+Dev --> UC3
+Dev --> UC4
+UC3 --> SCM
+}
+
+@enduml

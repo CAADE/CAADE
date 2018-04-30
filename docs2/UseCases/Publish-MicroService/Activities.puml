@@ -1,0 +1,9 @@
+@startuml
+|Developer|
+start
+|#ffffaa|caade|
+:Publish MicroService;
+|#aaffff|Registry|
+:Publish Service;
+stop
+@enduml
