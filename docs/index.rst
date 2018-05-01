@@ -8,13 +8,13 @@ Cloud Aware Application Development Environment
    Home.md
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Actors
 
    Actors/index
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Use Cases
 
    UseCases/index
