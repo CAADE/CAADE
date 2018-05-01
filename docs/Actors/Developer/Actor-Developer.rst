@@ -1,6 +1,8 @@
 Developer
 =========
-_Description_
+
+'Actor-DevOps'_ is another actor.
+:ref:`Actor-DevOps' is another actor.
 
 Use Cases
 ---------

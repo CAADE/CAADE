@@ -1,81 +1,75 @@
+CAADE Solution
+==============
 This solution is a Docker solution of the CAADE Architecture.
 It utilizes Docker Swarm, Jenkins, Salt Stack and GlusterFS. It is a simple
 example of the concepts of the CAADE architecture running on a small scale.
 
-## [Users](Actors)
+Actors
+------
+.. toctree::
+   :maxdepth: 1
+   :caption: Users
 
- * [Developer](Actor-Developer)
- * [DevOps](Actor-DevOps)
+   **/Actor*
 
-## High level Use Cases
 
- * [Create Application](UseCase-Create-Application)
- * [Create MicroService](UseCase-Create-MicroService)
- * [Create Project](UseCase-Create-Project)
- * [Debug Application](UseCase-Debug-Application)
- * [Debug MicroService](UseCase-Debug-MicroService)
- * [Deploy Application](UseCase-Deploy-Application)
- * [Deploy MicroService](UseCase-Deploy-MicroService)
- * [Modify Code](UseCase-Modify-Code)
- * [Publish Application](UseCase-Publish-Application)
- * [Publish MicroService](UseCase-Publish-MicroService)
- * [Test Application](UseCase-Test-Application)
- * [Test MicroService](UseCase-Test-MicroService)
+High level Use Cases
+--------------------
+.. toctree::
+   :maxdepth: 1
+   :caption: Use Cases
 
-![Image](./UseCases/UseCases.png)
+   **/UseCase*
 
-## Logical Architecture
+.. image:: UseCases/UseCases.png
 
-Developers need to focus on the developement of applications. When code is modified and checked into
-a code repository like github. A CI/CD system will automatically build, test and deploy the application,
+Logical Architecture
+--------------------
+:ref:'Actor-Developer' need to focus on the development of applications. When code is modified and checked into
+a code repository like github. A :ref:'SubSystem-CICD' system will automatically build, test and deploy the application,
 microservice or project. Multiple environments that have been created in the Common Cloud Core will
-be used by CAADE and the CI/CD to promote applications across the different environments.
+be used by CAADE and the :ref:'SubSystem-CICD' to promote applications across the different environments.
 
-![Image](./Architecture.png)
+.. image:: Architecture.png
 
-* [Common Cloud Core](https://github.com/CAADE/C3/wiki) - External
-* [CI/CD](SubSystem-CICD)
-* [DevCloud](SubSystem-DevCloud)
-* [LocalCloud](SubSystem-LocalCloud)
-* [ProductionCloud](SubSystem-ProductionCloud)
-* [Registry](SubSystem-Registry)
-* [SCM](SubSystem-SCM)
-* [Test Cloud](SubSystem-TestCloud)
-
-## Process Architecture
+Process Architecture
+--------------------
 This diagram shows how a developer interacts with CAADE to develop, test, and deploy 
 cloud aware applications.
 
-![Image](./Solution/Process.png)
+.. image:: Solution/Process.png
 
-## Deployment model
-
-CAADE is made up a of a set of services and microservices to deliver capabilities to the Developer.
+Deployment model
+----------------
+CAADE is made up a of a set of services and micro-services to deliver capabilities to the :ref:'Actor-Developer'.
 The Service architect shown in the deployment model is an example of an implementation of a
 CAADE architecture.
 
+.. image:: Solution/Deployment.png
 
-![Image](./Solution/Deployment.png)
-
-## Physical Architecture
-
+Physical Architecture
+---------------------
 The physical architecture of CAADE is an example of a minimal hardware configuration that
 CAADE can be deployed.
 
-![Image](./Solution/Physical.png)
+.. image:: Solution/Physical.png
 
-## Deployment_
-This is a Reference Architecture for the CAADE solution using Salt, Docker, Jenkins, and Gluster
-### Salt Stack
-#### Install Salt Master on Node 0
-```
+Deployment
+----------
+This is a Reference Architecture for the CAADE solution using Salt, Docker, Jenkins, and Gluster.
+
+Salt Stack
+~~~~~~~~~~
+**Install Salt Master on Node 0**
+.. highlight:: shell
+
 node0# sudo apt-get install salt-api
 node0# sudo apt-get install salt-master
 node0# sudo apt-get install salt-minion
-```
+
 Now that you have salt installed on node0 (master node).
 Go to the master configuration file /etc/salt/master and add these lines.
-```
+.. highlight:: shell
 file_roots:
    base:
      - /srv/salt/
@@ -83,7 +77,7 @@ file_roots:
 pillar_roots:
   base:
     - /srv/pillar
-```
+
 There should be several things that are in the /etc/salt/master file commented out.
 
 Get the fingerprint of the master node
