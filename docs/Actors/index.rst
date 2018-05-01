@@ -7,4 +7,4 @@ These are the Actors of the CAADE System.
    :glob:
    :maxdepth: 1
 
-   */*.rst
+   */*
