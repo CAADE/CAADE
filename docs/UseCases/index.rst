@@ -2,12 +2,16 @@ Use Cases for CAADE
 ===================
 
 These are the high level usecases for the CAADE Solution
-Try 3
+Try 4
 
 .. toctree::
-  :maxdepth: 2
   :glob:
+  :maxdepth: 2
 
-    **.md
+  Automate-Code-Pipeline/*.md
+  Build-Code/*.md
+  Build-Project/*.md
+  Create-Application/*.md
+  **.md
 
 .. image:: UseCases.png
