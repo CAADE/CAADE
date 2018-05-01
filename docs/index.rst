@@ -11,9 +11,9 @@ Cloud Aware Application Development Environment
    :maxdepth: 1
    :caption: Actors
 
-   Actors/Actors.md
-   Actors/Developer/Actor-Developer
-   Actors/DevOps/Actor-DevOps
+   Actors/*
+   Actors/Developer/Actor-Developer.md
+   Actors/DevOps/Actor-DevOps.md
 
 .. toctree::
    :maxdepth: 1
