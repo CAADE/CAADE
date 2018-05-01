@@ -18,3 +18,9 @@ Cloud Aware Application Development Environment
    :caption: Use Cases
 
    UseCases/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Solution
+
+   Solution/index

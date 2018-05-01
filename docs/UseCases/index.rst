@@ -1,13 +1,12 @@
-Use Cases for CAADE
-===================
+Use Cases
+=========
 
 These are the high level usecases for the CAADE Solution
-Try 6
 
 .. toctree::
     :glob:
     :maxdepth: 2
 
-    */*
+    */UseCase*
 
 .. image:: UseCases.png
