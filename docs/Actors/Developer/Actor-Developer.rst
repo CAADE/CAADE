@@ -1,7 +1,8 @@
 Developer
 =========
 
-Actor-DevOps_ is another actor. Next, Actor-Developer_ is another actor.
+:ref:`Actor-DevOps` is another actor. Next, :ref:`Actor-Developer` is another actor.
+:doc:`Actor-DevOps`
 
 Use Cases
 ---------

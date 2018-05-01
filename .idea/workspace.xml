@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="Move docs to its own directory for readthedocs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -66,8 +65,8 @@
       <file leaf-file-name="Actor-Developer.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="51">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -470,14 +469,7 @@
       <workItem from="1524535188447" duration="3765000" />
       <workItem from="1524910837948" duration="3127000" />
       <workItem from="1524917950840" duration="27332000" />
-      <workItem from="1525197908160" duration="4802000" />
-    </task>
-    <task id="LOCAL-00068" summary="Build Uservice added. Jenkins with docker">
-      <created>1524940514648</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1524940514648</updated>
+      <workItem from="1525197908160" duration="5094000" />
     </task>
     <task id="LOCAL-00069" summary="Build Uservice added. Jenkins with docker">
       <created>1524940571597</created>
@@ -815,7 +807,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525207876822</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Move docs to its own directory for readthedocs">
+      <created>1525207989926</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1525207989926</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -851,7 +850,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272844000" />
+    <option name="totallyTimeSpent" value="273136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1295,8 +1294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
