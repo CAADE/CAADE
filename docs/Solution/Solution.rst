@@ -62,7 +62,7 @@ Salt Stack
 ~~~~~~~~~~
 **Install Salt Master on Node 0**
 
-.. highlight:: bash
+.. highlight:: none
 
     node0# sudo apt-get install salt-api
     node0# sudo apt-get install salt-master
@@ -71,7 +71,7 @@ Salt Stack
 Now that you have salt installed on node0 (master node).
 Go to the master configuration file /etc/salt/master and add these lines.
 
-.. highlight:: bash
+.. highlight:: none
 
     file_roots:
        base:
@@ -84,7 +84,7 @@ There should be several things that are in the /etc/salt/master file commented o
 
 Get the fingerprint of the master node
 
-.. hightlight:: bash
+.. code-block:: none
 
     node0# sudo salt-key -f master.pub
 
@@ -92,13 +92,13 @@ Save this string it will be used in the configuration of the minions.
 
 **Install Salt Minion on Node[0-4]**
 
-.. hightlight:: bash
+.. code-block:: none
 
     node1# sudo apt-get install salt-minion
 
 Now edit the /etc/salt/minion file to contain the following
 
-.. highlight:: bash
+.. highlight:: none
 
     master: node0
     master_finger: "Put output of 'alt-key -f master.pub' here"
@@ -107,38 +107,38 @@ Get things running
 ~~~~~~~~~~~~~~~~~~
 On node0 start the salt master as root in the foreground
 
-.. highlight:: bash
+.. highlight:: none
 
     node0# sudo salt-master
 
 or in the background
 
-.. hightlight:: bash
+.. code-block:: none
 
     node0# sudo salt-master -d
 
 
 On node[0-4] start the salt-minions
 
-.. hightlight:: bash
+.. code-block:: none
 
     node1# sudo salt-minion
 
 or in the background with the -d flag
 
-.. hightlight:: bash
+.. code-block:: none
 
     node1# sudo salt-minion -d
 
 now go back to node0 and accept the minions into the salt stack
 
-.. hightlight:: bash
+.. code-block:: none
 
     node0# sudo salt-key -A
 
 Now you can test and see if salt can see all of the nodes
 
-.. hightlight:: bash
+.. code-block:: none
 
     node0# salt "*" test.ping
     node0:
@@ -154,46 +154,46 @@ Now you can test and see if salt can see all of the nodes
 
 
 1. Configure Salt states 
-1. Configure Salt Pillar
-1. Download Salt Formula for CAADE
+2. Configure Salt Pillar
+3. Download Salt Formula for CAADE
 
 Install Gluster
 ~~~~~~~~~~~~~~~
 
 **Install Gluster on each of the nodes (node[0-4])**
 
-.. hightlight:: bash
+.. code-block:: none
     node0# sudo apt-get update
 
 **Install GlusterFS package using the following command**
 
-.. hightlight:: bash
+.. code-block::
 
     node0# sudo apt-get install -y glusterfs-server
 
 Start the glusterfs-server service on all gluster nodes.
 
-.. hightlight:: bash
+.. code-block:: none
 
     node0# sudo service glusterfs-server start
 
 Create Volumes for Gluster to use
 This assumes that you already have drives that have been mounted.
 
-.. hightlight:: bash
+.. code-block:: none
 
     sudo mkdir -p /data/gluster
     sudo mount /dev/sdb1 /data/gluster
 
 Add an entry to /etc/fstab for keeping the mount persistent across reboot.
 
-.. hightlight:: bash
+.. code-block:: none
 
     echo "/dev/sdb1 /data/gluster ext4 defaults 0 0" | sudo tee --append /etc/fstab
 
 Now attach all of the nodes to each other. Go to node0 and type the following.
 
-.. hightlight:: bash
+.. code-block:: none
 
     node0# sudo gluster peer probe node1
     node0# sudo gluster peer probe node2
@@ -203,7 +203,7 @@ Now attach all of the nodes to each other. Go to node0 and type the following.
 
 Now you can add volumes to the gluster cluster
 
-.. hightlight:: bash
+.. code-block:: none
 
     node0# salt "*" cmd.run "mkdir -d /data/gluster/gvol0"
     node0# sudo gluster volume create gvol0 replica 2 node1:/data/gluster/gvol0 node2:/data/gluster/gvol0
@@ -215,7 +215,7 @@ Mount Gluster Volumes on all of the nodes
 
 Now you have created a volume and now you can access it on all of the nodes by mounting it.
 
-.. hightlight:: bash
+.. code-block:: none
 
     node0# mkdir /mnt/glusterfs
     node0# mount -t glusterfs node1:/gvol0 /mnt/glusterfs
@@ -223,7 +223,7 @@ Now you have created a volume and now you can access it on all of the nodes by m
 
 To make the mount permanent across reboots you need to add it to the fstab
 
-.. highlight:: bash
+.. highlight:: none
 
     node0# echo "node1:/gvol0 /mnt/glusterfs glusterfs  defaults,_netdev 0 0" | echo tee --append /etc/fstab
 
@@ -234,7 +234,7 @@ Docker Swarm
 There is a great blog on how to generically set this up [here](http://btmiller.com/2016/11/27/docker-swarm-1.12-cluster-orchestration-with-saltstack.html).
 
 1. Using Salt Stack install 
-1. Test Docker Swarm Installation
+2. Test Docker Swarm Installation
 
 Jenkins Configuration
 ---------------------
@@ -254,7 +254,7 @@ into the containter. The domain.key and domain.cert files should be accessible.
 So we need to generate the key and cert in a ./registry_certs directory in the same path of where you run the stack
 deploy command. so you will need to create a directory named registry_certs and then run the openssl command.
 
-.. hightlight:: bash
+.. code-block:: none
 
     # mkdir registry_certs
     # openssl req -newkey rsa:4096 -nodes -sha256 -keyout registry_certs/domain.key \
@@ -294,7 +294,8 @@ Specifically we need to put the domain.cert into the /etc/docker/certs.d/<regist
 In order to do this simply we need to put the domain.cert in a mounted filesystem and using salt to update docker client.
 This will make it so every node in the docker swarm can access the local private repository.
 
-.. hightlight:: bash
+.. code-block:: none
+
     cp -r ./registry-certs /mnt/registry/registry-certs
     salt "*" cmd.run "mkdir -p /etc/docker/certs.d/node0:5000"
     salt "*" cmd.run "cp /mnt/registry/registry-certs/domain.cert /etc/docker/certs.d/node0:5000/ca.crt"
@@ -306,10 +307,10 @@ Deploying the stack of services
 Now that the environment is set up. You can now deploy the stack to your cluster of machines. You will need to:
 
 1. Get the latest release from github.
-1. Copy the registry_certs to the deploy directory. For the local private Registry.
-1. Deploy the stack to docker.
+2. Copy the registry_certs to the deploy directory. For the local private Registry.
+3. Deploy the stack to docker.
 
-.. hightlight:: bash
+.. code-block:: none
 
     # git clone http://github.com/CAADE/CAADE
     # cd deploy

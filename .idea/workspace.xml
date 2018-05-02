@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Solution/Solution.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Solution.rst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -92,8 +91,8 @@
       <file leaf-file-name="Solution.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/Solution/Solution.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="169" column="19" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="19" />
+            <state relative-caret-position="206">
+              <caret line="86" column="13" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -125,7 +124,12 @@
       <find>local</find>
       <find>decode</find>
       <find>#</find>
+      <find>:: bash</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>:: none</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\Users\dwpulsip\yoly\Caade\test</dir>
     </dirStrings>
@@ -454,14 +458,7 @@
       <workItem from="1524910837948" duration="3127000" />
       <workItem from="1524917950840" duration="27332000" />
       <workItem from="1525197908160" duration="6624000" />
-      <workItem from="1525288576618" duration="3241000" />
-    </task>
-    <task id="LOCAL-00073" summary="Build Uservice added. Jenkins with docker">
-      <created>1524952921865</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1524952921866</updated>
+      <workItem from="1525288576618" duration="3512000" />
     </task>
     <task id="LOCAL-00074" summary="Build Uservice added. Jenkins with docker">
       <created>1524953995214</created>
@@ -799,7 +796,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525290784635</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Move docs to its own directory for readthedocs">
+      <created>1525291829911</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1525291829911</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -835,7 +839,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277907000" />
+    <option name="totallyTimeSpent" value="278178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -856,6 +860,7 @@
       <window_info anchor="bottom" id="Atlassian " order="8" />
       <window_info id="Grunt " order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24973147" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -872,7 +877,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Floobits" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1316,8 +1320,8 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="169" column="19" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="19" />
+        <state relative-caret-position="206">
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="3" selection-end-line="86" selection-end-column="13" />
         </state>
       </provider>
     </entry>
