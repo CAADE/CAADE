@@ -5,15 +5,17 @@
       <change afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/SubSystem-LocalCloud.rst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docs/Solution/Registry/SubSystem-Registry.rst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/SubSystem-TestCloud.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Solution/CICD/SubSystem-CICD.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Solution/CICD/SubSystem-CICD.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/SubSystem-CICD.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Solution/DevCloud/SubSystem-DevCloud.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/SubSystem-DevCloud.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Solution/LocalCloud/SubSystem-LocalCloud.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Solution/ProductionCloud/SubSystem-ProductionCloud.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/SubSystem-ProductionCloud.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Solution/Registry/SubSystem-Registry.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Solution/SCM/SubSystem-SCM.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/SubSystem-SCM.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Solution.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Solution.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Solution/TestCloud/SubSystem-TestCloud.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.rst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,15 +32,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Solution/index.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -87,6 +80,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SubSystem-Registry.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/Solution/Registry/SubSystem-Registry.rst">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -102,8 +104,8 @@
       <file leaf-file-name="Solution.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/Solution/Solution.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+            <state relative-caret-position="527">
+              <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -179,14 +181,12 @@
         <option value="$PROJECT_DIR$/docs/Actors/Actors.md" />
         <option value="$PROJECT_DIR$/docs/UseCases/UseCases.md" />
         <option value="$PROJECT_DIR$/docs/Actors/index.rst" />
-        <option value="$PROJECT_DIR$/docs/index.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/index.rst" />
         <option value="$PROJECT_DIR$/docs/UseCases/index.rst" />
         <option value="$PROJECT_DIR$/docs/Home.md" />
         <option value="$PROJECT_DIR$/docs/conf.py" />
         <option value="$PROJECT_DIR$/docs/Home.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/Solution.md" />
-        <option value="$PROJECT_DIR$/docs/Solution/Solution.rst" />
         <option value="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst" />
         <option value="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/CICD/SubSystem-CICD.rst" />
@@ -198,6 +198,8 @@
         <option value="$PROJECT_DIR$/docs/Solution/ProductionCloud/SubSystem-ProductionCloud.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/TestCloud/SubSystem-TestCloud.md" />
         <option value="$PROJECT_DIR$/docs/Solution/TestCloud/SubSystem-TestCloud.rst" />
+        <option value="$PROJECT_DIR$/docs/index.rst" />
+        <option value="$PROJECT_DIR$/docs/Solution/Solution.rst" />
       </list>
     </option>
   </component>
@@ -464,14 +466,7 @@
       <workItem from="1524910837948" duration="3127000" />
       <workItem from="1524917950840" duration="27332000" />
       <workItem from="1525197908160" duration="6624000" />
-      <workItem from="1525288576618" duration="1782000" />
-    </task>
-    <task id="LOCAL-00071" summary="Build Uservice added. Jenkins with docker">
-      <created>1524952447271</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1524952447271</updated>
+      <workItem from="1525288576618" duration="2030000" />
     </task>
     <task id="LOCAL-00072" summary="Build Uservice added. Jenkins with docker">
       <created>1524952834001</created>
@@ -809,7 +804,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525289245900</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Move docs to its own directory for readthedocs">
+      <created>1525290599483</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1525290599483</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -845,7 +847,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276448000" />
+    <option name="totallyTimeSpent" value="276696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1207,13 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/conf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1316,6 +1311,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Solution/Solution.rst">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1326,8 +1328,8 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+        <state relative-caret-position="527">
+          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
         </state>
       </provider>
     </entry>

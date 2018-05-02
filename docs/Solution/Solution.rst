@@ -80,29 +80,31 @@ Go to the master configuration file /etc/salt/master and add these lines.
 There should be several things that are in the /etc/salt/master file commented out.
 
 Get the fingerprint of the master node
-```
-node0# sudo salt-key -f master.pub
-```
+.. hightlight:: bash
+    node0# sudo salt-key -f master.pub
+
 Save this string it will be used in the configuration of the minions.
 
-#### Install Salt Minion on Node[0-4]
-```
-node1# sudo apt-get install salt-minion
-```
+Install Salt Minion on Node[0-4]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. hightlight:: bash
+    node1# sudo apt-get install salt-minion
+
 Now edit the /etc/salt/minion file to contain the following
-```
-master: node0
-master_finger: "Put output of 'alt-key -f master.pub' here"
-```
-#### Get things running
+.. highlight:: bash
+    master: node0
+    master_finger: "Put output of 'alt-key -f master.pub' here"
+
+Get things running
+~~~~~~~~~~~~~~~~~~
 On node0 start the salt master as root in the foreground
-```
-node0# sudo salt-master 
-```
+.. highlight:: bash
+    node0# sudo salt-master
+
 or in the background
-```
-node0# sudo salt-master -d
-```
+.. hightlight:: bash
+    node0# sudo salt-master -d
+
 
 On node[0-4] start the salt-minions
 ```
