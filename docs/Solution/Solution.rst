@@ -61,22 +61,21 @@ This is a Reference Architecture for the CAADE solution using Salt, Docker, Jenk
 Salt Stack
 ~~~~~~~~~~
 **Install Salt Master on Node 0**
-.. highlight:: shell
-
-node0# sudo apt-get install salt-api
-node0# sudo apt-get install salt-master
-node0# sudo apt-get install salt-minion
+.. highlight:: bash
+    node0# sudo apt-get install salt-api
+    node0# sudo apt-get install salt-master
+    node0# sudo apt-get install salt-minion
 
 Now that you have salt installed on node0 (master node).
 Go to the master configuration file /etc/salt/master and add these lines.
-.. highlight:: shell
-file_roots:
-   base:
-     - /srv/salt/
 
-pillar_roots:
-  base:
-    - /srv/pillar
+.. highlight:: yaml
+    file_roots:
+       base:
+         - /srv/salt/
+    pillar_roots:
+      base:
+        - /srv/pillar
 
 There should be several things that are in the /etc/salt/master file commented out.
 

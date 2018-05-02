@@ -1,38 +1,42 @@
-# CICD
+.. _SubSystem-CICD:
+
+CICD
+====
 
 CICD is a subsystem of caade that is implemented by an existing CI/CD service that is available
 today. Examples of CICD systems that can be used are Jenkins, Bamboo, TravisCI, etc...
 
-## Use Cases
-
+Use Cases
+---------
 * [Test Applicaton](UseCase-Test-Application)
 * [Test MicroService](UseCase-Test-MicroService)
 
-![Image](./Solution/CICD/UseCases.png)
+.. image:: UseCases.png
 
-## Actors
+Users
+-----
+* :ref:`Actor-Developer`
 
-### Users 
+.. image:: UserInteraction.png
 
-* [Developer](Actor-Developer)
+Uses
+----
 
-![Image](./Solution/CICD/UserInteraction.png)
+* :ref:`SubSystem-CICD`
+* :ref:`SubSystem-DevCloud`
+* :ref:`SubSystem-LocalCloud`
+* :ref:`SubSystem-ProductionCloud`
+* :ref:`SubSystem-TestCloud`
 
-### Uses
-
-* [CICD](SubSystem-CICD)
-* [Dev Cloud](SubSystem-DevCloud)
-* [Local Cloud](SubSystem-LocalCloud)
-* [Production Cloud](SubSystem-ProductionCloud)
-* [Test Cloud](SubSystem-TestCloud)
-
-## Interface
+Interface
+---------
 
 * CLI - Command Line Interface
 * REST-API 
 * Portal - Web Portal
 
-## Logical Artifacts
+Logical Artifacts
+-----------------
 
 * Agent - Agent running in the different clouds that perform builds for a Project
 * Build - Build Stages of a pipeline for a project.
@@ -40,17 +44,20 @@ today. Examples of CICD systems that can be used are Jenkins, Bamboo, TravisCI, 
 * Project - Project that contains the application and microservices
 * Stage - Stage of builds defined in the pipeline.
 
-![Image](./Solution/CICD/Logical.png)
+.. image:: Logical.png
 
-## Activities and Flows 
+Activities and Flows
+--------------------
 
-![Image](./Solution/CICD/Process.png)
+.. image:: Process.png
 
-## Deployment Architecture
+Deployment Architecture
+-----------------------
 
-![Image](./Solution/CICD/Deployment.png)
+.. image:: Deployment.png
 
-## Physical Architecture
+Physical Architecture
+---------------------
 
-![Image](./Solution/CICD/Physical.png)
+.. image:: Physical.png
 
