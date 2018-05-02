@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,15 +21,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/UseCases/index.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -65,8 +58,17 @@
       <file leaf-file-name="Actor-Developer.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Actor-DevOps.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -101,14 +103,7 @@
       </file>
       <file leaf-file-name="Solution.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/Solution/Solution.rst">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1411">
-                <caret line="83" selection-start-line="83" selection-end-line="83" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -180,7 +175,6 @@
         <option value="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.md" />
         <option value="$PROJECT_DIR$/docs/Actors/Actors.md" />
         <option value="$PROJECT_DIR$/docs/UseCases/UseCases.md" />
-        <option value="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst" />
         <option value="$PROJECT_DIR$/docs/Actors/index.rst" />
         <option value="$PROJECT_DIR$/docs/index.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/index.rst" />
@@ -190,6 +184,7 @@
         <option value="$PROJECT_DIR$/docs/Home.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/Solution.md" />
         <option value="$PROJECT_DIR$/docs/Solution/Solution.rst" />
+        <option value="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst" />
         <option value="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst" />
       </list>
     </option>
@@ -223,8 +218,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -234,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -265,12 +259,20 @@
               <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
               <item name="CAADE" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Actors" type="462c0819:PsiDirectoryNode" />
+              <item name="DevOps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAADE" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="Solution" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Unknown.caade714207443">
+  <component name="RunManager" selected="Unknown.caade599891897">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -469,14 +471,8 @@
       <workItem from="1524535188447" duration="3765000" />
       <workItem from="1524910837948" duration="3127000" />
       <workItem from="1524917950840" duration="27332000" />
-      <workItem from="1525197908160" duration="5094000" />
-    </task>
-    <task id="LOCAL-00069" summary="Build Uservice added. Jenkins with docker">
-      <created>1524940571597</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1524940571597</updated>
+      <workItem from="1525197908160" duration="6624000" />
+      <workItem from="1525288576618" duration="651000" />
     </task>
     <task id="LOCAL-00070" summary="Build Uservice added. Jenkins with docker">
       <created>1524941004820</created>
@@ -814,7 +810,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525207989926</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Move docs to its own directory for readthedocs">
+      <created>1525208435198</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1525208435199</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -850,7 +853,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273136000" />
+    <option name="totallyTimeSpent" value="275317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -865,9 +868,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32763532" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
       <window_info id="npm" order="2" sideWeight="0.5046512" side_tool="true" weight="0.2519001" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.23219374" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.15669516" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.1818792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.14630872" />
       <window_info anchor="bottom" id="Atlassian " order="8" />
       <window_info id="Grunt " order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="8" />
@@ -890,34 +893,34 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Jenkins" order="6" />
-      <window_info id="Designer" order="2" />
+      <window_info id="Grunt " order="4" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973147" />
       <window_info id="npm" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
       <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Floobits" order="12" />
       <window_info anchor="bottom" id="YouTrack" order="8" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="PlantUML" order="3" weight="0.42588615" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32992035" />
       <window_info anchor="right" id="Redis Servers" order="8" />
-      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32954547" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32954547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Grunt " order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="PlantUML" order="3" weight="0.42588615" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32992035" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -1215,13 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/UseCases/index.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1243,14 +1239,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1283,7 +1271,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/Solution/Solution.rst">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1411">
             <caret line="83" selection-start-line="83" selection-end-line="83" />
@@ -1291,11 +1279,27 @@
           <second_editor />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
