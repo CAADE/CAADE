@@ -5,7 +5,7 @@ Cloud Aware Application Development Environment
    :maxdepth: 1
    :caption: Overview
 
-   Solution/Solution
+   Solution/Solution-Docker
 
 .. toctree::
    :maxdepth: 2

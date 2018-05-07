@@ -8,8 +8,8 @@ today. Examples of CICD systems that can be used are Jenkins, Bamboo, TravisCI, 
 
 Use Cases
 ---------
-* [Test Applicaton](UseCase-Test-Application)
-* [Test MicroService](UseCase-Test-MicroService)
+* :ref:`UseCase-Test-Application`
+* :ref:`UseCase-Test-MicroService`
 
 .. image:: UseCases.png
 

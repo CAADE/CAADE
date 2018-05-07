@@ -1,6 +1,6 @@
 .. _Scenario-Define-Agents
 
-Scenario Define-Agents
+Scenario Define Agents
 ======================
 
 _Description_

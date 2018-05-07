@@ -1,5 +1,7 @@
-CAADE Solution
-==============
+.. _Solution-Docker-Solution
+
+CAADE Docker Solution
+==============================
 This solution is a Docker solution of the CAADE Architecture.
 It utilizes Docker Swarm, Jenkins, Salt Stack and GlusterFS. It is a simple
 example of the concepts of the CAADE architecture running on a small scale.
@@ -11,7 +13,6 @@ Actors
    :caption: Users
 
    **/Actor*
-
 
 High level Use Cases
 --------------------
