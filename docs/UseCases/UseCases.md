@@ -3,19 +3,19 @@ High level use cases for the CAADE architecture.
 
 ## Use Cases
 
- * [Build Project](Build-Project/UseCase-Build-Project.md)
- * [Create Application](Create-Application/UseCase-Create-Application.md)
- * [Create MicroService](Create-MicroService/UseCase-Create-MicroService.md)
- * [Create Project](Create-Project/UseCase-Create-Project.md)
- * [Debug Application](Debug-Application/UseCase-Debug-Application.md)
- * [Debug MicroService](Debug-MicroService/UseCase-Debug-MicroService.md)
- * [Deploy Application](Deploy-Application/UseCase-Deploy-Application.md)
- * [Deploy MicroService](Deploy-MicroService/UseCase-Deploy-MicroService.md)
- * [Modify Code](Modify-Code/UseCase-Modify-Code.md)
- * [Publish Application](Publish-Application/UseCase-Publish-Application.md)
- * [Publish MicroService](Publish-MicroService/UseCase-Publish-MicroService.md)
- * [Test Application](Test-Application/UseCase-Test-Application.md)
- * [Test MicroService](Test-MicroService/UseCase-Test-MicroService.md)
+ * [Build Project](Build-Project/UseCase-Build-Project.rst)
+ * [Create Application](Create-Application/UseCase-Create-Application.rst)
+ * [Create MicroService](Create-MicroService/UseCase-Create-MicroService.rst)
+ * [Create Project](Create-Project/UseCase-Create-Project.rst)
+ * [Debug Application](Debug-Application/UseCase-Debug-Application.rst)
+ * [Debug MicroService](Debug-MicroService/UseCase-Debug-MicroService.rst)
+ * [Deploy Application](Deploy-Application/UseCase-Deploy-Application.rst)
+ * [Deploy MicroService](Deploy-MicroService/UseCase-Deploy-MicroService.rst)
+ * [Modify Code](Modify-Code/UseCase-Modify-Code.rst)
+ * [Publish Application](Publish-Application/UseCase-Publish-Application.rst)
+ * [Publish MicroService](Publish-MicroService/UseCase-Publish-MicroService.rst)
+ * [Test Application](Test-Application/UseCase-Test-Application.rst)
+ * [Test MicroService](Test-MicroService/UseCase-Test-MicroService.rst)
  
 
 ![Image](/UseCases/UseCases.png)
