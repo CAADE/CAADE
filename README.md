@@ -1,7 +1,10 @@
-# caade
-The CAADE design can be found on the [wiki](https://github.com/CAADE/CAADE/wiki).
-Or access the [single page documentation](https://github.com/CAADE/CAADE/wiki/documentations.html)
+# CAADE
+CAADE (Cloud Aware Application Development Environment) is a reference architecture that discribes how
+developers and devops work together in a hybrid cloud to enable the development of cloud aware applications.
+The architecture contains use cases, actors, solutions and implementation details for
+this architecture.
 
+The CAADE design can be found on [Read The Docs](http://caade.readthedocs.io).
 
 ### Links
 

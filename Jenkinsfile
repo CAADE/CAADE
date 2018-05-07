@@ -6,20 +6,6 @@ pipeline {
           CAADE_REGISTRY = 'node0:5000'
   }
   stages {
-    stage('Build Docs') {
-    agent {
-        docker { image 'madajaju/caade-doc-node-agent' }
-      }
-      steps {
-        sh 'git submodule update --init --recursive'
-        sh 'ls -latr docs'
-        sh 'ls -la /usr/bin'
-        sh 'ls -la /usr/lib/node_modules'
-        sh 'npm run-script design'
-        sh '/usr/bin/gwtc ./docs --title Cloud_Aware_Application_Development_Environment --format all --footer ./design/_footer.html'
-        sh 'cd docs && git add . && git commit -m "Update Documents"'
-      }
-    }
     stage('Build') {
       steps {
         sh 'npm run-script build'

@@ -3,25 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Architecture.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Default Development Cycle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Downloads.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Home.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Solution/CICD/SubSystem-CICD.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/SubSystem-CICD.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Solution/Registry/SubSystem-Registry.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/SubSystem-Registry.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Solution/SCM/SubSystem-SCM.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/SubSystem-SCM.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Solution/Solution.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Solution-Docker.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Solution/TestCloud/SubSystem-TestCloud.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/SubSystem-TestCloud.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Solution/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/UseCases/Build-Project/Scenario-Define-Agents.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Scenario-Define-Agents.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_Sidebar.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_Toc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/doc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/documentation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Home.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Home.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Solution-Docker.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Solution-Docker.rst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,45 +30,36 @@
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <first_editor relative-caret-position="17">
+                <caret line="1" column="77" selection-start-line="1" selection-start-column="77" selection-end-line="1" selection-end-column="77" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.rst" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Home.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/Home.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubSystem-SCM.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Solution/SCM/SubSystem-SCM.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubSystem-TestCloud.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Solution/TestCloud/SubSystem-TestCloud.rst">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/conf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -104,17 +81,16 @@
         <entry file="file://$PROJECT_DIR$/docs/Solution/Solution-Docker.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
-              <caret line="320" selection-start-line="320" selection-end-line="320" />
+              <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution-Centos.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Solution/Solution-Centos.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+      <file leaf-file-name="UseCase-Create-Build-Environment.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/UseCases/Create-Build-Environment/UseCase-Create-Build-Environment.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -153,8 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/deploy/uservices/doc-node-agent/entrypoint.sh" />
-        <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.md" />
         <option value="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.md" />
         <option value="$PROJECT_DIR$/docs/Actors/Actors.md" />
@@ -163,7 +137,6 @@
         <option value="$PROJECT_DIR$/docs/UseCases/index.rst" />
         <option value="$PROJECT_DIR$/docs/Home.md" />
         <option value="$PROJECT_DIR$/docs/conf.py" />
-        <option value="$PROJECT_DIR$/docs/Home.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/Solution.md" />
         <option value="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst" />
         <option value="$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst" />
@@ -204,6 +177,9 @@
         <option value="$PROJECT_DIR$/docs/Solution/Solution.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/index.rst" />
         <option value="$PROJECT_DIR$/docs/index.rst" />
+        <option value="$PROJECT_DIR$/docs/Solution/Solution-Docker.rst" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/docs/Home.rst" />
       </list>
     </option>
   </component>
@@ -463,14 +439,7 @@
       <workItem from="1524910837948" duration="3127000" />
       <workItem from="1524917950840" duration="27332000" />
       <workItem from="1525197908160" duration="6624000" />
-      <workItem from="1525288576618" duration="8201000" />
-    </task>
-    <task id="LOCAL-00076" summary="Build Uservice added. Jenkins with docker">
-      <created>1524956517606</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1524956517606</updated>
+      <workItem from="1525288576618" duration="9055000" />
     </task>
     <task id="LOCAL-00077" summary="Build Uservice added. Jenkins with docker">
       <created>1524956617111</created>
@@ -808,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525685219656</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Move docs to its own directory for readthedocs">
+      <created>1525686212732</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1525686212732</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -844,7 +820,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282867000" />
+    <option name="totallyTimeSpent" value="283721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="1546" height="830" extended-state="0" />
@@ -963,20 +939,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deploy/uservices/doc-node-agent/entrypoint.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -994,13 +956,6 @@
             <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1090,14 +1045,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/UseCases/Create-Application/UseCase-Create-Application.rst">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Create-Build-Environment/UseCase-Create-Build-Environment.rst">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -1316,21 +1263,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Solution-Docker.rst">
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1411">
-            <caret line="83" selection-start-line="83" selection-end-line="83" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1338,13 +1270,6 @@
             <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Home.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1385,14 +1310,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Default Development Cycle.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/docs/Solution/Solution-Docker.rst">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1411">
+            <caret line="83" selection-start-line="83" selection-end-line="83" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/UseCases/Create-Build-Environment/UseCase-Create-Build-Environment.rst">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
+          <first_editor relative-caret-position="-408">
             <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Default Development Cycle.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="77" selection-start-line="1" selection-start-column="77" selection-end-line="1" selection-end-column="77" />
           </first_editor>
           <second_editor />
         </state>
@@ -1402,6 +1375,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Home.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

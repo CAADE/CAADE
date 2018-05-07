@@ -12,7 +12,7 @@ Actors
    :maxdepth: 1
    :caption: Users
 
-   **/Actor*
+   /**/Actor*
 
 High level Use Cases
 --------------------
@@ -20,16 +20,16 @@ High level Use Cases
    :maxdepth: 1
    :caption: Use Cases
 
-   **/UseCase*
+   /**/UseCase*
 
 .. image:: ../UseCases/UseCases.png
 
 Logical Architecture
 --------------------
-:ref:'Actor-Developer' need to focus on the development of applications. When code is modified and checked into
-a code repository like github. A :ref:'SubSystem-CICD' system will automatically build, test and deploy the application,
+:ref:`Actor-Developer` need to focus on the development of applications. When code is modified and checked into
+a code repository like github. A :ref:`SubSystem-CICD` system will automatically build, test and deploy the application,
 microservice or project. Multiple environments that have been created in the Common Cloud Core will
-be used by CAADE and the :ref:'SubSystem-CICD' to promote applications across the different environments.
+be used by CAADE and the :ref:`SubSystem-CICD` to promote applications across the different environments.
 
 .. image:: ../Architecture.png
 
@@ -42,7 +42,7 @@ cloud aware applications.
 
 Deployment model
 ----------------
-CAADE is made up a of a set of services and micro-services to deliver capabilities to the :ref:'Actor-Developer'.
+CAADE is made up a of a set of services and micro-services to deliver capabilities to the :ref:`Actor-Developer`.
 The Service architect shown in the deployment model is an example of an implementation of a
 CAADE architecture.
 

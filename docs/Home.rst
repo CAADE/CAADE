@@ -1,6 +1,7 @@
 Architectural Overview
 ======================
-_Description_
+CAADE (Cloud Aware Application Development Environment) is a reference architecture that discribes how
+developers and devops work together in a hybrid cloud to enable the development of cloud aware applications.
 
 Users
 -----
