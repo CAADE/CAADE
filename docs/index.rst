@@ -1,5 +1,5 @@
 Cloud Aware Application Development Environment
-========================
+===============================================
 
 .. toctree::
    :maxdepth: 1
@@ -24,3 +24,6 @@ Cloud Aware Application Development Environment
    :caption: Solution
 
    Solution/index
+
+:ref:`Actor-Developer`
+~~~~~~~~~~~~~~~~~~~~~~
