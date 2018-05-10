@@ -25,7 +25,3 @@ Cloud Aware Application Development Environment
 
    Solution/index
 
-Actor Developer
-~~~~~~~~~~~~~~~
-ref:`Actor-Developer`
-**ref:`Actor-Developer`**
