@@ -4,12 +4,22 @@ developers and devops work together in a hybrid cloud to enable the development 
 The architecture contains use cases, actors, solutions and implementation details for
 this architecture.
 
-The CAADE design can be found on [Read The Docs](http://caade.readthedocs.io).
+This repository contains the design and a simple interactive reference architecture of the design.
+Which can be found on the [read the docs](http://caade.readthedocs.io)
 
-### Links
+An implementation of the reference architecture is written using [sailsjs](http://sailsjs.org/) a nodejs MVC framework.
 
-+ [Sails framework documentation](https://sailsjs.com/documentation)
-+ [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
-+ [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
-+ [Community support options](https://sailsjs.com/support)
-+ [Professional / enterprise options](https://sailsjs.com/studio)
+
+## Design
+
+The design uses [plantuml](http://plantuml.com/) and [rst](http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
+to document the architecture.
+
+Plantuml is a text based language that lets you describe UML diagrams. 
+All of the plantuml graphic files are shown in the *.md (markdown language files). 
+In order to see the graphical representation of the uml files you have to generate *.png files.
+To generate the graphic files (*.png) for the plantuml files (*.puml) do the following:
+```
+# npm run-script design
+```
+
