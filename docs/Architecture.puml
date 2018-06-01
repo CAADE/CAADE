@@ -2,19 +2,18 @@
 
 skinparam packageStyle rect
 skinparam handwritten true
-skinparam defaultFontName BasicHand
 skinparam defaultFontSize 20
 
-package caade {
+package <size:32>CAADE</size> #dddddd {
     package Portal goldenrod { }
     package "CICD" #aaffff { }
     package "Storage" #ffffaa { }
     package "Registry" #aaffaa { }
-    package "Cloud" #eee {
-        package "Local Cloud" #ccc { }
-        package "Dev Cloud" #ccc { }
-        package "Test Cloud" #ccc { }
-        package "Production Cloud" #ccc { }
+    cloud "Cloud" #ffffff {
+        package "Local Cloud" #ffaaaa { }
+        package "Dev Cloud" #ffaaaa { }
+        package "Test Cloud" #ffaaaa { }
+        package "Production Cloud" #ffaaaa { }
     }
 }
 
@@ -35,4 +34,3 @@ CICD .. "Test Cloud"
 CICD .. "Production Cloud"
 
 @enduml
-

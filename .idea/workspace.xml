@@ -2,10 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.caade/config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Home.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Home.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp/localDiskDb/archive.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp/localDiskDb/environment.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp/localDiskDb/environment_portals__portal_portals_portal.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp/localDiskDb/portal.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp/public/dependencies/sails.io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp/public/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp/public/styles/importer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp/public/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Actors/DevOps/Activity.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/Activity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Actors/DevOps/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Actors/DevOps/Workflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/Workflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Actors/Developer/Activity.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/Activity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Actors/Developer/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Actors/Developer/Workflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/Workflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Architecture.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Architecture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Architecture.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Architecture.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Default Development Cycle.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Default Development Cycle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/CICD/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/CICD/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/CICD/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/CICD/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/CICD/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/CICD/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/DevCloud/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/DevCloud/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/DevCloud/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/DevCloud/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/DevCloud/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/DevCloud/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/DevCloud/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/LocalCloud/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/LocalCloud/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/LocalCloud/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/LocalCloud/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/LocalCloud/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/LocalCloud/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/LocalCloud/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/ProductionCloud/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/ProductionCloud/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/ProductionCloud/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Registry/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Registry/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Registry/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Registry/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Registry/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Registry/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Registry/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/SCM/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/SCM/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/SCM/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/SCM/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/SCM/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/SCM/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/TestCloud/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/TestCloud/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/TestCloud/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/TestCloud/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/TestCloud/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/TestCloud/UserInteraction.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/TestCloud/UserInteraction.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Automate-Code-Pipeline/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Automate-Code-Pipeline/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Build-Code/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Code/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Build-Project/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Agents.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Agents.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Pipeline.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Pipeline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Stages.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Define-Stages.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Build-Project/Run-Build.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Build-Project/Run-Build.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Create-Application/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Application/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Create-Build-Environment/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Build-Environment/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Create-MicroService/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-MicroService/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Create-Project/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Create-Project/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Debug-Application/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Debug-Application/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Debug-MicroService/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Debug-MicroService/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Deploy-Application/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Deploy-Application/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Deploy-MicroService/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Deploy-MicroService/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Modify-Code/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Modify-Code/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Monitor-Builds/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Monitor-Builds/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Publish-Application/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Publish-Application/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Publish-MicroService/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Publish-MicroService/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Set-up-Project-Code-Pipeline/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Set-up-Project-Code-Pipeline/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Test-Application/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Test-Application/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/Test-MicroService/Activities.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Test-MicroService/Activities.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/plantuml.jar" beforeDir="false" afterPath="$PROJECT_DIR$/docs/plantuml.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +108,7 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="512">
               <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
             </state>
           </provider>
@@ -53,11 +141,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="629">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="153">
+                <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Architecture.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Architecture.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="Architecture.puml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Architecture.puml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -76,15 +190,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Solution/index.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -124,7 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.md" />
         <option value="$PROJECT_DIR$/docs/Actors/Actors.md" />
         <option value="$PROJECT_DIR$/docs/UseCases/UseCases.md" />
         <option value="$PROJECT_DIR$/docs/Actors/index.rst" />
@@ -171,10 +275,11 @@
         <option value="$PROJECT_DIR$/docs/Solution/Solution.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/index.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/Solution-Docker.rst" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/docs/Home.rst" />
         <option value="$PROJECT_DIR$/docs/index.rst" />
+        <option value="$PROJECT_DIR$/docs/Architecture.puml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -205,10 +310,10 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="60" />
-    <option name="y" value="50" />
-    <option name="width" value="1550" />
-    <option name="height" value="835" />
+    <option name="x" value="285" />
+    <option name="y" value="130" />
+    <option name="width" value="1535" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -218,8 +323,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,12 +333,14 @@
             <path>
               <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
               <item name="CAADE" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,16 +352,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dwpulsip\yoly\Caade\deploy" />
+      <recent name="C:\Users\dwpulsip\yoly\Caade\assets\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dwpulsip\work\CAADE\docs" />
       <recent name="C:\Users\dwpulsip\work\CAADE" />
       <recent name="C:\Users\dwpulsip\work\CAADE\deploy\test" />
       <recent name="C:\Users\dwpulsip\yoly\Caade" />
       <recent name="C:\Users\dwpulsip\yoly\Caade\bin" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dwpulsip\yoly\Caade\deploy" />
-      <recent name="C:\Users\dwpulsip\yoly\Caade\assets\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,7 +376,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Unknown.caade1190104241">
+  <component name="RunManager" selected="Unknown.caade448792842">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -442,13 +547,8 @@
       <workItem from="1526404500219" duration="1484000" />
       <workItem from="1526492797835" duration="2192000" />
       <workItem from="1527359520147" duration="21000" />
-    </task>
-    <task id="LOCAL-00081" summary="Build Uservice added. Jenkins with docker">
-      <created>1524959816857</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1524959816857</updated>
+      <workItem from="1527852876464" duration="959000" />
+      <workItem from="1527874388390" duration="2890000" />
     </task>
     <task id="LOCAL-00082" summary="Build Uservice added. Jenkins with docker">
       <created>1524960379162</created>
@@ -786,7 +886,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525926215355</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="Move docs to its own directory for readthedocs">
+      <created>1527852954759</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1527852954760</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -822,13 +929,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297449000" />
+    <option name="totallyTimeSpent" value="301298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="PlantUML" order="3" weight="0.5147651" />
+      <window_info anchor="right" id="PlantUML" order="3" weight="0.3805369" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5134264" side_tool="true" weight="0.24059293" />
@@ -839,7 +945,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.15384616" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.3080537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.31744966" />
       <window_info anchor="bottom" id="Atlassian " order="8" />
       <window_info id="Grunt " order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="8" />
@@ -941,20 +1047,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Solution-Docker.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/UseCases/Create-Build-Environment/UseCase-Create-Build-Environment.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1227,16 +1319,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/README.md" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1288,7 +1370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="512">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
@@ -1324,8 +1406,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="629">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Architecture.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Architecture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
