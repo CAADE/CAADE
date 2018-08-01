@@ -1,0 +1,55 @@
+@startuml
+
+:Developer: as Dev
+:DevOps: as DevOps
+:Common Cloud Core: as C3
+:SCM: as SCM
+:CI/CD: as CICD
+
+rectangle CAADE {
+    (Create Application) as CA
+    (Create Service) as CM
+    (Create Project) as CP
+    (Debug Application) as DA
+    (Debug Service) as DM
+    (Modify Code) as MC
+    rectangle CICD #lightgreen {
+        (Deploy Application) as DpA
+        (Deploy Service) as DpM
+        (Publish Application) as PA
+        (Publish Service) as PM
+        (Test Application) as TA
+        (Test Service) as TM
+        (Create Build Environment) as CBE
+        (Automate Code Pipeline) as ACP
+        (Set Up Project Code Pipeline) as SUPCP
+        (Build Code) as BC
+        (Monitor Build) as MB
+    }
+}
+
+DevOps --> ACP
+DevOps --> SUPCP
+DevOps --> CBE
+DevOps --> MB
+Dev -> CP
+CP ..> CA
+Dev --> CM
+CP ..> CM
+CA ..> DA
+CM ..> DM
+DM ..> MC
+DA ..> MC
+CAADE --> C3
+BC ..> DpA
+BC ..> DpM
+MC --> SCM
+SCM -> BC
+Dev --> BC
+DpA ..> TA
+DpM ..> TM
+TA ..> PA
+TM ..> PM
+
+
+@enduml

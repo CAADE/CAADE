@@ -1,0 +1,13 @@
+@startuml
+
+package "doc-node-agent" #lightblue {
+    interface "doc-node-agent" {
+
+    }
+    CLI ()-- "doc-node-agent" : 5000
+    REST ()-- "doc-node-agent" : 3000
+    Web ()-- "doc-node-agent" : 80
+}
+
+
+@enduml

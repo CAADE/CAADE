@@ -1,12 +1,12 @@
 @startuml
 
 node switch
-folder "glusterfs:gvol1" as gv1 #aaffff {
+folder "glusterfs:gvol1" as gv1 #lightblue {
         folder "build_home"
         folder "registry_home"
         folder "portal_home"
 }
-folder "glusterfs:gvol2" #aaffff {
+folder "glusterfs:gvol2" #lightblue {
         folder "build_home"
         folder "registry_home"
         folder "portal_home"
@@ -22,32 +22,32 @@ node node1 {
     component "docker_worker "
     component "gluster_server "
     folder "mnt "
-    database "vol1 " #aaffff
-    database "vol2 " #aaffaa
+    database "vol1 " #lightblue
+    database "vol2 " #lightgreen
 }
 node node2 {
     component " salt_minion "
     component " docker_worker "
     component " gluster_server "
     folder " mnt "
-    database " vol1 " #aaffff
-    database " vol2 " #aaffaa
+    database " vol1 " #lightblue
+    database " vol2 " #lightgreen
 }
 node node3 {
     component " salt_minion  "
     component " docker_worker  "
     component " gluster_server  "
     folder " mnt  "
-    database " vol1  " #aaffff
-    database " vol2  " #aaffaa
+    database " vol1  " #lightblue
+    database " vol2  " #lightgreen
 }
 node node4 {
     component "  salt_minion  "
     component "  docker_worker  "
     component "  gluster_server  "
     folder "  mnt  "
-    database "  vol1  " #aaffff
-    database "  vol2  " #aaffaa
+    database "  vol1  " #lightblue
+    database "  vol2  " #lightgreen
 }
 
 switch === node0 : 172.16.0.100

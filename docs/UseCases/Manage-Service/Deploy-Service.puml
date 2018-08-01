@@ -1,0 +1,14 @@
+@startuml
+Actor "actorName" as A
+
+box "Manage-Service" #lightblue
+participant CLI as CLI
+participant Web as Web
+participant "caade" as S
+A -> CLI : caade-service-deploy()
+CLI -> S : service/deploy()
+A -> Web : service/deploy()
+Web -> S : service/deploy()
+end box
+
+@enduml

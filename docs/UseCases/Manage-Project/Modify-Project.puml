@@ -1,0 +1,14 @@
+@startuml
+Actor "actorName" as A
+
+box "Manage-Project" #lightblue
+participant CLI as CLI
+participant Web as Web
+participant "caade" as S
+A -> CLI : caade-project-modify()
+CLI -> S : project/modify()
+A -> Web : project/modify()
+Web -> S : project/modify()
+end box
+
+@enduml

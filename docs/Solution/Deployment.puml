@@ -1,18 +1,20 @@
 @startuml
 
-package caade #dddddd {
+package CAADE #lightgray {
     interface WebUI
     interface REST
     interface CLI
-    component Portal
-    component CICD #ffffaa {
+    component Portal #goldenrod
+    component CICD #goldenrod {
         component master
     }
-    component Registry
-    storage Storage <<Global>> #ffffaa {
-        database build_home #aaffaa
-        database registry_home #aaffaa
-        database portal_home #aaffaa
+    component "Artifact\nRepository" as AR #plum
+    component "Environment\nManager" as EM #plum
+    component "Provision\nEngine" as PE #plum
+    storage Storage <<Global>> #plum {
+        database build_home #white
+        database registry_home #white
+        database portal_home #white
     }
 }
 
@@ -24,34 +26,38 @@ rectangle Ports {
     5000 . Registry
 }
 
-Ports .. caade
-cloud {
+Ports .. CAADE
+cloud "External Cloud" {
     component GitHub
 }
 
-node Local
-
-cloud Dev {
-    component build_agent_dev
-}
-cloud Test {
-    component build_agent_test
-}
-cloud Production {
-    component build_agent_prod
+node Local #lightyellow {
+    component build_agent as lba
 }
 
+cloud "Hybrid Cloud" as HC {
+    node Dev #lightgreen {
+        component build_agent as dba
+    }
+    node Test #pink {
+        component build_agent as tba
+    }
+    node Production #lightblue {
+        component build_agent as pba
+    }
+}
 WebUI -- Portal
 REST -- Portal
 CLI -- Portal
 Portal - portal_home
-Registry -- registry_home
+AR -- registry_home
 master -- build_home
-master -- build_agent_dev
-master -- build_agent_test
-master -- build_agent_prod
+master -- lba
+master -- dba
+master -- tba
+master -- pba
 master <-- GitHub
 Portal -- CICD
-Portal -- Registry
-Local --> GitHub
+Portal -- AR
+Local -> GitHub
 @enduml

@@ -1,0 +1,13 @@
+@startuml
+
+package "build" #lightblue {
+    interface "build" {
+
+    }
+    CLI ()-- "build" : 5000
+    REST ()-- "build" : 3000
+    Web ()-- "build" : 80
+}
+
+
+@enduml

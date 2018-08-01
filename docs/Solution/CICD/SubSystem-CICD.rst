@@ -8,8 +8,7 @@ today. Examples of CICD systems that can be used are Jenkins, Bamboo, TravisCI, 
 
 Use Cases
 ---------
-* :ref:`UseCase-Test-Application`
-* :ref:`UseCase-Test-MicroService`
+* :ref:`Scenario-Test-Application`
 
 .. image:: UseCases.png
 
@@ -23,10 +22,6 @@ Uses
 ----
 
 * :ref:`SubSystem-CICD`
-* :ref:`SubSystem-DevCloud`
-* :ref:`SubSystem-LocalCloud`
-* :ref:`SubSystem-ProductionCloud`
-* :ref:`SubSystem-TestCloud`
 
 Interface
 ---------

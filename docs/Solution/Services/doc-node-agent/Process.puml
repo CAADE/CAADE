@@ -1,0 +1,20 @@
+@startuml
+
+partition "doc-node-agent" {
+
+}
+
+partition User  #cccccc {
+  (*) --> "Create Project"
+  --> "Write Code"
+}
+
+partition "doc-node-agent" #lightblue {
+  "Write Code" --> "Test Code"
+  "Test Code" --> "Deploy Code"
+  "Deploy Code" --> (*)
+}
+
+partition Used  #cccccc {
+}
+@enduml

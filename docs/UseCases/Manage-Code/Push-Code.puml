@@ -1,0 +1,14 @@
+@startuml
+Actor "actorName" as A
+
+box "Manage-Code" #lightblue
+participant CLI as CLI
+participant Web as Web
+participant "caade" as S
+A -> CLI : caade-code-push()
+CLI -> S : code/push()
+A -> Web : code/push()
+Web -> S : code/push()
+end box
+
+@enduml

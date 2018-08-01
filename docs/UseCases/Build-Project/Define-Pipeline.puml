@@ -1,9 +1,0 @@
-@startuml
-Actor "actorName" as A
-
-box "Build-Project" #lightblue
-participant "caade" as S
-A -> S : Define-Pipeline
-end box
-
-@enduml

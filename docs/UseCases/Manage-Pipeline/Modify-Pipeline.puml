@@ -1,0 +1,14 @@
+@startuml
+Actor "actorName" as A
+
+box "Manage-Pipeline" #lightblue
+participant CLI as CLI
+participant Web as Web
+participant "caade" as S
+A -> CLI : caade-pipeline-modify()
+CLI -> S : pipeline/modify()
+A -> Web : pipeline/modify()
+Web -> S : pipeline/modify()
+end box
+
+@enduml

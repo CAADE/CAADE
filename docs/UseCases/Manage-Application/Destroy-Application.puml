@@ -1,0 +1,14 @@
+@startuml
+Actor "actorName" as A
+
+box "Manage-Application" #lightblue
+participant CLI as CLI
+participant Web as Web
+participant "caade" as S
+A -> CLI : caade-application-destroy()
+CLI -> S : application/destroy()
+A -> Web : application/destroy()
+Web -> S : application/destroy()
+end box
+
+@enduml

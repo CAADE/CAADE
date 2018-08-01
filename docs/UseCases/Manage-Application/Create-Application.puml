@@ -1,0 +1,14 @@
+@startuml
+Actor "actorName" as A
+
+box "Manage-Application" #lightblue
+participant CLI as CLI
+participant Web as Web
+participant "caade" as S
+A -> CLI : caade-application-create()
+CLI -> S : application/create()
+A -> Web : application/create()
+Web -> S : application/create()
+end box
+
+@enduml

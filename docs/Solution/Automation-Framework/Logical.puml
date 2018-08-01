@@ -1,0 +1,24 @@
+@startuml
+
+package "User" #ffffcc {
+
+}
+
+package "Used" #ffffcc {
+
+}
+
+package "Automation Framework" #lightblue {
+
+    interface "Automation Framework" {
+    }
+
+    CLI ()-- "Automation Framework"
+    REST ()-- "Automation Framework"
+    Web ()-- "Automation Framework"
+}
+
+User --> "Automation Framework"
+"Automation Framework" --> Used
+
+@enduml

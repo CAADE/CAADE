@@ -1,6 +1,5 @@
 @startuml
 
-skinparam handwritten true
 skinparam defaultFontName BasicHand
 skinparam defaultFontSize 20
 skinparam ActivityBackgroundColor white

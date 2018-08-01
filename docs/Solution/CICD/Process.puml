@@ -5,7 +5,7 @@ partition CAADE  #cccccc {
   --> "Write Code"
 }
 
-partition "CICD" #aaffaa {
+partition "CICD" #lightgreen {
   "Write Code" --> "Define Pipeline"
   "Define Pipeline" --> "Define Agents"
   "Define Agents" --> "Build Code"

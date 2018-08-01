@@ -4,7 +4,7 @@ left to right direction
 
 :Developer: as Actor
 
-rectangle "Caade" {
+rectangle "Caade" #lightblue {
     (Use Case) as U1
 }
 

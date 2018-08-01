@@ -1,36 +1,42 @@
 @startuml
 
 skinparam packageStyle rect
-skinparam handwritten true
 skinparam defaultFontSize 20
 
 package <size:32>CAADE</size> #dddddd {
-    package Portal goldenrod { }
-    package "CICD" #aaffff { }
-    package "Storage" #ffffaa { }
-    package "Registry" #aaffaa { }
-    cloud "Cloud" #ffffff {
-        package "Local Cloud" #ffaaaa { }
-        package "Dev Cloud" #ffaaaa { }
-        package "Test Cloud" #ffaaaa { }
-        package "Production Cloud" #ffaaaa { }
+    package Portal #goldenrod { }
+    package "CICD" #goldenrod { }
+    package "Storage" #plum { }
+    package "Artifact Repository" as AR #plum { }
+    package "Environment Manager" as EM #plum { }
+    package "Provision Engine" as PE  #plum { }
+    cloud "Hybrid Cloud" as HC #ffffff {
+        package "Local Environment" as LEnv #lightyellow { }
+        package "Dev Environment" as DEnv #lightgreen { }
+        package "Test Environment" as TEnv #pink { }
+        package "Production Environment" as PEnv #lightblue { }
     }
 }
 
 Portal - CICD
-Portal - Registry
-Portal - Cloud
+Portal -- EM
+CICD --> PE
 
-CICD -> Registry
-"Local Cloud" --> Registry
-"Dev Cloud" --> Registry
-"Test Cloud" --> Registry
-"Production Cloud" --> Registry
-Registry -- Storage
+EM ..> HC
+
+PE --> LEnv
+PE --> DEnv
+PE --> TEnv
+PE --> PEnv
+Portal - AR
+Portal - HC
+
+CICD -> AR
+LEnv --> AR
+DEnv --> AR
+TEnv --> AR
+PEnv --> AR
+AR -- Storage
 CICD -- Storage
-CICD .. "Local Cloud"
-CICD .. "Dev Cloud"
-CICD .. "Test Cloud"
-CICD .. "Production Cloud"
 
 @enduml

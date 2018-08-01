@@ -1,0 +1,24 @@
+@startuml
+
+package "User" #ffffcc {
+
+}
+
+package "Used" #ffffcc {
+
+}
+
+package "Hybrid Cloud/Provision Engine" #lightblue {
+
+    interface "Hybrid Cloud/Provision Engine" {
+    }
+
+    CLI ()-- "Hybrid Cloud/Provision Engine"
+    REST ()-- "Hybrid Cloud/Provision Engine"
+    Web ()-- "Hybrid Cloud/Provision Engine"
+}
+
+User --> "Hybrid Cloud/Provision Engine"
+"Hybrid Cloud/Provision Engine" --> Used
+
+@enduml

@@ -1,18 +1,18 @@
 @startuml
-|developer|
+|Developer|
 start
-|#ffffaa|local|
+|#lightyellow|local|
         :create project;
         repeat
         :commit code;
-|#aaffaa|dev|
+|#lightgreen|dev|
         :integrate code;
         :build application;
         if(build status) then (failed)
             :debug application;
             detach
         endif
-|#ffaaaa|test|
+|#pink|test|
         :run unit tests;
         :run integration tests;
         if(test results?) then (failed)
@@ -20,7 +20,7 @@ start
         endif
         repeat while(bugs found)
         :publish application;
-|#aaffff|production|
+|#lightblue|production|
         if(application deployed) then (not)
             :deploy application;
         else

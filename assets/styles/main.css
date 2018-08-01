@@ -861,11 +861,11 @@ table.workItem td {
 }
 
 .order-OPEN {
-    background-color: #aaffaa;
+    background-color: #lightgreen;
 }
 
 .order-INPROCESS {
-    background-color: #aaffff;
+    background-color: #lightblue;
 }
 
 .order-FULFILLED {
@@ -958,7 +958,7 @@ table.workItem td {
 }
 
 .Open {
-    background-color: #aaffff;
+    background-color: #lightblue;
     color: black;
 }
 

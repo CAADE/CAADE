@@ -1,0 +1,14 @@
+@startuml
+Actor "actorName" as A
+
+box "Manage-Code" #lightblue
+participant CLI as CLI
+participant Web as Web
+participant "caade" as S
+A -> CLI : caade-code-modify()
+CLI -> S : code/modify()
+A -> Web : code/modify()
+Web -> S : code/modify()
+end box
+
+@enduml

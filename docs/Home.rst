@@ -7,22 +7,19 @@ developers and devops work together in a hybrid cloud to enable the development 
 Users
 -----
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Users
-
-   Actor/index
-
+* :ref:`Actor-Developer`
+* :ref:`Actor-DevOps`
 
 High level Use Cases
 --------------------
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Use Cases
-
-   UseCase/index
-
+* :ref:`UseCase-Manage-Application`
+* :ref:`UseCase-Manage-Build`
+* :ref:`UseCase-Manage-Code`
+* :ref:`UseCase-Manage-Environment`
+* :ref:`UseCase-Manage-Pipeline`
+* :ref:`UseCase-Manage-Project`
+* :ref:`UseCase-Manage-Service`
 
 .. image:: UseCases/UseCases.png
 
@@ -34,13 +31,16 @@ a code repository like github. A CI/CD system will automatically build, test and
 microservice or project. Multiple environments that have been created in the Common Cloud Core will
 be used by CAADE and the CI/CD to promote applications across the different environments.
 
+* :ref:`SubSystem-Automation-Framework`
+* :ref:`SubSystem-CICD`
+* :ref:`SubSystem-Hybrid-Cloud`
+* :ref:`SubSystem-Hybrid-Cloud/Artifact-Repository`
+* :ref:`SubSystem-Hybrid-Cloud/Environment-Manager`
+* :ref:`SubSystem-Hybrid-Cloud/Provision-Engine`
+* :ref:`SubSystem-Hybrid-Cloud/Storage`
+* :ref:`SubSystem-SCM`
+
 .. image:: Architecture.png
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Sub Systems
-
-   Solution/index
 
 Process Architecture
 --------------------

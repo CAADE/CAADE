@@ -1,0 +1,8 @@
+@startuml
+actor User
+
+User -> "Hybrid Cloud/Environment Manager": UseCase
+"Hybrid Cloud/Environment Manager" -> bin: bin-name()
+bin -> sailsjs: bin/name()
+
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+
+package "swarm-node-agent" #lightblue {
+    interface "swarm-node-agent" {
+
+    }
+    CLI ()-- "swarm-node-agent" : 5000
+    REST ()-- "swarm-node-agent" : 3000
+    Web ()-- "swarm-node-agent" : 80
+}
+
+
+@enduml

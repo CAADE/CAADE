@@ -1,0 +1,13 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "build": "docker build . -t ${CAADE_REGISTRY}/caade/swarm-node-agent",
+    "deploy": "docker push ${CAADE_REGISTRY}/caade/swarm-node-agent",
+    "publish": "docker push ${CAADE_REGISTRY}/caade/swarm-node-agent"
+  },
+  "dependencies": {
+    "micro": "latest",
+    "node-fetch": "latest"
+  }
+}

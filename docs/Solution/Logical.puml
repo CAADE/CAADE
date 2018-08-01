@@ -1,14 +1,13 @@
 @startuml
 
 skinparam packageStyle rect
-skinparam handwritten true
 
-package caade #dddddd {
+package CAADE #dddddd {
     package Portal #FFc584 { }
-    package "CICD" #aaffff { }
+    package "CICD" #lightblue { }
     package "Storage" #ffffaa { }
-    package "Registry" #aaffaa { }
-    package "SCM" #aaffff { }
+    package "Registry" #lightgreen { }
+    package "SCM" #lightblue { }
     package "Cloud" #ffffff {
         package "Local Cloud" #ffaaaa { }
         package "Dev Cloud" #ffaaaa { }

@@ -1,9 +1,0 @@
-@startuml
-|Developer|
-start
-|#ffffaa|caade|
-:Test MicroService;
-|#aaffff|Common Cloud Core|
-:Test Service;
-stop
-@enduml

@@ -1,0 +1,8 @@
+@startuml
+actor User
+
+User -> "Automation Framework": UseCase
+"Automation Framework" -> bin: bin-name()
+bin -> sailsjs: bin/name()
+
+@enduml

@@ -1,31 +1,34 @@
-.. _Solution-Docker-Solution
+.. _Solution-Docker-Solution:
 
 CAADE Docker Solution
-==============================
+=====================
+
 This solution is a Docker solution of the CAADE Architecture.
 It utilizes Docker Swarm, Jenkins, Salt Stack and GlusterFS. It is a simple
 example of the concepts of the CAADE architecture running on a small scale.
 
 Actors
 ------
-.. toctree::
-   :maxdepth: 1
-   :caption: Users
 
-   /**/Actor*
+* :ref:`Actor-Developer`
+* :ref:`Actor-DevOps`
 
 High level Use Cases
 --------------------
-.. toctree::
-   :maxdepth: 1
-   :caption: Use Cases
 
-   /**/UseCase*
+* :ref:`UseCase-Manage-Application`
+* :ref:`UseCase-Manage-Build`
+* :ref:`UseCase-Manage-Code`
+* :ref:`UseCase-Manage-Environment`
+* :ref:`UseCase-Manage-Pipeline`
+* :ref:`UseCase-Manage-Project`
+* :ref:`UseCase-Manage-Service`
 
 .. image:: ../UseCases/UseCases.png
 
 Logical Architecture
 --------------------
+
 :ref:`Actor-Developer` need to focus on the development of applications. When code is modified and checked into
 a code repository like github. A :ref:`SubSystem-CICD` system will automatically build, test and deploy the application,
 microservice or project. Multiple environments that have been created in the Common Cloud Core will
@@ -35,6 +38,7 @@ be used by CAADE and the :ref:`SubSystem-CICD` to promote applications across th
 
 Process Architecture
 --------------------
+
 This diagram shows how a developer interacts with CAADE to develop, test, and deploy 
 cloud aware applications.
 
@@ -42,6 +46,7 @@ cloud aware applications.
 
 Deployment model
 ----------------
+
 CAADE is made up a of a set of services and micro-services to deliver capabilities to the :ref:`Actor-Developer`.
 The Service architect shown in the deployment model is an example of an implementation of a
 CAADE architecture.
@@ -50,6 +55,7 @@ CAADE architecture.
 
 Physical Architecture
 ---------------------
+
 The physical architecture of CAADE is an example of a minimal hardware configuration that
 CAADE can be deployed.
 
@@ -57,13 +63,15 @@ CAADE can be deployed.
 
 Deployment
 ----------
+
 This is a Reference Architecture for the CAADE solution using Salt, Docker, Jenkins, and Gluster.
 
 Salt Stack
 ~~~~~~~~~~
+
 **Install Salt Master on Node 0**
 
-.. highlight:: none
+.. code-block:: none
 
     node0# sudo apt-get install salt-api
     node0# sudo apt-get install salt-master
@@ -72,7 +80,7 @@ Salt Stack
 Now that you have salt installed on node0 (master node).
 Go to the master configuration file /etc/salt/master and add these lines.
 
-.. highlight:: none
+.. code-block:: none
 
     file_roots:
        base:
@@ -99,7 +107,7 @@ Save this string it will be used in the configuration of the minions.
 
 Now edit the /etc/salt/minion file to contain the following
 
-.. highlight:: none
+.. code-block:: none
 
     master: node0
     master_finger: "Put output of 'alt-key -f master.pub' here"
@@ -108,7 +116,7 @@ Get things running
 ~~~~~~~~~~~~~~~~~~
 On node0 start the salt master as root in the foreground
 
-.. highlight:: none
+.. code-block:: none
 
     node0# sudo salt-master
 
@@ -164,11 +172,12 @@ Install Gluster
 **Install Gluster on each of the nodes (node[0-4])**
 
 .. code-block:: none
+
     node0# sudo apt-get update
 
 **Install GlusterFS package using the following command**
 
-.. code-block::
+.. code-block:: none
 
     node0# sudo apt-get install -y glusterfs-server
 
@@ -224,7 +233,7 @@ Now you have created a volume and now you can access it on all of the nodes by m
 
 To make the mount permanent across reboots you need to add it to the fstab
 
-.. highlight:: none
+.. code-block:: none
 
     node0# echo "node1:/gvol0 /mnt/glusterfs glusterfs  defaults,_netdev 0 0" | echo tee --append /etc/fstab
 

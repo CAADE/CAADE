@@ -1,9 +1,0 @@
-@startuml
-|Developer|
-start
-|#ffffaa|caade|
-:Debug Application;
-|#aaffff|Common Cloud Core|
-:Debug Service;
-stop
-@enduml

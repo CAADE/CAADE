@@ -1,0 +1,24 @@
+@startuml
+
+package "User" #ffffcc {
+
+}
+
+package "Used" #ffffcc {
+
+}
+
+package "Hybrid Cloud/Artifact Repository" #lightblue {
+
+    interface "Hybrid Cloud/Artifact Repository" {
+    }
+
+    CLI ()-- "Hybrid Cloud/Artifact Repository"
+    REST ()-- "Hybrid Cloud/Artifact Repository"
+    Web ()-- "Hybrid Cloud/Artifact Repository"
+}
+
+User --> "Hybrid Cloud/Artifact Repository"
+"Hybrid Cloud/Artifact Repository" --> Used
+
+@enduml

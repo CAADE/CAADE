@@ -1,0 +1,6 @@
+@startuml
+actor User
+
+User -> "swarm-node-agent": UseCase
+
+@enduml

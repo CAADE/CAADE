@@ -1,0 +1,11 @@
+@startuml
+
+interface external
+
+package "swarm-node-agent" #lightblue {
+    component service
+    interface internal
+}
+external -- service : 3000
+internal - service : 5000
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+Actor "actorName" as A
+
+box "Manage-Service" #lightblue
+participant CLI as CLI
+participant Web as Web
+participant "caade" as S
+A -> CLI : caade-service-destroy()
+CLI -> S : service/destroy()
+A -> Web : service/destroy()
+Web -> S : service/destroy()
+end box
+
+@enduml

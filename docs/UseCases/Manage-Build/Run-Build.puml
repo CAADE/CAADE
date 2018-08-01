@@ -1,0 +1,14 @@
+@startuml
+Actor "actorName" as A
+
+box "Manage-Build" #lightblue
+participant CLI as CLI
+participant Web as Web
+participant "caade" as S
+A -> CLI : caade-build-run()
+CLI -> S : build/run()
+A -> Web : build/run()
+Web -> S : build/run()
+end box
+
+@enduml
