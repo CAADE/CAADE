@@ -1,9 +1,9 @@
 pipeline {
-  environment {
-          CAADE_REGISTRY = 'localhost:5000'
+  agent {
+    label 'node'
   }
   stages {
-  stage ('Build') {
+      stage ('Build') {
         parallel {
             stage('Build Docs') {
               steps {
@@ -34,6 +34,9 @@ pipeline {
       }
     }
     stage('Production') {
+      agent {
+          label 'node'
+      }
       steps {
         sh 'npm run deploy-prod'
       }
