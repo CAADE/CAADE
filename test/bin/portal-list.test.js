@@ -1,5 +1,5 @@
 const exec = require('child_process').exec;
-const taction = require('../../controllers/portal/list');
+const taction = require('../../api/controllers/portal/list');
 
 describe('portal list Script Test Cases', function () {
   describe('Primary portal list Test Case', function () {

@@ -1,23 +1,51 @@
 version: '3.1'
 
 services:
+  web:
+    image: madajaju/caade-web
+    ports:
+      - "80:1337"
+  build:
+    image: madajaju/caade-build
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+    ports:
+      - "8000:8080"
+      - "50000:50000"
+      - "443:443"
+    volumes:
+      - jenkinsHome:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
   agent:
-    image: madajaju/jenkins-swarm-node-agent
+    image: madajaju/caade-swarm-node-agent
     deploy:
       mode: global
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /tmp:/tmp
     secrets:
       - source: jenkins-v1
         target: jenkins
+  registry:
+    restart: always
+    image: registry:2
+    ports:
+      - 5000:5000
   portainer:
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
     image: portainer/portainer
     ports:
       - "9000:9000"
     volumes:
-        - /var/run/docker.sock:/var/run/docker.sock
+      - /var/run/docker.sock:/var/run/docker.sock
     command: --host unix:///var/run/docker.sock
+
+volumes:
+  jenkinsHome:
 
 secrets:
   jenkins-v1:

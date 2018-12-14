@@ -1,6 +1,6 @@
 @startuml
 
-package CAADE #lightgray {
+node Build #lightgray {
     interface WebUI
     interface REST
     interface CLI

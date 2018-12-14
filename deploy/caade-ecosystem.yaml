@@ -1,6 +1,6 @@
 environments:
   build:
-    compose: deploy/build/docker-compose-prod.yaml
+    compose: deploy/build/docker-compose.yaml
     entry: true
     description: Build Environment
     docker:
@@ -10,24 +10,24 @@ environments:
   local:
     description: Local Environment
     hostname: localhost
-    compose: deploy/local/docker-compose-prod.yaml
+    compose: deploy/local/docker-compose.yaml
   dev:
     description: Development Environment
-    compose: deploy/dev/docker-compose-prod.yaml
+    compose: deploy/dev/docker-compose.yaml
     docker:
       host: tcp://caade-dev:2376
       cert: build/cert
     hostname: caade-dev
   test:
     description: Test Environment
-    compose: deploy/test/docker-compose-prod.yaml
+    compose: deploy/test/docker-compose.yaml
     docker:
       host: tcp://caade-test:2376
       cert: build/cert
     hostname: caade-test
   production:
     description: Production Environment
-    compose: deploy/production/docker-compose-prod.yaml
+    compose: deploy/production/docker-compose.yaml
     docker:
       host: tcp://caade-prod:2376
       cert: build/cert

@@ -1,5 +1,5 @@
 const exec = require('child_process').exec;
-const taction = require('../../controllers/ecosystem/update');
+const taction = require('../../api/controllers/ecosystem/update');
 
 describe('ecosystem update Script Test Cases', function () {
   describe('Primary ecosystem update Test Case', function () {

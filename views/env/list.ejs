@@ -1,16 +1,8 @@
-<h1>Environments</h1>
-<table>
-    <tr>
-        <th>Name</th>
-        <th>Abbv</th>
-        <th>URL</th>
-        <th></th>
-    </tr>
-    <% _.each(envs, function(env) { %>
-    <tr>
-        <td><%= env.name %></td>
-        <td><%= env.abbv %></td>
-        <td><%= env.url %></td>
-    </tr>
-    <% })%>
-</table>
+<div class="gadget" style="width:calc(100% - 15px);">
+  <div class="gadget-header">Environments <span style="float: right;"><%- envs.length %></span>
+  </div>
+  <div class="gadget-body" id="app-list" style="height:auto;">
+    <%- partial('../env/_list.ejs'); %>
+  </div>
+</div>
+

@@ -1,0 +1,48 @@
+@startuml
+
+node Build #lightgray {
+    component Jenkins #goldenrod {
+        component master
+    }
+    component "Docker\nRegistry" as AR #plum
+    component "Salt\nStack" as PE #plum
+    storage S3 <<Global>> #plum {
+        database build_home #white
+        database registry_home #white
+    }
+}
+
+cloud "External Cloud" {
+    component GitHub
+}
+
+cloud "On Prem" #white {
+    node Local #tan {
+        component build_agent as lba
+    }
+    node Dev #lightgreen {
+        component build_agent as dba
+    }
+}
+
+
+cloud "Public Cloud" as HC {
+    node Test #pink {
+        component build_agent as tba
+    }
+    node Production #lightblue {
+        component build_agent as pba
+    }
+}
+AR -- registry_home
+master - build_home
+master -- lba
+master -- dba
+master -- tba
+master -- pba
+master <--- GitHub
+Production <--- GitHub
+Test <--- GitHub
+Dev <--- GitHub
+Local -> GitHub
+@enduml

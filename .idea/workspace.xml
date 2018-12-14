@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="Move docs to its own directory for readthedocs">
+      <change afterPath="$PROJECT_DIR$/.caade/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/dcvis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vis-network.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/vis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/top.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/build-doc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy/build/docker-compose-aws.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Solution/DeploymentJenkins.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/env/_list.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/pages/home.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.tmp/localDiskDb/archive.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.tmp/localDiskDb/environment.db" beforeDir="false" />
@@ -13,108 +25,244 @@
       <change beforePath="$PROJECT_DIR$/.tmp/public/robots.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.tmp/public/styles/importer.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.tmp/public/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/uservices/doc-node-agent/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/doc-node-agent/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/importer.less" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/importer.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/views.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/views.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/caade-ecosystem.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/caade-ecosystem.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/dev/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/dev/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/dev/jenkins-secret.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/dev/jenkins-secret.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/jenkins-secret.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/jenkins-secret.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/test/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/test/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/uservices/build/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/build/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/uservices/build/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/build/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/uservices/build/plugins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/build/plugins.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/uservices/doc-node-agent/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/doc-node-agent/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/uservices/doc-node-agent/entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/uservices/doc-node-agent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/doc-node-agent/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/entrypoint.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Home.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Home.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/npm-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/npm-debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/uservices/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Actors/DevOps/Workflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/DevOps/Workflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Actors/Developer/Workflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Actors/Developer/Workflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Architecture.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Architecture.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/CICD/Process.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/Process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/CICD/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/CICD/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Deployment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Deployment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Deployment.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Deployment.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Logical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Logical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/Physical.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Physical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Solution/SCM/UseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/SCM/UseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/UseCases/DetailedUseCases.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/DetailedUseCases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bin/ecosystem-get.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/bin/ecosystem-get.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bin/ecosystem-init.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/bin/ecosystem-init.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bin/ecosystem-update.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/bin/ecosystem-update.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bin/portal-create.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/bin/portal-create.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bin/portal-list.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/bin/portal-list.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bin/portal-rm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/bin/portal-rm.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bin/portal-update.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/bin/portal-update.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/404.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/404.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/env/list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/env/list.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/layout.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="880896831">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5408" value="1" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Dockerfile" value="1292" />
+          <entry key="Jenkinsfile" value="192" />
+          <entry key="Jenkinsfile2" value="187" />
+          <entry key="caade-ecosystem-init" value="1" />
+          <entry key="caade-ecosystem-update" value="37" />
+          <entry key="caade-test-me" value="59" />
+          <entry key="config" value="7" />
+          <entry key="css" value="76" />
+          <entry key="ejs" value="2948" />
+          <entry key="js" value="1602" />
+          <entry key="json" value="61" />
+          <entry key="less" value="876" />
+          <entry key="md" value="743" />
+          <entry key="puml" value="830" />
+          <entry key="rst" value="896" />
+          <entry key="sh" value="271" />
+          <entry key="txt" value="544" />
+          <entry key="yaml" value="2445" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="76" />
+          <entry key="Dockerfile" value="1292" />
+          <entry key="HTML" value="2948" />
+          <entry key="JSON" value="61" />
+          <entry key="JavaScript" value="1699" />
+          <entry key="Jenkins file" value="379" />
+          <entry key="Less" value="876" />
+          <entry key="Markdown" value="743" />
+          <entry key="PLAIN_TEXT" value="822" />
+          <entry key="PlantUML file" value="830" />
+          <entry key="ReST" value="896" />
+          <entry key="YAML" value="2445" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Dockerfile" value="8" />
+          <entry key="Jenkinsfile" value="3" />
+          <entry key="Jenkinsfile2" value="1" />
+          <entry key="caade-ecosystem-init" value="1" />
+          <entry key="caade-ecosystem-update" value="1" />
+          <entry key="caade-test-me" value="1" />
+          <entry key="config" value="1" />
+          <entry key="css" value="1" />
+          <entry key="ejs" value="10" />
+          <entry key="html" value="1" />
+          <entry key="js" value="23" />
+          <entry key="json" value="7" />
+          <entry key="less" value="2" />
+          <entry key="log" value="1" />
+          <entry key="md" value="1" />
+          <entry key="png" value="5" />
+          <entry key="puml" value="16" />
+          <entry key="rst" value="5" />
+          <entry key="sh" value="3" />
+          <entry key="txt" value="8" />
+          <entry key="yaml" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="Dockerfile" value="8" />
+          <entry key="HTML" value="11" />
+          <entry key="Image" value="5" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="26" />
+          <entry key="Jenkins file" value="4" />
+          <entry key="Less" value="2" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="PlantUML file" value="16" />
+          <entry key="ReST" value="5" />
+          <entry key="YAML" value="13" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="UseCase-Manage-Application.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Application/UseCase-Manage-Application.rst">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/build/docker-compose.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="448">
+              <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="caade-ecosystem.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deploy/caade-ecosystem.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/build/jenkins-secret.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/build/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="240">
+                <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="docker-compose-prod.yaml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/deploy/docker-compose-prod.yaml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Solution/Solution-Docker.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state>
+              <caret line="257" selection-start-line="257" selection-end-line="257" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/build/docker-compose-aws.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="38" column="120" selection-start-line="38" selection-start-column="120" selection-end-line="38" selection-end-column="120" />
+            <state relative-caret-position="288">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/index.rst">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deploy/uservices/build/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="208">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UseCase-Manage-Code.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Code/UseCase-Manage-Code.rst">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/uservices/build/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy/uservices/build/plugins.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="1520">
+              <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UseCase-Manage-Service.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Service/UseCase-Manage-Service.rst">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Solution/Deployment.puml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="288">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activities.puml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Service/Activities.puml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubSystem-Automation-Framework.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Solution/Automation-Framework/SubSystem-Automation-Framework.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubSystem-CICD.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Solution/CICD/SubSystem-CICD.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/UseCases/DetailedUseCases.puml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -142,6 +290,13 @@
       <find>#aaffff</find>
       <find>#aaffaa</find>
       <find>http</find>
+      <find>${CAADE_REGISTRY}</find>
+      <find>layout</find>
+      <find>partials</find>
+      <find>../../controllers</find>
+      <find>../../..</find>
+      <find>ports</find>
+      <find>test:</find>
     </findStrings>
     <replaceStrings>
       <replace>:: none</replace>
@@ -149,10 +304,13 @@
       <replace>SubSystem-Hybrid-Cloud</replace>
       <replace />
       <replace>#lightgreen</replace>
+      <replace>madajaju</replace>
+      <replace>../../api/controllers</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\dwpulsip\yoly\Caade\test</dir>
       <dir>C:\Users\dwpulsip\yoly\Caade\docs</dir>
+      <dir>C:\Users\dwpulsip\work\CAADE\deploy</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -162,43 +320,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/UseCases/Build-Project/Scenario-Define-Pipeline.rst" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Build-Project/Scenario-Define-Stages.rst" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Build-Project/Scenario-Run-Build.rst" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Build-Project/UseCase-Build-Project.rst" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Create-Application/UseCase-Create-Application.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Create-Build-Environment/UseCase-Create-Build-Environment.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Create-Project/UseCase-Create-Project.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Create-MicroService/UseCase-Create-MicroService.rst" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Debug-Application/UseCase-Debug-Application.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Debug-MicroService/UseCase-Debug-MicroService.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Deploy-Application/UseCase-Deploy-Application.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Deploy-MicroService/UseCase-Deploy-MicroService.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Modify-Code/UseCase-Modify-Code.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Monitor-Builds/UseCase-Monitor-Builds.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Publish-Application/UseCase-Publish-Application.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Publish-MicroService/UseCase-Publish-MicroService.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Set-up-Project-Code-Pipeline/UseCase-Set-up-Project-Code-Pipeline.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Test-Application/UseCase-Test-Application.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Test-MicroService/UseCase-Test-MicroService.md" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Build-Project/Scenario-Define-Agents.rst" />
-        <option value="$PROJECT_DIR$/docs/Solution/Registry/SubSystem-Registry.rst" />
-        <option value="$PROJECT_DIR$/docs/Solution/TestCloud/SubSystem-TestCloud.rst" />
-        <option value="$PROJECT_DIR$/docs/Solution/Solution.rst" />
-        <option value="$PROJECT_DIR$/Jenkinsfile" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/docs/Solution/Hybrid-Cloud/Artifact-Repository/SubSystem-Artifact-Repository.rst" />
-        <option value="$PROJECT_DIR$/docs/Default Development Cycle.puml" />
-        <option value="$PROJECT_DIR$/docs/Solution/Process.puml" />
-        <option value="$PROJECT_DIR$/docs/Architecture.puml" />
-        <option value="$PROJECT_DIR$/docs/Solution/Deployment.puml" />
-        <option value="$PROJECT_DIR$/docs/Solution/Logical.puml" />
-        <option value="$PROJECT_DIR$/docs/Solution/index.rst" />
-        <option value="$PROJECT_DIR$/docs/index.rst" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/docs/Actors/Developer/UseCases.puml" />
-        <option value="$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst" />
-        <option value="$PROJECT_DIR$/docs/UseCases/Build-Code/UseCase-Build-Code.rst" />
         <option value="$PROJECT_DIR$/docs/UseCases/Debug-MicroService/UseCase-Debug-MicroService.rst" />
         <option value="$PROJECT_DIR$/docs/UseCases/Deploy-MicroService/UseCase-Deploy-MicroService.rst" />
         <option value="$PROJECT_DIR$/docs/UseCases/Publish-MicroService/UseCase-Publish-MicroService.rst" />
@@ -207,12 +328,49 @@
         <option value="$PROJECT_DIR$/docs/UseCases/UseCases.puml" />
         <option value="$PROJECT_DIR$/docs/UseCases/DetailedUseCases.puml" />
         <option value="$PROJECT_DIR$/docs/UseCases/index.rst" />
-        <option value="$PROJECT_DIR$/docs/Solution/Solution-Docker.rst" />
         <option value="$PROJECT_DIR$/docs/UseCases/Manage-Code/UseCase-Manage-Code.rst" />
         <option value="$PROJECT_DIR$/docs/UseCases/Manage-Service/UseCase-Manage-Service.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/Automation-Framework/SubSystem-Automation-Framework.rst" />
         <option value="$PROJECT_DIR$/docs/Solution/CICD/SubSystem-CICD.rst" />
         <option value="$PROJECT_DIR$/docs/Home.rst" />
+        <option value="$PROJECT_DIR$/docs/conf.py" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="C:/Program Files (x86)/Java/jre1.8.0_162/lib/security/java.security" />
+        <option value="$PROJECT_DIR$/deploy/jenkins-secret.txt" />
+        <option value="$PROJECT_DIR$/deploy/uservices/doc-node-agent/Dockerfile" />
+        <option value="$PROJECT_DIR$/deploy/uservices/build/plugins.txt" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/deploy/build-doc.js" />
+        <option value="$PROJECT_DIR$/views/layouts/layout.ejs" />
+        <option value="$PROJECT_DIR$/config/views.js" />
+        <option value="$PROJECT_DIR$/config/routes.js" />
+        <option value="$PROJECT_DIR$/assets/styles/importer.less" />
+        <option value="$PROJECT_DIR$/assets/styles/main.css" />
+        <option value="$PROJECT_DIR$/assets/styles/top.less" />
+        <option value="$PROJECT_DIR$/config/models.js" />
+        <option value="$PROJECT_DIR$/views/404.ejs" />
+        <option value="$PROJECT_DIR$/views/env/_list.ejs" />
+        <option value="$PROJECT_DIR$/views/env/list.ejs" />
+        <option value="$PROJECT_DIR$/views/pages/home.ejs" />
+        <option value="$PROJECT_DIR$/test/bin/ecosystem-get.test.js" />
+        <option value="$PROJECT_DIR$/test/integration/Controller-ecosystem-get.test.js" />
+        <option value="$PROJECT_DIR$/.caade/config.js" />
+        <option value="$PROJECT_DIR$/deploy/caade-ecosystem.yaml" />
+        <option value="$PROJECT_DIR$/docs/Architecture.puml" />
+        <option value="$PROJECT_DIR$/docs/Solution/Deployment.puml" />
+        <option value="$PROJECT_DIR$/docs/Solution/DeploymentJenkins.puml" />
+        <option value="$PROJECT_DIR$/Jenkinsfile2" />
+        <option value="$PROJECT_DIR$/deploy/dev/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/deploy/build/docker-compose-aws.yaml" />
+        <option value="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/Dockerfile" />
+        <option value="$PROJECT_DIR$/deploy/dev/jenkins-secret.txt" />
+        <option value="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/entrypoint.sh" />
+        <option value="$PROJECT_DIR$/deploy/uservices/build/Dockerfile" />
+        <option value="$PROJECT_DIR$/deploy/build/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/deploy/build/jenkins-secret.txt" />
+        <option value="$PROJECT_DIR$/docs/Solution/Solution-Docker.rst" />
+        <option value="$PROJECT_DIR$/deploy/build/ReadMe.md" />
+        <option value="$PROJECT_DIR$/deploy/build/README.md" />
       </list>
     </option>
   </component>
@@ -238,15 +396,27 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/deploy/uservices/build/package.json" />
+      <path value="$PROJECT_DIR$/deploy/uservices/doc-node-agent/package.json" />
+      <path value="$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json" />
+      <path value="$PROJECT_DIR$/deploy/uservices/web/package.json" />
+      <path value="$PROJECT_DIR$/docs/Solution/Services/build/package.json" />
+      <path value="$PROJECT_DIR$/docs/Solution/Services/doc-node-agent/package.json" />
+      <path value="$PROJECT_DIR$/docs/Solution/Services/swarm-node-agent/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/deploy/uservices/web/package.json" />
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="351" />
+    <option name="y" value="-12" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -268,6 +438,19 @@
               <item name="CAADE" type="462c0819:PsiDirectoryNode" />
               <item name="deploy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAADE" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="uservices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CAADE" type="462c0819:PsiDirectoryNode" />
+              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="uservices" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -278,23 +461,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CloudLet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\dwpulsip\work\CAADE\docs\UseCases\Manage-Service" />
-      <recent name="C:\Users\dwpulsip\work\CAADE\docs\UseCases\Manage-Code" />
-      <recent name="C:\Users\dwpulsip\work\CAADE\docs\Solution\Services" />
-      <recent name="C:\Users\dwpulsip\work\CAADE\docs" />
-      <recent name="C:\Users\dwpulsip\work\CAADE" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dwpulsip\work\CAADE\assets\styles" />
+      <recent name="C:\Users\dwpulsip\work\CAADE\views\layouts" />
       <recent name="C:\Users\dwpulsip\yoly\Caade\deploy" />
       <recent name="C:\Users\dwpulsip\yoly\Caade\assets\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dwpulsip\work\CAADE\deploy\build" />
+      <recent name="C:\Users\dwpulsip\work\CAADE" />
+      <recent name="C:\Users\dwpulsip\work\CAADE\docs\Solution" />
+      <recent name="C:\Users\dwpulsip\work\CAADE\assets" />
+      <recent name="C:\Users\dwpulsip\work\CAADE\assets\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,64 +494,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.CAADE Doc">
+  <component name="RunManager" selected="Mocha.test caade">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Features in: bin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/test/bin" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Caade" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: bin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="caade" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="app.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="caade" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CAADE Doc" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -376,6 +558,7 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
+      <method v="2" />
     </configuration>
     <configuration name="Test" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -385,6 +568,7 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
+      <method v="2" />
     </configuration>
     <configuration name="Controller env  Test Cases.Primary Controller env list Test Case.Primary Controller env list Good Path" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
@@ -400,6 +584,7 @@
         <name value="Primary Controller env list Test Case" />
         <name value="Primary Controller env list Good Path" />
       </test-names>
+      <method v="2" />
     </configuration>
     <configuration name="test caade" type="mocha-javascript-test-runner" factoryName="Mocha">
       <node-interpreter>project</node-interpreter>
@@ -411,6 +596,7 @@
       <test-kind>DIRECTORY</test-kind>
       <test-directory>$PROJECT_DIR$/test</test-directory>
       <recursive>true</recursive>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Mocha.test caade" />
@@ -418,7 +604,13 @@
       <item itemvalue="npm.CAADE Doc" />
       <item itemvalue="npm.Test" />
       <item itemvalue="Mocha.Controller env  Test Cases.Primary Controller env list Test Case.Primary Controller env list Good Path" />
+      <item itemvalue="Cucumber java.All Features in: bin" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.All Features in: bin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -500,14 +692,24 @@
       <workItem from="1533739832866" duration="569000" />
       <workItem from="1533855770737" duration="590000" />
       <workItem from="1533922818882" duration="598000" />
-      <workItem from="1533937808183" duration="1274000" />
-    </task>
-    <task id="LOCAL-00084" summary="Build Uservice added. Jenkins with docker">
-      <created>1524961336090</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1524961336090</updated>
+      <workItem from="1533937808183" duration="19047000" />
+      <workItem from="1535067493448" duration="577000" />
+      <workItem from="1536232178246" duration="630000" />
+      <workItem from="1538075426277" duration="1484000" />
+      <workItem from="1538598330729" duration="12585000" />
+      <workItem from="1538884243264" duration="5471000" />
+      <workItem from="1539055530193" duration="5827000" />
+      <workItem from="1539604865753" duration="636000" />
+      <workItem from="1542062176484" duration="18429000" />
+      <workItem from="1542397156642" duration="1814000" />
+      <workItem from="1542769216785" duration="1212000" />
+      <workItem from="1542860886215" duration="16322000" />
+      <workItem from="1543797288237" duration="3682000" />
+      <workItem from="1543859967608" duration="1979000" />
+      <workItem from="1543879638340" duration="2109000" />
+      <workItem from="1544221923409" duration="1649000" />
+      <workItem from="1544643576132" duration="2345000" />
+      <workItem from="1544822441336" duration="1812000" />
     </task>
     <task id="LOCAL-00085" summary="Build Uservice added. Jenkins with docker">
       <created>1524961554281</created>
@@ -845,31 +1047,17 @@
       <option name="project" value="LOCAL" />
       <updated>1533134575313</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="Fix problems in Home.rst">
+      <created>1533994602032</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1533994602033</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Controller_env__Test_Cases_Primary_Controller_env_list_Test_Case_Primary_Controller_env_list_Good_Path - 2017.12.06 at 16h 33m 14s.xml">
-      <configuration name="Controller env  Test Cases.Primary Controller env list Test Case.Primary Controller env list Good Path" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Controller_env__Test_Cases_Primary_Controller_env_list_Test_Case_Primary_Controller_env_list_Good_Path - 2017.12.06 at 16h 33m 40s.xml">
-      <configuration name="Controller env  Test Cases.Primary Controller env list Test Case.Primary Controller env list Good Path" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_caade - 2017.12.06 at 16h 21m 00s.xml">
-      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_caade - 2017.12.06 at 16h 26m 20s.xml">
-      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_caade - 2017.12.06 at 16h 32m 04s.xml">
-      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_caade - 2017.12.06 at 16h 34m 05s.xml">
-      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="test_caade - 2017.12.06 at 16h 36m 37s.xml">
-      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="test_caade - 2017.12.06 at 16h 44m 16s.xml">
       <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -879,84 +1067,114 @@
     <history-entry file="test_caade - 2017.12.06 at 16h 49m 03s.xml">
       <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="test_caade - 2018.11.12 at 23h 43m 41s.xml">
+      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_caade - 2018.11.12 at 23h 44m 37s.xml">
+      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_caade - 2018.11.12 at 23h 45m 00s.xml">
+      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_caade - 2018.11.12 at 23h 45m 24s.xml">
+      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_caade - 2018.11.12 at 23h 45m 39s.xml">
+      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_caade - 2018.11.12 at 23h 46m 28s.xml">
+      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_caade - 2018.11.12 at 23h 47m 17s.xml">
+      <configuration name="test caade" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324687000" />
+    <option name="totallyTimeSpent" value="421023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="PlantUML" order="3" weight="0.38006395" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5134264" side_tool="true" weight="0.24059293" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.20134228" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32763532" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
-      <window_info id="npm" order="2" sideWeight="0.5046512" side_tool="true" weight="0.2519001" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.48657358" visible="true" weight="0.24400872" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.17110874" />
-      <window_info anchor="bottom" id="Atlassian " order="8" />
-      <window_info id="Grunt " order="2" side_tool="true" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.17217484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.24973147" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="YouTrack" order="7" />
-      <window_info anchor="right" id="Mongo Explorer" order="5" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32915717" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Jenkins" order="6" />
-      <window_info anchor="right" id="Redis Servers" order="9" weight="0.32599357" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32954547" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="npm" order="4" sideWeight="0.5046512" side_tool="true" weight="0.2519001" />
+      <window_info id="Grunt " order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Floobits" order="7" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37635574" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32915717" />
+      <window_info anchor="bottom" id="YouTrack" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48614073" visible="true" weight="0.44468546" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5138593" side_tool="true" visible="true" weight="0.44468546" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3275488" />
+      <window_info anchor="bottom" id="Floobits" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Atlassian " order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24973147" />
+      <window_info anchor="right" id="PlantUML" order="3" weight="0.5063966" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="right" id="Jenkins" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.20134228" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Redis Servers" order="9" weight="0.32599357" />
     </layout>
     <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.14670256" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="PlantUML" order="3" weight="0.5147651" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32915717" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="YouTrack" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.24973147" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="npm" order="4" sideWeight="0.5046512" side_tool="true" weight="0.2519001" />
+      <window_info id="Grunt " order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32915717" />
+      <window_info anchor="bottom" id="YouTrack" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48657358" weight="0.15669516" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" weight="0.32954547" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5134264" side_tool="true" weight="0.24059293" />
-      <window_info anchor="right" id="Mongo Explorer" order="5" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="4" sideWeight="0.5046512" side_tool="true" weight="0.2519001" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32763532" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.20134228" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49534884" visible="true" weight="0.14670256" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info id="Grunt " order="5" side_tool="true" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Jenkins" order="6" />
       <window_info anchor="bottom" id="Floobits" order="13" />
-      <window_info anchor="right" id="Redis Servers" order="9" weight="0.32599357" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Atlassian " order="15" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24973147" />
+      <window_info anchor="right" id="PlantUML" order="3" weight="0.5147651" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="right" id="Jenkins" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.20134228" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Redis Servers" order="9" weight="0.32599357" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -980,13 +1198,10 @@
     <MESSAGE value="Build problem fixed." />
     <MESSAGE value="Changing to docker docs" />
     <MESSAGE value="Build Uservice added. Jenkins with docker" />
+    <MESSAGE value="Fix problems in Home.rst" />
     <MESSAGE value="Move docs to its own directory for readthedocs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move docs to its own directory for readthedocs" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="23" />
-    </breakpoint-manager>
+    <MESSAGE value="Fix build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix build" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1000,303 +1215,303 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/Home.rst">
+    <entry file="file://$PROJECT_DIR$/bin/caade-test-me">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="304">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Application/UseCase-Manage-Application.rst">
+    <entry file="file://$PROJECT_DIR$/test/bin/ecosystem-get.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="112">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.rst">
+    <entry file="file://$PROJECT_DIR$/test/integration/Controller-ecosystem-get.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="32">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Code/UseCase-Manage-Code.rst">
+    <entry file="file://$PROJECT_DIR$/test/Actors/DevOps.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Service/UseCase-Manage-Service.rst">
+    <entry file="file://$PROJECT_DIR$/test/Solution/Hybrid-Cloud/Environment-Manager.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Service/Activities.puml">
+    <entry file="file://$PROJECT_DIR$/test/integration/Controller-env-list.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="48">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Automation-Framework/SubSystem-Automation-Framework.rst">
+    <entry file="file://$PROJECT_DIR$/test/bin/ecosystem-update.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        <state relative-caret-position="48">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/CICD/SubSystem-CICD.rst">
+    <entry file="file://$PROJECT_DIR$/test/bin/env-create.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="80">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Solution-Docker.rst">
+    <entry file="file://$PROJECT_DIR$/test/bin/ecosystem-init.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="48">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Create-Build-Environment/UseCase-Create-Build-Environment.rst" />
-    <entry file="file://$PROJECT_DIR$/docs/README.md" />
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+    <entry file="file://$PROJECT_DIR$/bin/caade-ecosystem-init">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Actors/Developer/Actor-Developer.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Deployment.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Logical.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Solution-Centos.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Process.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Hybrid-Cloud/Artifact-Repository/SubSystem-Artifact-Repository.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Actors/Developer/UseCases.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Actors/DevOps/Actor-DevOps.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/UseCases.md" />
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Build-Code/UseCase-Build-Code.rst" />
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Build-Project/UseCase-Build-Project.rst" />
-    <entry file="file://$PROJECT_DIR$/docs/Architecture.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Default Development Cycle.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Debug-MicroService/UseCase-Debug-MicroService.rst" />
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Deploy-MicroService/UseCase-Deploy-MicroService.rst" />
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Publish-MicroService/UseCase-Publish-MicroService.rst" />
-    <entry file="file://$PROJECT_DIR$/docs/Solution/SCM/SubSystem-SCM.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Automate-Code-Pipeline/UseCase-Automate-Code-Pipeline.rst" />
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Test-MicroService/UseCase-Test-MicroService.rst" />
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Services/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="160">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/UseCases.puml">
+    <entry file="file://$PROJECT_DIR$/api/controllers/ecosystem/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        <state relative-caret-position="448">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/DetailedUseCases.puml">
+    <entry file="file://$PROJECT_DIR$/api/models/Environment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/index.rst">
+    <entry file="file://$PROJECT_DIR$/deploy/test/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/ecosystem/update.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="208">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Solution-Docker.rst">
+    <entry file="file://$PROJECT_DIR$/bin/caade-ecosystem-update">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1411">
-            <caret line="83" selection-start-line="83" selection-end-line="83" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="224">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Application/UseCase-Manage-Application.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/bin/config">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Code/UseCase-Manage-Code.rst">
+    <entry file="file://$PROJECT_DIR$/.caade/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Service/UseCase-Manage-Service.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/UseCases/Manage-Service/Activities.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/Automation-Framework/SubSystem-Automation-Framework.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Solution/CICD/SubSystem-CICD.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="16">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy/caade-ecosystem.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="496">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Architecture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Solution/Deployment.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Solution/Process.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Solution/Logical.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/env/_list.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Solution/Physical.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/jenkins-secret.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/production/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" column="120" selection-start-line="38" selection-start-column="120" selection-end-line="38" selection-end-column="120" />
+        <state relative-caret-position="448">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/docker-compose-prod.yaml">
+    <entry file="file://$PROJECT_DIR$/docs/Solution/DeploymentJenkins.puml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="134">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/local/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/uservices/swarm-node-agent/entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/dev/jenkins-secret.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/uservices/doc-node-agent/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/uservices/swarm-node-agent/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/uservices/swarm-node-agent/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/dev/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/UseCases/UseCases.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Architecture.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Home.rst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Solution/Logical.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="22" selection-start-line="2" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/uservices/build/plugins.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Solution/Deployment.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/UseCases/DetailedUseCases.puml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/uservices/build/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/build/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/build/docker-compose-aws.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/build/jenkins-secret.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Solution/Solution-Docker.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="257" selection-start-line="257" selection-end-line="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/build/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/uservices/build/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

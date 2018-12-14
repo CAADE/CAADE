@@ -1,5 +1,5 @@
 const exec = require('child_process').exec;
-const taction = require('../../controllers/portal/update');
+const taction = require('../../api/controllers/portal/update');
 
 describe('portal update Script Test Cases', function () {
   describe('Primary portal update Test Case', function () {

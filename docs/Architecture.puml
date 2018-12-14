@@ -3,7 +3,6 @@
 skinparam packageStyle rect
 skinparam defaultFontSize 20
 
-package <size:32>CAADE</size> #dddddd {
     package Portal #goldenrod { }
     package "CICD" #goldenrod { }
     package "Storage" #plum { }
@@ -16,7 +15,6 @@ package <size:32>CAADE</size> #dddddd {
         package "Test Environment" as TEnv #pink { }
         package "Production Environment" as PEnv #lightblue { }
     }
-}
 
 Portal - CICD
 Portal -- EM

@@ -10,4 +10,3 @@ version = "0.5.0"
 
 master_doc = 'index'
 source_suffix = ['.rst', '.md']
-
