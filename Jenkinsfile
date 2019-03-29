@@ -2,6 +2,9 @@ pipeline {
   agent {
     label 'node'
   }
+  environment {
+    DOCKER = credentials('dockerhun')
+  }
   stages {
       stage ('Build') {
         parallel {
@@ -12,7 +15,7 @@ pipeline {
             }
             stage('Build Services') {
               steps {
-                sh 'npm run-script build'
+                sh 'docker login -u="$DOCKER_USR" -p="$DOCKER_PSW" && npm run-script build'
                 sh 'npm run-script deploy-apps'
               }
             }

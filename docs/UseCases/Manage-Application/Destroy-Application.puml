@@ -1,5 +1,5 @@
 @startuml
-Actor "actorName" as A
+Actor "Developer" as A
 
 box "Manage-Application" #lightblue
 participant CLI as CLI

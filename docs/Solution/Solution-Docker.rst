@@ -39,7 +39,7 @@ be used by CAADE and the :ref:`SubSystem-CICD` to promote applications across th
 Process Architecture
 --------------------
 
-This diagram shows how a developer interacts with CAADE to develop, test, and deploy 
+This diagram shows how a developer interacts with CAADE to develop, test, and deploy
 cloud aware applications.
 
 .. image:: Process.png
@@ -162,7 +162,7 @@ Now you can test and see if salt can see all of the nodes
         True
 
 
-1. Configure Salt states 
+1. Configure Salt states
 2. Configure Salt Pillar
 3. Download Salt Formula for CAADE
 
@@ -243,7 +243,7 @@ Docker Swarm
 ------------
 There is a great blog on how to generically set this up [here](http://btmiller.com/2016/11/27/docker-swarm-1.12-cluster-orchestration-with-saltstack.html).
 
-1. Using Salt Stack install 
+1. Using Salt Stack install
 2. Test Docker Swarm Installation
 
 Jenkins Configuration
@@ -255,7 +255,7 @@ Install the following plugins
 Registry Configuration
 ----------------------
 
-An RSA keey is needed for the local Docker Registry. This can be done with OpenSSL.
+An RSA key is needed for the local Docker Registry. This can be done with OpenSSL.
 The docker-compose.yaml file for the deployment of CAADE stores in volumes that are monunted
 into the containter. The domain.key and domain.cert files should be accessible.
 

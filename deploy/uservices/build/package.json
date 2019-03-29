@@ -2,7 +2,7 @@
   "main": "index.js",
   "scripts": {
     "start": "micro",
-    "build": "docker build . -t madajaju/caade-build",
+    "build": "docker login -u='$DOCKER_USER' -p='$DOCKER_PASSWORD' && docker build . -t madajaju/caade-build",
     "deploy": "docker push madajaju/caade-build",
     "publish": "docker push madajaju/caade-build"
   },

@@ -1,1 +1,6 @@
 {"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"$$indexRemoved":"createdAt"}
+{"$$indexRemoved":"fromModel"}
+{"$$indexRemoved":"originalRecord"}
+{"$$indexRemoved":"originalRecordId"}
+{"$$indexCreated":{"fieldName":"id","unique":true}}

@@ -1,10 +1,16 @@
 @startuml
 
+skinparam actor {
+    BorderColor<<Subsystem>> darkgreen
+    BackgroundColor<<Subsystem>> darkgreen
+
+}
+
 :Developer: as Dev
 :DevOps: as DevOps
-:Common Cloud Core: as C3
-:SCM: as SCM
-:CI/CD: as CICD
+:Common Cloud Core: <<Subsystem>> as C3
+:SCM: <<Subsystem>> as SCM
+:CI/CD: <<Subsystem>> as CICD
 
 rectangle CAADE {
     (Create Application) as CA

@@ -1,12 +1,18 @@
 @startuml
 
-left to right direction
 
-:Developer: as Dev
-:DevOps: as DevOps
-:Common Cloud Core: as C3
-:SCM: as SCM
-:CI/CD: as CICD
+left to right direction
+skinparam actor {
+    BorderColor<<Subsystem>> darkgreen
+    BackgroundColor<<Subsystem>> darkgreen
+
+}
+
+actor :Developer: as Dev
+actor :DevOps: as DevOps
+actor :Common Cloud Core: <<Subsystem>> as C3
+actor :SCM: <<Subsystem>> as SCM
+actor :CI/CD: <<Subsystem>> as CICD
 
 rectangle CAADE #lightblue {
     (Manage Application) as MA
