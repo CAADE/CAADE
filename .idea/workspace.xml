@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="Move docs to its own directory for readthedocs">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/atlassian-ide-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/atlassian-ide-plugin.xml" afterDir="false" />
+    <list default="true" id="339c9439-2085-4c0a-8f10-cf2f1d12bff8" name="Default" comment="Fixes to Jenkinsfile to add docker login with credentials.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/localDiskDb/archive.db" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/localDiskDb/archive.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/localDiskDb/environment.db" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/localDiskDb/environment.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/localDiskDb/environment_portals__portal_portals_portal.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/localDiskDb/portal.db" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/localDiskDb/portal.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/public/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/public/styles/importer.css" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/public/styles/importer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tmp/public/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/.tmp/public/styles/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/uservices/build/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/uservices/build/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Solution/Solution-Docker.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Solution/Solution-Docker.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/UseCases/DetailedUseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/DetailedUseCases.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/UseCases/Manage-Application/Create-Application.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Manage-Application/Create-Application.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/UseCases/Manage-Application/Destroy-Application.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/Manage-Application/Destroy-Application.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/UseCases/UseCases.puml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/UseCases/UseCases.puml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+            <state relative-caret-position="85">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -271,19 +256,6 @@
               <item name="CAADE" type="462c0819:PsiDirectoryNode" />
               <item name="deploy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CAADE" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
-              <item name="uservices" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CAADE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CAADE" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
-              <item name="uservices" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -294,7 +266,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../C3" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -550,14 +522,7 @@
       <workItem from="1546629482069" duration="2260000" />
       <workItem from="1546897028035" duration="1041000" />
       <workItem from="1552353684918" duration="1384000" />
-      <workItem from="1553899088226" duration="1236000" />
-    </task>
-    <task id="LOCAL-00086" summary="Build Uservice added. Jenkins with docker">
-      <created>1524961632602</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1524961632603</updated>
+      <workItem from="1553899088226" duration="3087000" />
     </task>
     <task id="LOCAL-00087" summary="Build Uservice added. Jenkins with docker">
       <created>1524961956406</created>
@@ -895,7 +860,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544824286307</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Fixes to Jenkinsfile to add docker login with credentials.">
+      <created>1553900523024</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1553900523025</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -931,7 +903,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="430774000" />
+    <option name="totallyTimeSpent" value="432625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1042,7 +1014,8 @@
     <MESSAGE value="Fix problems in Home.rst" />
     <MESSAGE value="Fix build" />
     <MESSAGE value="Move docs to its own directory for readthedocs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move docs to its own directory for readthedocs" />
+    <MESSAGE value="Fixes to Jenkinsfile to add docker login with credentials." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes to Jenkinsfile to add docker login with credentials." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1352,8 +1325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
     </entry>
