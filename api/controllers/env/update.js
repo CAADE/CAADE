@@ -36,7 +36,7 @@ module.exports = {
     }
   },
 
-  fn: async function (inputs, exits, env) {
+  fn: async function (inputs, exits) {
 
     // Look up the user whose ID was specified in the request.
     // Note that we don't have to validate that `userId` is a number;

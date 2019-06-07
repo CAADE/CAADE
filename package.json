@@ -7,23 +7,22 @@
   "dependencies": {
     "async": "2.0.1",
     "child_process": "^1.0.2",
-    "eslint": "^3.19.0",
-    "grunt": "1.0.1",
-    "lodash": "3.10.1",
+    "grunt": "^1.0.4",
+    "lodash": "^4.17.11",
     "mocha": "^4.1.0",
-    "mocha-jenkins-reporter": "^0.3.10",
+    "mocha-jenkins-reporter": "^0.4.1",
     "node-rest-client": "^3.1.0",
     "phantomjs": "^2.1.7",
-    "sails": "^1.0.2",
-    "sails-hook-grunt": "^2.2.1",
-    "sails-hook-orm": "^2.1.0",
-    "sails-hook-sockets": "^1.5.3",
+    "sails": "^1.1.0",
+    "sails-hook-grunt": "^3.1.0",
+    "sails-hook-orm": "^2.1.1",
+    "sails-hook-sockets": "^1.5.5",
     "supertest": "^3.1.0",
     "supertest-as-promised": "^4.0.2",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "^5.16.0"
   },
   "scripts": {
     "start": "NODE_ENV=production node app.js",

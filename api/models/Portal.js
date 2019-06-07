@@ -7,12 +7,12 @@
 
 module.exports = {
 
-    attributes: {
-        name: {type: 'string'},
-        description: {type: 'string'},
-        port: {type: 'number'},
-        icon: {type: 'string'},
-        env: {model: 'Environment'}
-    },
+  attributes: {
+    name: {type: 'string'},
+    description: {type: 'string'},
+    port: {type: 'number'},
+    icon: {type: 'string'},
+    env: {model: 'Environment'}
+  },
 };
 

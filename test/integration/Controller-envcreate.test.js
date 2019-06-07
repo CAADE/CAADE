@@ -8,7 +8,7 @@ describe('Controller env  Test Cases', function () {
       let url = "/env/create?";
       let params = [];
       _.each(Object.keys(taction.inputs), function (key) {
-        if(key != "mode") { params.push(key + "=" + taction.inputs[key].type); }
+        if(key !== "mode") { params.push(key + "=" + taction.inputs[key].type); }
         else { params.push("mode=json"); }
       });
       url += params.join("&");
@@ -17,11 +17,11 @@ describe('Controller env  Test Cases', function () {
         .expect('Content-Type', /json/)
         .end(function (err, res) {
           if (err) {
-            done(err);
+            return done(err);
           }
           else {
             console.log(res.body);
-            done();
+            return done();
           }
         });
     });

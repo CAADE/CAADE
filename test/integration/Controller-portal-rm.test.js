@@ -8,7 +8,7 @@ describe('Controller portal  Test Cases', function () {
       let url = "/portal/rm?";
       let params = [];
       _.each(Object.keys(taction.inputs), function (key) {
-        if (key != "mode") {
+        if (key !== "mode") {
           params.push(key + "=" + taction.inputs[key].type);
         }
         else {
@@ -21,11 +21,11 @@ describe('Controller portal  Test Cases', function () {
         .expect('Content-Type', /json/)
         .end(function (err, res) {
           if (err) {
-            done(err);
+            return done(err);
           }
           else {
             console.log(res.body);
-            done();
+            return done();
           }
         });
     });

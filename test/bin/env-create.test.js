@@ -8,7 +8,7 @@ describe('env create Script Test Cases', function () {
       let command = "bin/caade-env-create ";
       let params = [];
       _.each(Object.keys(taction.inputs), function (key) {
-        if(key != "mode") {
+        if(key !== "mode") {
           params.push("--" + key + " " + taction.inputs[key].type);
         }
       });
@@ -16,14 +16,14 @@ describe('env create Script Test Cases', function () {
       let results = exec(command, function (err, stdout, stderr) {
         console.log(stderr);
         if (err) {
-          done(err);
+          return done(err);
         }
         else {
           console.log(stdout);
         }
       });
       results.on('exit', function (code) {
-        done(code);
+        return done(code);
       });
     });
   });

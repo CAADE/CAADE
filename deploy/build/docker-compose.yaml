@@ -10,31 +10,15 @@ services:
     ports:
       - "8000:8080"
       - "50000:50000"
-    volumes:
-      - /mnt/jenkins:/var/jenkins_home
   agent:
     image: madajaju/caade-swarm-node-agent
     deploy:
       mode: global
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /tmp:/tmp
     secrets:
       - source: jenkins-v1
         target: jenkins
-  registry:
-    restart: always
-    image: registry:2
-    environment:
-      - REGISTRY_HTTP_TLS_CERTIFICATE=/var/lib/registry/registry-certs/domain.cert
-      - REGISTRY_HTTP_TLS_KEY=/var/lib/registry/registry-certs/domain.key
-    ports:
-      - 5000:5000
-    secrets:
-      - registry-v1-cert
-      - registry-v1-key
-    volumes:
-      - /mnt/registry:/var/lib/registry
   portainer:
     image: portainer/portainer
     deploy:
@@ -44,14 +28,9 @@ services:
     ports:
       - "9000:9000"
     volumes:
-        - /mnt/portainer:/data
         - /var/run/docker.sock:/var/run/docker.sock
     command: --host unix:///var/run/docker.sock
 
 secrets:
   jenkins-v1:
     file: ./jenkins-secret.txt
-  registry-v1-cert:
-    file: ./registry_certs/domain.cert
-  registry-v1-key:
-    file: ./registry_certs/domain.key

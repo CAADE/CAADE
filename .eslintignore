@@ -23,3 +23,7 @@
 ################################################
 
 assets/dependencies/**/*.js
+assets/**/*.js
+node_modules/**/*.js
+**/node_modules/**/*.js
+tasks/**/*.js

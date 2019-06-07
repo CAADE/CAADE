@@ -3,7 +3,7 @@ pipeline {
     label 'node'
   }
   environment {
-    DOCKER = credentials('dockerhun')
+    DOCKER = credentials('dockerhub')
   }
   stages {
       stage ('Build') {
@@ -15,7 +15,7 @@ pipeline {
             }
             stage('Build Services') {
               steps {
-                sh 'echo $DOCKER_USR $DOCKER_PSW'
+                sh 'echo $DOCKER_}unpomUSR $DOCKER_PSW'
                 sh 'docker login -u="$DOCKER_USR" -p="$DOCKER_PSW" && npm run-script build'
                 sh 'npm run-script deploy-apps'
               }

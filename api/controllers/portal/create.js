@@ -55,7 +55,7 @@ module.exports = {
     }
   },
 
-  fn: async function (inputs, exits, env) {
+  fn: async function (inputs, exits) {
 
     // Look up the user whose ID was specified in the request.
     // Note that we don't have to validate that `userId` is a number;
@@ -64,8 +64,8 @@ module.exports = {
     try {
       let portal = await Portal.findOne({name:inputs.name});
       if(portal) {
-        if(inputs.mode == "json") {
-            return exits.json({error: inputs.name + " already exists"});
+        if(inputs.mode === 'json') {
+          return exits.json({error: inputs.name + " already exists"});
         }
         else {
           return exits.failed({error: inputs.name + " already exists"});
@@ -75,11 +75,11 @@ module.exports = {
       let rest = inputs.rest || inputs.url;
 
       portal = await Portal.create({
-          name:inputs.name,
-          description:description,
-          url:inputs.url,
-          rest:rest,
-          image:inputs.image
+        name:inputs.name,
+        description: descritpion,
+        url:inputs.url,
+        rest:rest,
+        image:inputs.image
       });
       // Display the results
       if(inputs.mode === "json") {

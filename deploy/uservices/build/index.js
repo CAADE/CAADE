@@ -6,7 +6,7 @@ module.exports = async function (req, res) {
   var url = "http://" + req.headers.host + req.url;
   const myURL = new URL(url);
   const newSearchParams = new URLSearchParams(myURL.searchParams);
-  const id = newSearchParams.get("id");
+  // const id = newSearchParams.get("id");
   var callback = newSearchParams.get("callback");
 
   if(callback) {
@@ -17,4 +17,4 @@ module.exports = async function (req, res) {
   }
 
   send(res, 200, 'Got it');
-}
+};
